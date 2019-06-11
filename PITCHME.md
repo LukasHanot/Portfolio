@@ -89,6 +89,6 @@ Lukas Hanot
 ## Contact?
 * Mail: Lukas.Hanot@hotmail.com
 * Github: https://github.com/LukasHanot/Portfolio
-* Presentatie: https://bit.ly/31oBe1w
+* Presentatie: https://bit.ly/2I8qZqt
 
 +++ 
