@@ -1,38 +1,88 @@
-### Hello, World!
+---
+
+# Waarom je niet op vakantie wil naar Logisland.
 
 ---
 
-### Who am i?
+## $ whoami
+Lukas Hanot
 
 +++
 
-## Lukas Hanot
+## In development
+* Karel de Grote Antwerpen
+* Thomas More Geel
+* Hackerspace Voidwarranties
+
++++
+## Interesses
+* Linux
+* Networken
+* Command Line Interfaces
 
 +++
 
-## Student
-
-+++
-
-## Creator
-
-+++
-
-## Menace!
+## Is this FOSS
+* Linux sinds 2011
+* Fosdem & anderen
+* btw i use arch 
 
 ---
 
-### Why and how?
-
-+++
-
-## School
-
-+++
-
-## Future
+## cat /var/log/Stage
+- Inuits
+- Opdracht: POC Logisland
+- Conclusie 
 
 ---
 
-### The End!
+### Inuits
+
++++
+
+### POC Logisland
+- Doel: bruikbaarheid van Logisland bepalen
+- Hoe: Logisland deployen en testen
+- Problemen?
+
++++
+
+### Bevindingen
+- Voorbij gestreefd
+- Complex  
+- Weinig documentatie
+- Schaalbaarheid(?)
+
+---
+
+## Andere projecten
+
++++
+
+### Powershell Deployment
+
++++
+
+### Project 4.0: FujinIT
+
++++
+
+### Git pitch?
+- Loadays
+- Bert Van Vreckem - Clean bash
+
+---
+
+## Dankwoord
+- Inuits & Kris Buytaert
+- Thomas More Hogeschool
+- FOSS 
+- Mijn stage begeleider Bart Portier
+- Ward Kerkhofs
+
+---
+
+## Vragen?
+
++++
 
