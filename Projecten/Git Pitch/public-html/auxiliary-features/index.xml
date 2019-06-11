@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auxiliary Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/auxiliary-features/</link>
+    <description>Recent content in Auxiliary Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/auxiliary-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Analytics</title>
+      <link>/auxiliary-features/google-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/google-analytics/</guid>
+      <description>As a presentation author you can activate Google Analytics tracking for your slideshow presentations.
+See the Google Analytics Setting documentation for further details.</description>
+    </item>
+    
+    <item>
+      <title>Auto-Generated TOC</title>
+      <link>/auxiliary-features/table-of-contents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/table-of-contents/</guid>
+      <description>GitPitch automatically generates a table-of-contents for every slideshow presentation. You can access the table-of-contents within the slideshow menu found in the bottom-left corner of any slideshow.
+The table-of-contents can be used to browse slideshow content. It can also be used as a means of fast navigation to any slide within a presentation.
+
+As a presentation author, if you update your presentation content in PITCHME.md, GitPitch will automatically update the table-of-contents for you.</description>
+    </item>
+    
+    <item>
+      <title>Slideshow Embedding</title>
+      <link>/auxiliary-features/slideshow-embedding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/slideshow-embedding/</guid>
+      <description>GitPitch slideshow presentations can be seamlessly embedded within all of the major blogging platforms - including WordPress, Blogger, Tumblr, and Medium.
+To embed your slideshow presentation in a blog post or website use the GitPitch Embed.ly Provider.
+For further details, see the following blog post.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rich Media Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/rich-media-features/</link>
+    <description>Recent content in Rich Media Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/rich-media-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Color Backgrounds</title>
+      <link>/rich-media-features/color-backgrounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/color-backgrounds/</guid>
+      <description>Learn By Example Learn By Example - Color Gradients  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special color delimiter syntax allows overriding the basic delimiter semantics in order to activate a custom background color for specific slides.
+A well chosen background color can dramatically enhance the visual appearance and effectiveness of any slide within a presentation:
+The color delimiter can take any value that is valid on the background-color css property.</description>
+    </item>
+    
+    <item>
+      <title>Charts</title>
+      <link>/rich-media-features/charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/charts/</guid>
+      <description>Line Chart - Learn By Example Bar Chart - Learn By Example Radar Chart - Learn By Example Charts Plugin Activation  Add beautifully rendered line, bar, pie, radial, etc. charts to any slideshow presentation. Support for charts within GitPitch slideshow presentations is powered by the the reveal.js plugin for Chart.js.
+By default, this plugin is disabled. To enable this plugin for your presentation, see charts plugin activation.</description>
+    </item>
+    
+    <item>
+      <title>MathJax Formulas</title>
+      <link>/rich-media-features/math-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/math-formulas/</guid>
+      <description>Add beautifully rendered math formulas to any slideshow presentation using the following:
+ MathJax Support LaTeX &amp;amp; AsciiMath Widget  This guide documents MathJax Support via the MathJax plugin. MathJax is a JavaScript display engine for mathematics with support for LaTeX, MathML and other equation markup.
+By default, this plugin is disabled. To enable this plugin for your presentation, see MathJax plugin activation.
+ Learn By Example MathJax Plugin Activation MathJax Backticks Syntax LaTeX &amp;amp; AsciiMath Widget</description>
+    </item>
+    
+    <item>
+      <title>Font Awesome 5 Icons</title>
+      <link>/rich-media-features/font-awesome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/font-awesome/</guid>
+      <description>GitPitch provides a PITCHME.md markdown shortcut syntax that can be used to render Font Awesome 5 Solid &amp;amp; Brand Icons. This features gives GitPitch presentation authors the use of up to 2000 beautifully rendered icons for use within any slideshow.
+ Due to license restrictions, Font Awesome 5 Pro Icons are not available for use on GitPitch slides.
+  FA5 Solid Icons Basic Syntax FA5 Solid Icons Basic Syntax With Label FA5 Brand Icons Basic Syntax FA5 Brand Icons Basic Syntax With Label Font Awesome Icon Sizing Font Awesome Icon Rotations Font Awesome Icon Animations Font Awesome Custom Styles Font Awesome 4 Backwards Compatibility</description>
+    </item>
+    
+    <item>
+      <title>Inline Videos</title>
+      <link>/rich-media-features/inline-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/inline-videos/</guid>
+      <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more.
+  Learn By Example Slide Inline YouTube Video Slide Inline Vimeo Video Slide Inline MP4 Video  Enhance any slideshow presentation by embedding rich video content. This technique provides a great way to take advantage of existing teaching or training materials.</description>
+    </item>
+    
+    <item>
+      <title>Background Videos</title>
+      <link>/rich-media-features/background-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/background-videos/</guid>
+      <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more.
+  Learn By Example  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special video delimiter syntax allows overriding the basic delimiter semantics in order to display any MP4 or WebM as a background video on specific slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Emoji Widget</title>
+      <link>/rich-media-features/emojis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/emojis/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @emoji widget.
+ @emoji - Emoji Widget GitPitch Emoji Library Learn By Example  
+Emoji Widget To render an Emoji on any slide you can use the @emoji widget. Using the following syntax in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Pro Tweet Widget</title>
+      <link>/rich-media-features/tweets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/tweets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @tweet widget.
+ @tweet - Tweet Widget Tweet Offline Support Tweet Browser Content Blocking  
+Tweet Widget To render a Tweet on any slide you can use the @tweet widget. Using the following syntax in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Pro Table Data Widget</title>
+      <link>/rich-media-features/table-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/table-data/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @table widget.
+ @table - Table Data Widget Working with Table Data Headers Working with Table Data Fragments Working with Tabbed Table Data Working with Custom Table Styles Sizing Tables with Text Properties Positioning Tables with Snap Layouts</description>
+    </item>
+    
+    <item>
+      <title>Pro UML Diagram Widget</title>
+      <link>/rich-media-features/uml-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/uml-diagrams/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @uml widget.
+ @uml - UML Widget for Diagrams Learn By Example - Sequence Diagrams Learn By Example - Activity Diagrams Learn By Example - State Diagrams Learn By Example - Timing Diagrams Learn By Example - Use Case Diagrams Learn By Example - Deployment Diagrams Learn By Example - Object Diagrams Learn By Example - LaTeX Math Diagrams Learn By Example - Ascii Math Diagrams UML Diagrams Layout Controls UML Diagrams Caching Policy</description>
+    </item>
+    
+    <item>
+      <title>Pro LaTeX &amp; AsciiMath Widget</title>
+      <link>/rich-media-features/latex-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/latex-math/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @uml widget for LaTeX and AsciiMath.
+ @uml - UML Widget for LaTeX + AsciiMath Learn By Example - LaTeX Math Learn By Example - Ascii Math  
+UML Widget for LaTeX + AsciiMath The @uml widget provides some excellent extensions for rendering math formulas on any slide.</description>
+    </item>
+    
+    <item>
+      <title>Pro Offline Video Streaming</title>
+      <link>/rich-media-features/offline-video-streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/offline-video-streaming/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate Offline Video Streaming.
+ GitPitch Pro users can stream MP4 and WebM video content directly from the local repository when presenting offline using GitPitch Desktop.
+Simply add your MP4 and WebM video content to the Git repository for your presentation and then use relative paths to the video files on standard video delimiter syntax.
+ Pro offline video streaming is automatically disabled for presentations viewed online at gitpitch.</description>
+    </item>
+    
+  </channel>
+</rss>

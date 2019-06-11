@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/image-features/</link>
+    <description>Recent content in Image Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/image-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inline Images</title>
+      <link>/image-features/inline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/inline/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Inline Local Image Files Inline External Image Files  Any JPEG, PNG, or GIF image can be displayed inline within any slide using standard Markdown image syntax. Slides containing inline images may also be used to display additional markdown content, such as headings or supporting text.
+ For a quick reference on standard Markdown image syntax see the Mastering Markdown Guide.</description>
+    </item>
+    
+    <item>
+      <title>Background Images</title>
+      <link>/image-features/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/background/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Image Delimiter Syntax - Local Image Files Image Delimiter Syntax - External Image Files Image Delimiter Syntax - Power Features  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special image delimiter syntax allows overriding the basic delimiter semantics in order to display any JPEG, PNG, or GIF image as a background image on specific slides.</description>
+    </item>
+    
+    <item>
+      <title>Background Scaling</title>
+      <link>/image-features/scaling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/scaling/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Image Delimiter Scaling Syntax - Contain Image Image Delimiter Scaling Syntax - Cover Image Image Delimiter Scaling Syntax - Fit Tall Image Image Delimiter Scaling Syntax - Squeeze Image  Image delimiter syntax supports a size parameter that gives you complete control over background image sizing and scaling.
+The size paramter can take any value that is valid on the background-size css property.</description>
+    </item>
+    
+    <item>
+      <title>Background Positioning</title>
+      <link>/image-features/positioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/positioning/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a position parameter that gives you complete control over background image positioning within slides.
+The position paramter can take any value that is valid on the background-position css property. These values include center, left, right, 25% 75%, bottom 50px right 100px, etc.
+If the position parameter is not specified, the default position value for background images is center.</description>
+    </item>
+    
+    <item>
+      <title>Background Colors</title>
+      <link>/image-features/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/colors/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a color parameter that gives you the ability to change the color of the exposed area of a slide background for an individual slide.
+By default, the background color for any slide is determined by the active slideshow theme. Using the color parameter you can change the background color to a custom value for an individual slide.</description>
+    </item>
+    
+    <item>
+      <title>Background Repeat</title>
+      <link>/image-features/repeat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/repeat/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a repeat parameter that gives you the ability to have a background image repeated on a slide background.
+By default, background images are rendered with a no-repeat pattern. The repeat paramter can take any value that is valid on the background-repeat css property.
+
+Learn By Example This PITCHME.md markdown snippet:</description>
+    </item>
+    
+    <item>
+      <title>Background Animations</title>
+      <link>/image-features/animations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/animations/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Consecutive image delimiters can be used to create an seamless animation effect using a series of related background images.
+To achieve a fluid animation, the slide transition setting - for the entire presentation or for the individual slides participating in the animation - must be set to none.
+
+Learn By Example This PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Pro Background Opacity</title>
+      <link>/image-features/opacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/opacity/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate the Background Image Opacity feature.
+  Learn By Example  Important! Remember to size-optimize your presentation images for the Web.
+Image delimiter syntax supports an opacity parameter that gives you the ability to apply opacity filters to individual background images.
+By default, background images are displayed with 100% opacity. Reducing the opacity level increases the transparency of background images. The more transparent a slide background image, the more other content on the slide - such as text content - stands out.</description>
+    </item>
+    
+    <item>
+      <title>Image Size Limits</title>
+      <link>/image-features/size-limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/size-limits/</guid>
+      <description>To ensure the best possible user experience for visitors to GitPitch slideshow presentations on the Web, a 1Mb file size limit is now enforced for all images displayed inline or as backgrounds on slides.
+While we strongly encourage you to size-optimize all image assets used by your GitPitch slideshow presentations, GitPitch now automatically detects, rejects, and reports images that exceed the size-limit directly within your slides.
+For example, the following screenshots show how inline and background images that exceed the 1Mb size limit are reported directly within their respective slides:</description>
+    </item>
+    
+  </channel>
+</rss>

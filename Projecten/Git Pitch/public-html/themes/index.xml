@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slideshow Themes on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/themes/</link>
+    <description>Recent content in Slideshow Themes on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixed Themes</title>
+      <link>/themes/default/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/default/</guid>
+      <description>GitPitch ships with a set of distinct slideshow themes out-of-the-box. Each theme offers it&amp;rsquo;s own unique look-and-feel for your slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+You can use the Theme Switching panel found under the slideshow menu to try out the different themes. Simply select any theme shown in the switching panel and your presentation will be instantly rendered using a new look-and-feel.
+One you find a theme that you like you can activate it as the fixed theme for your presentation using the theme setting in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Custom Themes</title>
+      <link>/themes/custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/custom/</guid>
+      <description>Custom theme support gives you almost unlimited control over the look-and-feel of any presentation.
+This feature is powered by Cascading Style Sheets aka. CSS. As a presentation author you can define and activate new CSS style rules that override the default style rules inherited from the fixed theme chosen for your presentation.
+To apply your own custom CSS styles to your slideshow presentation, see the custom theme setting docs.</description>
+    </item>
+    
+    <item>
+      <title>CSS Utility Styles</title>
+      <link>/themes/css-utility-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/css-utility-styles/</guid>
+      <description>This guide documents the full set of CSS utility-styles that are available out-of-the-box to GitPitch presentation authors. While you can create your own custom css for any slide deck, these utility-styles are built-in to support common use-cases.
+ Span (Width) Styles Text Color Styles Text Font Size Styles Text Font Weight Styles Text Alignment Styles Heading Color Styles Background Color Styles Override Utility Styles   To override any of the utility styles documented in this guide, see overriding utility styles.</description>
+    </item>
+    
+    <item>
+      <title>Pro Google Web Fonts</title>
+      <link>/themes/pro-fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/pro-fonts/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate Pro Fonts.
+ By default, the font used to render text on your slides is determined by the font-family style rule set by the fixed theme active for your presentation.
+Pro Fonts deliver new and beautiful typographic options for presentation authors. And thanks to a little bit of GitPitch magic, Pro Fonts work flawlessly whether you are sharing your slideshow content online or presenting offline.</description>
+    </item>
+    
+  </channel>
+</rss>

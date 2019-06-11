@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foundation Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/foundation-features/</link>
+    <description>Recent content in Foundation Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/foundation-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Slideshow Menu</title>
+      <link>/foundation-features/slideshow-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/slideshow-menu/</guid>
+      <description>Every slideshow presentation makes a burger-menu available in the bottom-left corner of each slide. The menu provides access to the following slideshow presentation features:
+ Offline Slideshow PDF Slideshow Theme Switcher Table-of-Contents  The following screenshot demonstrates the location of the slideshow burger-menu:
+The following screenshot shows an expanded view of all panels found under the slideshow burger-menu:
+ Pro subscribers can activate a menu control setting to hide the slideshow menus.</description>
+    </item>
+    
+    <item>
+      <title>Online Slideshow</title>
+      <link>/foundation-features/online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/online/</guid>
+      <description>Simply git-push your presentation content - markdown and assets - to any branch within a public repository on GitHub, GitLab, or Bitbucket and GitPitch and find your slideshow instantly available online at the following URL:
+ Substitute your GitHub account name, repository, and branch for $user, $repo, and $branch respectively. For GitLab and Bitbucket users, see the slideshow presentation URLs docs for further details.
+ If you are interested in using a single branch within your Git repository to develop and deliver multiple slideshow presentations then check out the following sections in the Do More With Git documentation:</description>
+    </item>
+    
+    <item>
+      <title>Offline Slideshow</title>
+      <link>/foundation-features/offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/offline/</guid>
+      <description>GitPitch Desktop Offline Support One-Click Offline Slideshow Download  
+GitPitch Desktop Offline Support  If you plan on working offline we recommend downloading the GitPitch Docs too. To download the docs bundle, click here. Then expand the zip bundle and open index.html under a local Web server.
+ GitPitch Pro + Lite subscriptions unlock numerous features including GitPitch Desktop - a dedicated presentation tool that lets you develop, preview, and present GitPitch slideshows directly on your Linux, Windows, or OSX desktop.</description>
+    </item>
+    
+    <item>
+      <title>PDF Slideshow</title>
+      <link>/foundation-features/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/pdf/</guid>
+      <description>Offline Printing GitPitch subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+Within the Desktop press the D key on your keyboard when viewing any slide deck to open the Desktop Document Generator. With one click you can then export your slide deck as a PDF document.
+
+  Your PDF document is a highly portable document that can be shared absolutely anywhere.</description>
+    </item>
+    
+    <item>
+      <title>PPTX Slideshow</title>
+      <link>/foundation-features/pptx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/pptx/</guid>
+      <description>Export to Microsoft PowerPoint, Apple Keynote, and Google Slides GitPitch subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+Within the Desktop press the D key on your keyboard when viewing any slide deck to open the Desktop Document Generator. With one click you can then export your slide deck as a PPTX document.
+
+  Your PPTX document is a highly portable document that can be open directly within Microsoft PowerPoint and Apple Keynote on your desktop.</description>
+    </item>
+    
+    <item>
+      <title>Theme Switcher</title>
+      <link>/foundation-features/theme-switcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/theme-switcher/</guid>
+      <description>GitPitch ships with a set of distinct slideshow themes out-of-the-box. Each theme offers it&amp;rsquo;s own unique look-and-feel for your slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+You can use the Theme Switching panel found under the slideshow menu to try out the different themes. Simply select any theme shown in the switching panel and your presentation will be instantly rendered using a new look-and-feel.
+One you find a theme that you like you can activate it as the fixed theme for your presentation using the theme setting in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Keyboard Controls</title>
+      <link>/foundation-features/keyboard-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/keyboard-controls/</guid>
+      <description>GitPitch slideshow presentations offer numerous keyboard controls and shortcuts to help presentation authors and their audiences to navigate and interact with slideshow content.
+Live presentation speakers should take special note of the following slideshow modes:
+ Press F for Fullscreen Mode Press O for Overview Mode Press B for Blackout Mode  Press the ? key when viewing any slideshow presentation to view the following keyboard shortcuts table:
+Beyond keyboard navigations, GitPitch also supports mouse-wheel navigation and remote-control navigation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slideshow Settings on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/settings/</link>
+    <description>Recent content in Slideshow Settings on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/settings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PITCHME.yaml</title>
+      <link>/settings/pitchme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/pitchme/</guid>
+      <description>GitPitch offers a wide range of slideshow settings that can be used to customize the overall look-and-feel and behavior of any presentation.
+To activate custom settings for your slideshow presentation, add a PITCHME.yaml properties file alongside the PITCHME.md file in your repo. Custom settings are optional.
+
+Sample PITCHME.yaml Here is a sample of the custom settings found in the PITCHME.yaml used by the GitPitch Hello World slideshow presentation:</description>
+    </item>
+    
+    <item>
+      <title>Theme Setting</title>
+      <link>/settings/theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/theme/</guid>
+      <description>Purpose The theme setting lets you select a fixed slideshow theme for your presentation.
+Sample Syntax theme : beige  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ 
+Each slideshow theme offers a distinct look-and-feel for slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+GitPitch currently supports the following slideshow themes:
+ white (default) black sky beige moon night simple  Each of these themes are inherited from the Reveal.</description>
+    </item>
+    
+    <item>
+      <title>Custom Theme Setting</title>
+      <link>/settings/custom-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/custom-theme/</guid>
+      <description>Purpose The theme-override setting lets you override the CSS styles associated with the fixed slideshow theme for your presentation.
+Sample Syntax theme-override : assets/css/PITCHME.css  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ This feature allows you to customize the look-and-feel of any slideshow. This is especially useful if you want to customize your presentation to reflect your product, service, conference, or company brand.</description>
+    </item>
+    
+    <item>
+      <title>Code Highlight Setting</title>
+      <link>/settings/highlight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/highlight/</guid>
+      <description>Purpose The highlight setting lets you customize the syntax highlighting style for code rendered on slides within your presentation.
+Sample Syntax highlight : monokai  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Support for code syntax highlighting is provided by the highlight.js library. This library offers support for 162 languages and 74 distinct visual styles. See an interactive demo of available styles here.</description>
+    </item>
+    
+    <item>
+      <title>Code Line Numbers Setting</title>
+      <link>/settings/line-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/line-numbers/</guid>
+      <description>Purpose The code-line-numbers setting lets you activate the display of line-numbers alongside code rendered on slides within your presentation.
+Sample Syntax code-line-numbers : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The activation of line-numbers alongside code can help simplify conversations between you and your audience - providing an effective way to identify and discuss specific lines of code on any slide.</description>
+    </item>
+    
+    <item>
+      <title>Layout Setting</title>
+      <link>/settings/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/layout/</guid>
+      <description>Purpose The layout setting lets you set an automatic layout policy for your slideshow content.
+Sample Syntax layout : top-left  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The active layout sets an automatic layout policy for content on all slides within your presentation. See snap layouts to learn how to override the automatic layout policy for individual content on individual slides.
+GitPitch currently supports the following slideshow layouts:</description>
+    </item>
+    
+    <item>
+      <title>Logo Setting</title>
+      <link>/settings/logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/logo/</guid>
+      <description>Purpose The logo setting lets you use a custom logo to brand every slide in your presentation.
+Sample Syntax logo : assets/img/logo.png  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The logo setting supports both relative and absolute paths to the image file.
+By default your logo will be displayed in the top-left corner of every slide. However, you can change the position of your logo by specifying a logo-position setting alongside the logo setting.</description>
+    </item>
+    
+    <item>
+      <title>Background Setting</title>
+      <link>/settings/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/background/</guid>
+      <description>GitPitch supports a number of background-* settings that can be combined to deliver precise control over default background images used by any presentation.
+ Background Setting Background Size Setting Background Position Setting Background Color Setting Background Repeat Setting Background Opacity Setting  
+Setting: Background Purpose The background setting lets you specify a default background image for all slides within your presentation.
+Sample Syntax background : assets/img/bg.png  Details  Slideshow settings are activated using a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Transition Setting</title>
+      <link>/settings/transition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/transition/</guid>
+      <description>Purpose The transition setting lets you select the default slide transition style for your presentation.
+Sample Syntax transition : fade  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Your chosen transition setting is activated by default for all slides within your presentation. To override this default behavior, see slide specific transition override.
+GitPitch currently supports the following slide transition styles:
+ none (default) slide fade convex concave zoom   If you do not explicitly set a value for the transition setting your slides will automatically transition using the default transition style - the none transition.</description>
+    </item>
+    
+    <item>
+      <title>Title Setting</title>
+      <link>/settings/title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/title/</guid>
+      <description>Purpose The title setting lets you set a custom HTML title for your slideshow presentation.
+ Note: The title setting is a Pro Bonus feature only.
+ Sample Syntax title : &amp;quot;Do More With Markdown&amp;quot;  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, a custom title for your presentation has the following affects:
+ Displays a custom title for the presentation in search-engine results Defines a custom title for the presentation in the browser toolbar or tab Provides a custom title for the presentation when it is added to favorites  For example, here is a sample custom title set in a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Footnote Setting</title>
+      <link>/settings/footnote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/footnote/</guid>
+      <description>Purpose The footnote setting lets you display a custom footnote on every slide within your presentation.
+Sample Syntax footnote : &amp;quot;© 2018 One Tap Ltd.&amp;quot;  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Footnotes are visible on-screen whether your slideshow presentation is being viewed in normal mode or fullscreen mode.
+HTML Footnotes The footnote setting also supports the use of arbitrary HTML fragments alongside plain text.</description>
+    </item>
+    
+    <item>
+      <title>Published Setting</title>
+      <link>/settings/published/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/published/</guid>
+      <description>Purpose The published setting is dual purpose:
+ For public repositories, it lets you flag a presentation as post-development and ready for sharing.
+ For private repositories, it also activates GitPitch Security Published Mode.
+  This page describes it&amp;rsquo;s usage within public repositories. See the GitPitch Security Guide for usage of the published setting within private repositories.
+Sample Syntax published : true  Details  Slideshow settings are activated using a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Loop Setting</title>
+      <link>/settings/loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/loop/</guid>
+      <description>Purpose The loop setting lets you activate circular navigation for your slideshow presentation.
+Sample Syntax loop : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the loop setting permits direct navigation from the last slide within your slideshow back to the first slide.
+By default, this style of looping or circular navigation is disabled.</description>
+    </item>
+    
+    <item>
+      <title>RTL Setting</title>
+      <link>/settings/rtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/rtl/</guid>
+      <description>Purpose The rtl setting lets you activate Right-To-Left navigation for your slideshow presentation.
+Sample Syntax rtl : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the rtl setting activates Right-To-Left navigation between slides for your slideshow presentation.
+By default, Left-To-Right navigation is activated for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Controls Layout Setting</title>
+      <link>/settings/controls-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/controls-layout/</guid>
+      <description>Purpose The controls-layout setting lets you control the position of the navigation controls for your presentation.
+Sample Syntax controls-layout : edges  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ By default, the navigation controls for a presentation are found in the bottom-right corner of each slide:
+You can override this default position by setting an edges value for the controls-layout setting. Edges cause the navigation controls to display in a centered position as shown in the following screenshot:</description>
+    </item>
+    
+    <item>
+      <title>Print Fragments Setting</title>
+      <link>/settings/print-fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/print-fragments/</guid>
+      <description>Purpose The print-fragments setting lets you force each slide fragment to be printed on an independent page during PDF generation for your presentation.
+Sample Syntax print-fragments : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Offline Printing By default, when PDF printing offline using GitPitch Desktop, each markdown fragment and code presenting fragment is printed on an individual page during the PDF printing process.</description>
+    </item>
+    
+    <item>
+      <title>Mouse Wheel Setting</title>
+      <link>/settings/mouse-wheel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/mouse-wheel/</guid>
+      <description>Purpose The mousewheel setting lets you activate navigation by mouse-wheel for your slideshow presentation.
+Sample Syntax mousewheel : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the mousewheel setting activates support for navigation between slides by mouse-wheel. Navigation by keyboard is unaffected by this setting.
+By default, navigation by mousewheel is disabled.</description>
+    </item>
+    
+    <item>
+      <title>Remote Control Setting</title>
+      <link>/settings/remote-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/remote-control/</guid>
+      <description>Purpose The remote-control setting lets you activate navigation using a remote control device: Logitech, Kensington, etc.
+Sample Syntax remote-control : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the remote-control setting gives presentation authors the ability to present hands-free - far away from the keyboard.
+By default, navigation by remote-control is disabled.
+Activate Remote Control Custom Key Mappings In order to navigate through the full set of slides in a GitPitch presentation, a remote control device must emit a stream of Previous and Next events.</description>
+    </item>
+    
+    <item>
+      <title>Eager Loading Setting</title>
+      <link>/settings/eager-loading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/eager-loading/</guid>
+      <description>Purpose The eager-loading setting activates an eager-loading policy for slideshow presentation assets.
+Sample Syntax eager-loading : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When the eager-loading setting is activated slideshow assets, including images and videos, are loaded over the network when a presentation is first opened in the browser.
+This setting is provide mainly for conference speakers.
+By default, this setting is disabled, ensuring a lazy-loading policy is used for slideshow presentation assets.</description>
+    </item>
+    
+    <item>
+      <title>Charts Plugin Setting</title>
+      <link>/settings/charts-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/charts-plugin/</guid>
+      <description>Purpose The charts setting lets you activate Chart.js rendering for your slideshow presentation.
+Sample Syntax charts : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the charts setting activates the Chart.js plugin for your slideshow presentation. See the Rich Media Charts documentation for details.
+By default, the Chart.js plugin is disabled for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Maths Plugin Setting</title>
+      <link>/settings/maths-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/maths-plugin/</guid>
+      <description>Purpose The mathjax setting lets you activate MathJax rendering for your slideshow presentation.
+Sample Syntax mathjax : TeX-MML-AM_HTMLorMML-full  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the mathjax setting activates the MathJax plugin for your slideshow presentation. See the Rich Media Math Formulas documentation for details.
+By default, the MathJax plugin is disabled for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics Setting</title>
+      <link>/settings/google-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/google-analytics/</guid>
+      <description>Purpose The gatoken setting lets you activate Google Analytics tracking for your slideshow presentation.
+Sample Syntax gatoken : UA-1111111-1  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the gatoken setting will enable Google Analytics tracking for your slideshow presentation.
+Create GA Property In order to enable the gatoken setting you must first create your own GA Property for gitpitch.com. To create a GA Property do as follows:</description>
+    </item>
+    
+    <item>
+      <title>Twitter Card Settings</title>
+      <link>/settings/twitter-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/twitter-card/</guid>
+      <description>Twitter Card Details Twitter Card Examples Twitter Card Testing  
+Purpose A combination of title, description, and thumbnail settings let you customize the details of a Twitter Card or other Open Graph card for your slideshow presentation.
+ Note: These Twitter Cards settings are a Pro Bonus feature only.
+ Sample Syntax title : &amp;quot;Elixir Lang&amp;quot; description : &amp;quot;A functional, concurrent language on the Erlang VM&amp;quot; thumbnail : assets/img/screenshot.</description>
+    </item>
+    
+  </channel>
+</rss>

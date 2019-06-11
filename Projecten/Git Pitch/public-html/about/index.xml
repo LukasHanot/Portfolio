@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About GitPitch on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/about/</link>
+    <description>Recent content in About GitPitch on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentation Service</title>
+      <link>/about/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/service/</guid>
+      <description>GitPitch is a modern slide decks solution for developers. You can use it to promote, pitch or present absolutely anything. Using the tools you already know and love - Markdown + Git.
+With GitPitch Desktop you can work with your local file system. So you can develop, preview, and present offline. And even export to Microsoft PowerPoint, Apple Keynote, Google Slides, LibreOffice, and PDF.
+And if you already use Git, and find yourself needing to present a concept, design, framework, product, service, training materials, or educational course work:</description>
+    </item>
+    
+    <item>
+      <title>Presentation Workflow</title>
+      <link>/about/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/workflow/</guid>
+      <description>Offline Workflow GitPitch Pro and Lite subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+
+  The Desktop can also export any slide deck to Microsoft PowerPoint, Apple Keynote, Google Slides, LibreOffice, PDF, and LinkedIn SlideShare.
+
+Online Workflow Absolutely everyone can git-push slide decks - markdown and assets - to any branch within a public repository on GitHub, GitLab, or Bitbucket and GitPitch and find your slideshow instantly available online at the following URL:</description>
+    </item>
+    
+    <item>
+      <title>Powered by Git</title>
+      <link>/about/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/git/</guid>
+      <description>The GitPitch markdown presentation service hosted on gitpitch.com seamlessly embraces and extends the traditional capabilities offered by the following Git services in the cloud:
+ GitHub.com GitLab.com Bitbucket.org  GitPitch turns every repository within these hosted Git services into:
+ A version-controlled content management system for presentation content and assets A branch-aware content management system for presentation content and assets A collaborative content management system for presentation content and assets assets  Basically all of the powerful features and benefits the developer community enjoys when managing code under Git are now available for slideshow presentation authors.</description>
+    </item>
+    
+    <item>
+      <title>Built on Reveal.js</title>
+      <link>/about/revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/revealjs/</guid>
+      <description>GitPitch embraces and extends the slideshow capabilities of the hugely popular and powerful Reveal.js library with the distributed and collaborative file management capabilities of Git to deliver a seamless and unique presentation service on gitpitch.com.
+GitPitch is standing on the shoulders of giants. And adding unique value by offering a modern slide deck solution uniquely adapted for developers.
+GitPitch beyond Reveal.js The get a sense of some of the unique features that make GitPitch a unique modern slide deck solution for developers check out some of the following feature guides:</description>
+    </item>
+    
+    <item>
+      <title>Free Cloud Hosted Service</title>
+      <link>/about/free/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/free/</guid>
+      <description>GitPitch is hosted as a free slideshow presentation service on gitpitch.com. This service is available to absolutely everyone with an account on GitHub, GitLab, and Bitbucket.
+The free GitPitch presentation service offers an extensive feature set to presentation authors.
+GitPitch first launched as an open-source project in early 2016. The project continues to be actively developed and maintained on GitHub. The project repo is here. The above snapshot shows some basic project stats.</description>
+    </item>
+    
+    <item>
+      <title>Pro Cloud Hosted Service</title>
+      <link>/about/pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/pro/</guid>
+      <description>GitPitch Pro is a subscription-service hosted on gitpitch.com. Pro + Lite subscription details are available here. This service is available to everyone with an account on GitHub, GitLab, and Bitbucket.
+
+GitPitch Lite unlocks a single user license for GitPitch Desktop, a dedicated desktop tool for creating modern slide decks. The desktop tool supports working offline. It is delivered as a Docker image for Linux, OSX, and Windows 10 ( Pro + Enterprise ) desktops.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Self Hosted Service</title>
+      <link>/about/enterprise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/enterprise/</guid>
+      <description>The GitPitch markdown presentation service made available for deployment on-premises is called GitPitch Enterprise. It is delivered using Docker container technology.
+GitPitch Enterprise integrates seamlessly with the following self-hosted Git servers:
+ GitHub Enterprise GitLab Server Bitbucket Server GitBucket Server Gitea Server Gogs Server  The deployment of GitPitch Enterprise gives you an opportunity to get more out of your existing Git infrastructure and investment. Detailed documentation for GitPitch Enterprise can be found here.</description>
+    </item>
+    
+  </channel>
+</rss>

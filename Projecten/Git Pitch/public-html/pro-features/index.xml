@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pro Features Guide on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/pro-features/</link>
+    <description>Recent content in Pro Features Guide on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pro-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitPitch Desktop</title>
+      <link>/pro-features/desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop/</guid>
+      <description>About  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ GitPitch Desktop is a dedicated presentation tool for your desktop. Available on Linux, OSX, and Windows 10 [Pro and Enterprise] platforms.
+The Desktop let&amp;rsquo;s you develop, preview, present, export, and publish slide decks as follows:
+ Develop and Preview Slide Decks Offline Present Slide Decks Offline Export Slide Decks to PDF Export Slide Decks to PPTX Publish Public + Private Slide Decks Online Publish To Microsoft PowerPoint Office 365 Publish To Apple Keynote iCloud Publish To Google Slides Publish To LinkedIn SlideShare Export Slide Deck Workflow Constraints Export Slide Deck Content Constraints   For help on how to download the latest version of GitPitch Desktop, click here.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Launch</title>
+      <link>/pro-features/desktop-launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop-launch/</guid>
+      <description>Getting Started  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ The following sections guide you through the activation, installation, and launch of GitPitch Desktop.
+ Step 1. Prerequisite: Pro / Lite Subscription Step 2. Prerequisite: Install Docker Step 3. Prerequisite: Register Docker ID Step 4. Desktop Download Instructions Step 5. Desktop Launch Instructions  For additional information including answers to frequently asked questions see the GitPitch Desktop FAQ.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop FAQ</title>
+      <link>/pro-features/desktop-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop-faq/</guid>
+      <description>Desktop Frequently Asked Questions  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ 
+ How can I download the latest GitPitch Desktop image? What can I do if changes to my deck do not auto-refresh in the browser? When working on Windows 10 my deck does not auto-refresh in the browser? How can I preview the GitPitch Security confidential mode challenge form? How can I change the default 9000 port used by GitPitch Desktop?</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Security</title>
+      <link>/pro-features/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/security/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Pro Security.
+ Pro Security activates unique slideshow presentation privacy features powered by private Git repositories in the cloud.
+By convention, GitPitch will automatically transform the contents of any PITCHME.md markdown file found within any public repository into a fully responsive, slideshow presentation.
+GitPitch Security extends this convention by supporting the transformation of PITCHME.md markdown files found within private repositories on GitHub, GitLab, and Bitbucket.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Surveys</title>
+      <link>/pro-features/surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/surveys/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Pro Surveys.
+ Pro Surveys turn any online slideshow into a two-way conversation. Deliver your message using a GitPitch slideshow presentation. Then gather feedback from your audience by seamlessly embedding a professional survey directly inside your slidedeck.
+Surveys let you gather feedback from your audience long after you leave the stage.
+ JotForm Surveys SurveyMonkey Surveys Google Forms Surveys</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Audio Decks</title>
+      <link>/pro-features/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/audio/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Audio Slide Decks.
+ GitPitch Audio Slide Decks let you enhance traditional slide decks with the spoken word. By activating a voice-over for individual slides and slide fragments, you can unlock brand new ways to SHARE knowledge, TEACH, and deliver TRAINING materials.
+ Live Audio Slide Deck Example Audio Deck Activation Master Audio v Fragment Audio Add Slide Master Audio Add Slide Code Fragment Audio Add Slide Snap Fragment Audio Add Slide List Fragment Audio Slides / Fragments without Audio Customize Audio Player Controls Audio File Caching Policies Supported Audio Formats Audio Recording Tool Recommendations</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Code Features</title>
+      <link>/pro-features/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/code/</guid>
+      <description> About GitPitch Pro + Lite subscriptions activate a wide range of enhanced code features for slideshow presentation authors. Click on any of the links below to get started with Pro Code slide decks.
+ Code Widget Code Widget with Step-and-ZOOM GitHub GIST Widget GitHub GIST Widget with Step-and-ZOOM Code Presenting with Reveal Properties Code Presenting with Power Properties Asciinema Live Terminal Sessions  </description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Image Features</title>
+      <link>/pro-features/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/image/</guid>
+      <description>About GitPitch Pro + Lite subscriptions activate enhanced image support for slideshow presentation authors.
+ Leverage SVG Images for Pixel Perfect Rendering Slide-Specific Background Image Opacity Controls Global Background Image Opacity Controls  
+Leverage SVG Images for Pixel Perfect Rendering GitPitch Pro supports rendering SVG images directly from public and private Git repositories. These images can now be used either as inline images or as background images for presentation slides.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Power Features</title>
+      <link>/pro-features/bonus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/bonus/</guid>
+      <description>About GitPitch Pro + Lite subscriptions activate a wide range of power features for slideshow presentation authors.
+ Pro Code Features Pro Audio Features Pro Image Features Google Web Fonts Emoji Widget Tweet Widget Table Data Widget UML Widget for Diagrams UML Widget for LaTeX + AsciiMath Asciinema Terminal Sessions Offline Video Streaming Quickstart Template Pro Only Twitter Card Settings Pro Only Slideshow Title Setting Pro Only Slideshow Menu Control  Remember to check back here periodically as new power features may be added over time.</description>
+    </item>
+    
+  </channel>
+</rss>

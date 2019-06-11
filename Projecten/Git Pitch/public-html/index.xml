@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitPitch Documentation on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/</link>
+    <description>Recent content in GitPitch Documentation on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PITCHME.yaml</title>
+      <link>/settings/pitchme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/pitchme/</guid>
+      <description>GitPitch offers a wide range of slideshow settings that can be used to customize the overall look-and-feel and behavior of any presentation.
+To activate custom settings for your slideshow presentation, add a PITCHME.yaml properties file alongside the PITCHME.md file in your repo. Custom settings are optional.
+
+Sample PITCHME.yaml Here is a sample of the custom settings found in the PITCHME.yaml used by the GitPitch Hello World slideshow presentation:</description>
+    </item>
+    
+    <item>
+      <title>Slideshow Menu</title>
+      <link>/foundation-features/slideshow-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/slideshow-menu/</guid>
+      <description>Every slideshow presentation makes a burger-menu available in the bottom-left corner of each slide. The menu provides access to the following slideshow presentation features:
+ Offline Slideshow PDF Slideshow Theme Switcher Table-of-Contents  The following screenshot demonstrates the location of the slideshow burger-menu:
+The following screenshot shows an expanded view of all panels found under the slideshow burger-menu:
+ Pro subscribers can activate a menu control setting to hide the slideshow menus.</description>
+    </item>
+    
+    <item>
+      <title>Automatic Layout</title>
+      <link>/layout-features/automatic-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/automatic-layout/</guid>
+      <description>When you develop slide content using GitPitch markdown you benefit from automatic layout of that content. The default layout policy centers content on your slides. However, if you ever want to change that default layout policy for your slide deck you can activate a custom layout policy in your PITCHME.yaml.
+The following screenshot demonstrates the set of available automatic layout policies:
+
+While these automatic layout policies are a great way to get started, GitPitch is unique among markdown presentation solutions in offering support for flexible slide layouts.</description>
+    </item>
+    
+    <item>
+      <title>Code Presenting</title>
+      <link>/code-features/presenting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/presenting/</guid>
+      <description>Code presenting lets you focus-on and step-through specific code snippets, loops, functions, output, etc. from directly within your slideshow. For live presentations this can mean the end of switching back-and-forth between your presentation slides and your IDE.
+Code presenting can be activated for any code block on any slide - whether the code originated as a fenced code-block, a repo source file, or a GitHub GIST.
+ Learn By Example Code Presenting Syntax Code Presenting With Annotations Syntax Pro Code Widgets Pro Code Presenting Step-and-ZOOM Pro Code Revealing Pro Code Power Properties</description>
+    </item>
+    
+    <item>
+      <title>Color Backgrounds</title>
+      <link>/rich-media-features/color-backgrounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/color-backgrounds/</guid>
+      <description>Learn By Example Learn By Example - Color Gradients  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special color delimiter syntax allows overriding the basic delimiter semantics in order to activate a custom background color for specific slides.
+A well chosen background color can dramatically enhance the visual appearance and effectiveness of any slide within a presentation:
+The color delimiter can take any value that is valid on the background-color css property.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Licensing</title>
+      <link>/enterprise/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/license/</guid>
+      <description>GitPitch Enterprise [ Server Only ] License The Server-Only license unlocks a single instance of the GitPitch server for deployment on-premises delivering seamless integration with any self-hosted GitHub Enterprise, GitLab, or Bitbucket server.
+This license is made available on a recurring subscription basis. Monthly and annual subscription plans are available. Pricing details are available on the GitPitch website, see here.
+
+GitPitch Enterprise Bundle [ Server + Desktop ] License The Server + Desktop license unlocks a single instance of the GitPitch server for deployment on-premises plus GitPitch Desktop for use across your organization.</description>
+    </item>
+    
+    <item>
+      <title>Fixed Themes</title>
+      <link>/themes/default/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/default/</guid>
+      <description>GitPitch ships with a set of distinct slideshow themes out-of-the-box. Each theme offers it&amp;rsquo;s own unique look-and-feel for your slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+You can use the Theme Switching panel found under the slideshow menu to try out the different themes. Simply select any theme shown in the switching panel and your presentation will be instantly rendered using a new look-and-feel.
+One you find a theme that you like you can activate it as the fixed theme for your presentation using the theme setting in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop</title>
+      <link>/pro-features/desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop/</guid>
+      <description>About  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ GitPitch Desktop is a dedicated presentation tool for your desktop. Available on Linux, OSX, and Windows 10 [Pro and Enterprise] platforms.
+The Desktop let&amp;rsquo;s you develop, preview, present, export, and publish slide decks as follows:
+ Develop and Preview Slide Decks Offline Present Slide Decks Offline Export Slide Decks to PDF Export Slide Decks to PPTX Publish Public + Private Slide Decks Online Publish To Microsoft PowerPoint Office 365 Publish To Apple Keynote iCloud Publish To Google Slides Publish To LinkedIn SlideShare Export Slide Deck Workflow Constraints Export Slide Deck Content Constraints   For help on how to download the latest version of GitPitch Desktop, click here.</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics</title>
+      <link>/auxiliary-features/google-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/google-analytics/</guid>
+      <description>As a presentation author you can activate Google Analytics tracking for your slideshow presentations.
+See the Google Analytics Setting documentation for further details.</description>
+    </item>
+    
+    <item>
+      <title>In 60 Seconds</title>
+      <link>/getting-started/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/tutorial/</guid>
+      <description>A Very Short Tutorial If you have an account on GitHub, GitLab, or Bitbucket then the best way to get started with GitPitch is to follow along with this very short tutorial:
+ GitPitch In-60-Seconds for GitHub Users GitPitch In-60-Seconds for GitLab Users GitPitch In-60-Seconds for Bitbucket Users  These tutorials demonstrate the basic GitPitch concepts by taking you through a simple step-by-step process to create your first GitPitch slide deck.</description>
+    </item>
+    
+    <item>
+      <title>Inline Images</title>
+      <link>/image-features/inline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/inline/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Inline Local Image Files Inline External Image Files  Any JPEG, PNG, or GIF image can be displayed inline within any slide using standard Markdown image syntax. Slides containing inline images may also be used to display additional markdown content, such as headings or supporting text.
+ For a quick reference on standard Markdown image syntax see the Mastering Markdown Guide.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>/the-template/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/introduction/</guid>
+      <description>The Template is a collection of flexible slide designs available out-of-the-box to GitPitch presentation authors. Developed using markdown. Customizable using CSS. And guaranteed to delight audiences.
+ The Template provides the perfect building-blocks to quickstart any slideshow presentation.
+ 
+ Click on the above image to take a live, interactive tour of The Template in your browser.
+ The Template slide designs are directly inspired by some of the most popular templates widely used by established tools like Powerpoint, Keynote, and Google Slides.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Fragments</title>
+      <link>/markdown-features/fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/fragments/</guid>
+      <description>Markdown fragments are a great way to introduce key concepts to your audience - one idea at a time.
+ Markdown fragment support is a simple yet powerful feature that can be used to reveal individual elements on a slide one-by-one. As distinct to revealing all elements on the slide at once.
+This feature has great utility for presentation authors as it allows you to focus your audience&amp;rsquo;s attention on key concepts, revealing additional content on the slide only when the time is right.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft MVP</title>
+      <link>/promotions/microsoft-mvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/promotions/microsoft-mvp/</guid>
+      <description>About This Promotion  GitPitch Pro 1 Year Free Subscription for Microsoft MVPs from July 8, 2018 - July 8, 2019
+ The hugely popular GitPitch / Microsoft MVP promotion closed to new applicants on December 31, 2018.
+While this promotion has ended for new applicants, GitPitch Pro subscriptions remain available directly on the GitPitch website. For details, click here. Each subscription includes a 7 day free trial. The perfect, risk free way to get hands-on experience with GitPitch.</description>
+    </item>
+    
+    <item>
+      <title>Online Slideshow</title>
+      <link>/foundation-features/online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/online/</guid>
+      <description>Simply git-push your presentation content - markdown and assets - to any branch within a public repository on GitHub, GitLab, or Bitbucket and GitPitch and find your slideshow instantly available online at the following URL:
+ Substitute your GitHub account name, repository, and branch for $user, $repo, and $branch respectively. For GitLab and Bitbucket users, see the slideshow presentation URLs docs for further details.
+ If you are interested in using a single branch within your Git repository to develop and deliver multiple slideshow presentations then check out the following sections in the Do More With Git documentation:</description>
+    </item>
+    
+    <item>
+      <title>Presentation Service</title>
+      <link>/about/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/service/</guid>
+      <description>GitPitch is a modern slide decks solution for developers. You can use it to promote, pitch or present absolutely anything. Using the tools you already know and love - Markdown + Git.
+With GitPitch Desktop you can work with your local file system. So you can develop, preview, and present offline. And even export to Microsoft PowerPoint, Apple Keynote, Google Slides, LibreOffice, and PDF.
+And if you already use Git, and find yourself needing to present a concept, design, framework, product, service, training materials, or educational course work:</description>
+    </item>
+    
+    <item>
+      <title>Speaker Notes</title>
+      <link>/speaker-features/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/speaker-features/notes/</guid>
+      <description>GitPitch slideshow presentations support a number of great features tailored specifically for conference speakers and training instructors.
+ Speaker Notes Speaker Notes Fragments Speaker Notes Preview Speaker Window Speaker Remote Control  
+Speaker Notes Speaker notes give you a way to add private annotations to slides. This feature lets you leave hints, tips, and reminders on specific slides that can help you stay on-track and on-point during a live presentation.</description>
+    </item>
+    
+    <item>
+      <title>Theme Setting</title>
+      <link>/settings/theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/theme/</guid>
+      <description>Purpose The theme setting lets you select a fixed slideshow theme for your presentation.
+Sample Syntax theme : beige  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ 
+Each slideshow theme offers a distinct look-and-feel for slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+GitPitch currently supports the following slideshow themes:
+ white (default) black sky beige moon night simple  Each of these themes are inherited from the Reveal.</description>
+    </item>
+    
+    <item>
+      <title>Beyond The Basics</title>
+      <link>/getting-started/beyond-the-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/beyond-the-basics/</guid>
+      <description>Beyond The Basics If you have completed the GitPitch In 60 Seconds Tutorial then you are ready to go beyond the basics. And for that, see the Snap Layouts Guide. You will quickly learn how to create stunning slide designs while working with a wide range of slide content perfect for delivering modern developer side decks.</description>
+    </item>
+    
+    <item>
+      <title>Presentation Workflow</title>
+      <link>/about/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/workflow/</guid>
+      <description>Offline Workflow GitPitch Pro and Lite subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+
+  The Desktop can also export any slide deck to Microsoft PowerPoint, Apple Keynote, Google Slides, LibreOffice, PDF, and LinkedIn SlideShare.
+
+Online Workflow Absolutely everyone can git-push slide decks - markdown and assets - to any branch within a public repository on GitHub, GitLab, or Bitbucket and GitPitch and find your slideshow instantly available online at the following URL:</description>
+    </item>
+    
+    <item>
+      <title>Auto-Generated TOC</title>
+      <link>/auxiliary-features/table-of-contents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/table-of-contents/</guid>
+      <description>GitPitch automatically generates a table-of-contents for every slideshow presentation. You can access the table-of-contents within the slideshow menu found in the bottom-left corner of any slideshow.
+The table-of-contents can be used to browse slideshow content. It can also be used as a means of fast navigation to any slide within a presentation.
+
+As a presentation author, if you update your presentation content in PITCHME.md, GitPitch will automatically update the table-of-contents for you.</description>
+    </item>
+    
+    <item>
+      <title>Background Images</title>
+      <link>/image-features/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/background/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Image Delimiter Syntax - Local Image Files Image Delimiter Syntax - External Image Files Image Delimiter Syntax - Power Features  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special image delimiter syntax allows overriding the basic delimiter semantics in order to display any JPEG, PNG, or GIF image as a background image on specific slides.</description>
+    </item>
+    
+    <item>
+      <title>Charts</title>
+      <link>/rich-media-features/charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/charts/</guid>
+      <description>Line Chart - Learn By Example Bar Chart - Learn By Example Radar Chart - Learn By Example Charts Plugin Activation  Add beautifully rendered line, bar, pie, radial, etc. charts to any slideshow presentation. Support for charts within GitPitch slideshow presentations is powered by the the reveal.js plugin for Chart.js.
+By default, this plugin is disabled. To enable this plugin for your presentation, see charts plugin activation.</description>
+    </item>
+    
+    <item>
+      <title>Custom Theme Setting</title>
+      <link>/settings/custom-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/custom-theme/</guid>
+      <description>Purpose The theme-override setting lets you override the CSS styles associated with the fixed slideshow theme for your presentation.
+Sample Syntax theme-override : assets/css/PITCHME.css  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ This feature allows you to customize the look-and-feel of any slideshow. This is especially useful if you want to customize your presentation to reflect your product, service, conference, or company brand.</description>
+    </item>
+    
+    <item>
+      <title>Custom Themes</title>
+      <link>/themes/custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/custom/</guid>
+      <description>Custom theme support gives you almost unlimited control over the look-and-feel of any presentation.
+This feature is powered by Cascading Style Sheets aka. CSS. As a presentation author you can define and activate new CSS style rules that override the default style rules inherited from the fixed theme chosen for your presentation.
+To apply your own custom CSS styles to your slideshow presentation, see the custom theme setting docs.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Features</title>
+      <link>/enterprise/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/features/</guid>
+      <description>Features GitPitch Enterprise delivers a modified version of the production software used on gitpitch.com. Please note the following feature differences exist between the gitpitch.com server and the GitPitch Enterprise server:
+
+Private Repository Support The GitPitch Enterprise server can be used to publish slideshow presentations from both public and private repositories managed by your self-hosted Git servers. However, the stealth and confidential mode publishing features on gitpitch.com are not supported by the GitPitch Enterprise server.</description>
+    </item>
+    
+    <item>
+      <title>Fenced Code Blocks</title>
+      <link>/code-features/fenced-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/fenced-blocks/</guid>
+      <description>Learn By Example Fenced Code Blocks Code Syntax Highlighting Code Language Hint (Important) Code Syntax Highlighting Setting  
+Learn By Example This PITCHME.md markdown snippet:
+``` defmodule GenMetrics.GenStage.Monitor do use GenServer alias GenMetrics.GenStage.Manager alias GenMetrics.GenStage.Monitor alias GenMetrics.GenStage.Pipeline alias GenMetrics.GenStage.Window alias GenMetrics.Reporter alias GenMetrics.Utils.Runtime @moduledoc false @handle_demand :handle_demand @handle_events :handle_events @handle_call :handle_call @handle_cast :handle_cast defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0 ```  Results in the rendering of the following slide:</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Launch</title>
+      <link>/pro-features/desktop-launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop-launch/</guid>
+      <description>Getting Started  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ The following sections guide you through the activation, installation, and launch of GitPitch Desktop.
+ Step 1. Prerequisite: Pro / Lite Subscription Step 2. Prerequisite: Install Docker Step 3. Prerequisite: Register Docker ID Step 4. Desktop Download Instructions Step 5. Desktop Launch Instructions  For additional information including answers to frequently asked questions see the GitPitch Desktop FAQ.</description>
+    </item>
+    
+    <item>
+      <title>Markdown List Fragments</title>
+      <link>/markdown-features/list-fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/list-fragments/</guid>
+      <description>This guide introduces a special markdown shortcut syntax for working with list content as slide fragments.
+ Unordered Lists With Fragment Items Unordered Lists With Custom CSS Class Fragment Items Unordered Lists With Fragment Specific Speaker Notes Ordered Lists With Fragment Items Ordered Lists With Custom Css Fragment Items Ordered Lists With Fragment Specific Speaker Notes Static Lists With Fragments Disabled  
+1. Unordered Lists with Fragment Items Sample GitPitch shortcut syntax:</description>
+    </item>
+    
+    <item>
+      <title>Offline Slideshow</title>
+      <link>/foundation-features/offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/offline/</guid>
+      <description>GitPitch Desktop Offline Support One-Click Offline Slideshow Download  
+GitPitch Desktop Offline Support  If you plan on working offline we recommend downloading the GitPitch Docs too. To download the docs bundle, click here. Then expand the zip bundle and open index.html under a local Web server.
+ GitPitch Pro + Lite subscriptions unlock numerous features including GitPitch Desktop - a dedicated presentation tool that lets you develop, preview, and present GitPitch slideshows directly on your Linux, Windows, or OSX desktop.</description>
+    </item>
+    
+    <item>
+      <title>PITCHME.md</title>
+      <link>/getting-started/pitchme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/pitchme/</guid>
+      <description>The README.md Convention If you have ever worked with Git - on GitHub, GitLab, or Bitbucket - you are probably already familiar with the README.md convention. This convention automatically turns any README.md file found within a Git repository into nicely rendered documentation.
+This convention gives developers a simple and convenient way to document any project.
+
+The PITCHME.md Convention GitPitch introduces a brand new convention for all Git users, the PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Powered by Git</title>
+      <link>/about/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/git/</guid>
+      <description>The GitPitch markdown presentation service hosted on gitpitch.com seamlessly embraces and extends the traditional capabilities offered by the following Git services in the cloud:
+ GitHub.com GitLab.com Bitbucket.org  GitPitch turns every repository within these hosted Git services into:
+ A version-controlled content management system for presentation content and assets A branch-aware content management system for presentation content and assets A collaborative content management system for presentation content and assets assets  Basically all of the powerful features and benefits the developer community enjoys when managing code under Git are now available for slideshow presentation authors.</description>
+    </item>
+    
+    <item>
+      <title>Slide Designs</title>
+      <link>/the-template/slide-designs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/slide-designs/</guid>
+      <description>The Template has grouped related slide designs into popular categories. This modular approach can help you more easily discover the perfect slide templates for your next slideshow.
+The following sections introduce each slide design category. The accompanying screenshot provides a quick visual clue to the types of slides you will find within each category.
+Click on any image below to interact directly with a live slideshow for the chosen slide design category.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts</title>
+      <link>/layout-features/snap-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts/</guid>
+      <description>GitPitch provides a PITCHME.md markdown snap-layout syntax that can be used to deliver flexible slide designs by controlling the placement of content on any slide.
+This feature can be used to override the automatic slideshow layout for individual content on individual slides. Giving you the power to create unique layouts for your content on any slide.
+
+ Click on the above screenshot to open the GitPitch Snap Layouts video tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Window</title>
+      <link>/speaker-features/window/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/speaker-features/window/</guid>
+      <description>The speaker notes window provides a unique view of any slideshow presentation - tailored for you to use during live presentations. The following features are available:
+ Displays the current slide in the deck Displays speaker notes for the current slide Displays a preview for the next slide in the deck Displays a timer and clock to help keep track of time Forwards all navigations to the main slideshow presentation window</description>
+    </item>
+    
+    <item>
+      <title>Unlimited Slideshows</title>
+      <link>/git/branch-many-slideshows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-many-slideshows/</guid>
+      <description>The PITCHME.md convention guarantees that any PITCHME.md markdown file found within any directory on any branch within your repository can be turned into a GitPitch slideshow presentation.
+This guide explains how you can create, manage, and share an unlimited number of slideshow presentations within a single Git repository branch.
+ Working with the default Slideshow Presentation within a Branch Working with additional Slideshow Presentations within a Branch Example - Conference Slideshow Presentation URL Example - New York Meetup Slideshow Presentation URL Slideshow Presentation Settings Policy</description>
+    </item>
+    
+    <item>
+      <title>Built on Reveal.js</title>
+      <link>/about/revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/revealjs/</guid>
+      <description>GitPitch embraces and extends the slideshow capabilities of the hugely popular and powerful Reveal.js library with the distributed and collaborative file management capabilities of Git to deliver a seamless and unique presentation service on gitpitch.com.
+GitPitch is standing on the shoulders of giants. And adding unique value by offering a modern slide deck solution uniquely adapted for developers.
+GitPitch beyond Reveal.js The get a sense of some of the unique features that make GitPitch a unique modern slide deck solution for developers check out some of the following feature guides:</description>
+    </item>
+    
+    <item>
+      <title>Background Scaling</title>
+      <link>/image-features/scaling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/scaling/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example Image Delimiter Scaling Syntax - Contain Image Image Delimiter Scaling Syntax - Cover Image Image Delimiter Scaling Syntax - Fit Tall Image Image Delimiter Scaling Syntax - Squeeze Image  Image delimiter syntax supports a size parameter that gives you complete control over background image sizing and scaling.
+The size paramter can take any value that is valid on the background-size css property.</description>
+    </item>
+    
+    <item>
+      <title>CSS Utility Styles</title>
+      <link>/themes/css-utility-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/css-utility-styles/</guid>
+      <description>This guide documents the full set of CSS utility-styles that are available out-of-the-box to GitPitch presentation authors. While you can create your own custom css for any slide deck, these utility-styles are built-in to support common use-cases.
+ Span (Width) Styles Text Color Styles Text Font Size Styles Text Font Weight Styles Text Alignment Styles Heading Color Styles Background Color Styles Override Utility Styles   To override any of the utility styles documented in this guide, see overriding utility styles.</description>
+    </item>
+    
+    <item>
+      <title>Code Highlight Setting</title>
+      <link>/settings/highlight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/highlight/</guid>
+      <description>Purpose The highlight setting lets you customize the syntax highlighting style for code rendered on slides within your presentation.
+Sample Syntax highlight : monokai  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Support for code syntax highlighting is provided by the highlight.js library. This library offers support for 162 languages and 74 distinct visual styles. See an interactive demo of available styles here.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Prerequisites</title>
+      <link>/enterprise/prerequisites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/prerequisites/</guid>
+      <description>Deployment Prerequisites GitPitch Enterprise must be deployed as a Docker container running in a Linux server environment. The GitPitch Enterprise container depends on a Docker volume at runtime. This volume is used:
+ To pass custom GitPitch server configuration to the live container. To cache GitPitch server log data outside of the live container. To cache GitPitch server runtime data outside of the live container.  For on-premises deployment, the Docker volume is typically a dedicated directory on your host Linux server.</description>
+    </item>
+    
+    <item>
+      <title>Free Cloud Hosted Service</title>
+      <link>/about/free/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/free/</guid>
+      <description>GitPitch is hosted as a free slideshow presentation service on gitpitch.com. This service is available to absolutely everyone with an account on GitHub, GitLab, and Bitbucket.
+The free GitPitch presentation service offers an extensive feature set to presentation authors.
+GitPitch first launched as an open-source project in early 2016. The project continues to be actively developed and maintained on GitHub. The project repo is here. The above snapshot shows some basic project stats.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Quickstart</title>
+      <link>/the-template/github-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/github-quickstart/</guid>
+      <description>This guide is a template quickstart for GitHub.com users.
+ The Template is delivered as a set of files maintained within the-template repo on GitHub.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own GitHub repositories. This guide explains how best to do that:
+ Add The Template To New GitHub Repository Add The Template To Existing GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop FAQ</title>
+      <link>/pro-features/desktop-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/desktop-faq/</guid>
+      <description>Desktop Frequently Asked Questions  GitPitch Pro + Lite subscriptions unlock GitPitch Desktop.
+ 
+ How can I download the latest GitPitch Desktop image? What can I do if changes to my deck do not auto-refresh in the browser? When working on Windows 10 my deck does not auto-refresh in the browser? How can I preview the GitPitch Security confidential mode challenge form? How can I change the default 9000 port used by GitPitch Desktop?</description>
+    </item>
+    
+    <item>
+      <title>Markdown Shortcuts</title>
+      <link>/markdown-features/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/shortcuts/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to alter the appearance or behavior of content on any slide.
+ @size - Set Custom Font Size @color - Set Custom Font Color @css - Set Custom CSS Class @title - Set Custom TOC Label for Slide @transition - Set Slide-Specific Transition   Note: These Markdown Shortcuts are supported by gitpitch.</description>
+    </item>
+    
+    <item>
+      <title>MathJax Formulas</title>
+      <link>/rich-media-features/math-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/math-formulas/</guid>
+      <description>Add beautifully rendered math formulas to any slideshow presentation using the following:
+ MathJax Support LaTeX &amp;amp; AsciiMath Widget  This guide documents MathJax Support via the MathJax plugin. MathJax is a JavaScript display engine for mathematics with support for LaTeX, MathML and other equation markup.
+By default, this plugin is disabled. To enable this plugin for your presentation, see MathJax plugin activation.
+ Learn By Example MathJax Plugin Activation MathJax Backticks Syntax LaTeX &amp;amp; AsciiMath Widget</description>
+    </item>
+    
+    <item>
+      <title>PDF Slideshow</title>
+      <link>/foundation-features/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/pdf/</guid>
+      <description>Offline Printing GitPitch subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+Within the Desktop press the D key on your keyboard when viewing any slide deck to open the Desktop Document Generator. With one click you can then export your slide deck as a PDF document.
+
+  Your PDF document is a highly portable document that can be shared absolutely anywhere.</description>
+    </item>
+    
+    <item>
+      <title>Repo Source Files</title>
+      <link>/code-features/source-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/source-files/</guid>
+      <description>Learn By Example Learn By Example With Delimiter Options  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special code delimiter syntax allows the loading of source code from any file in your repo into a fenced code block on any slide.
+The code delimiter syntax takes the following options:
+ A relative path to any source file within your repo and A lang option - providing a langugage hint for your source code A title option - providing an optional title text for the slide A color option - providing an optional slide background color override</description>
+    </item>
+    
+    <item>
+      <title>Slide Delimiters</title>
+      <link>/getting-started/delimiters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/delimiters/</guid>
+      <description>GitPitch slideshow presentation content is created using markdown. To split markdown content into a series of slides, presentation authors must use a special slide delimiter syntax. Each delimiter denotes the start of a new slide.
+To create a new slide use the following delimiter syntax within your PITCHME.md file:
+---  As both horizontal (default) and vertical slides are supported by GitPitch each has it&amp;rsquo;s own unique delimiter syntax.</description>
+    </item>
+    
+    <item>
+      <title>Slideshow Embedding</title>
+      <link>/auxiliary-features/slideshow-embedding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/auxiliary-features/slideshow-embedding/</guid>
+      <description>GitPitch slideshow presentations can be seamlessly embedded within all of the major blogging platforms - including WordPress, Blogger, Tumblr, and Medium.
+To embed your slideshow presentation in a blog post or website use the GitPitch Embed.ly Provider.
+For further details, see the following blog post.</description>
+    </item>
+    
+    <item>
+      <title>Slideshow Shared Assets</title>
+      <link>/git/branch-shared-assets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-shared-assets/</guid>
+      <description>The Many Slideshows Guide details the ability of GitPitch to serve an unlimited number of slideshow presentations from within a single Git branch. This guide discusses some of the added advantages of using a single branch in this way.
+Specifically, a single branch approach allows for the reuse of a wide range of slideshow assets across multiple presentations. These assets can include images, custom logos, slide backgrounds, and even custom css.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Syntax</title>
+      <link>/layout-features/snap-layouts-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-syntax/</guid>
+      <description>Snap Layouts Basic Syntax Snap Layouts 3x3 Grid Snap Layouts Content Positioning Snap Layouts Content Sizing  
+Snap Layouts Basic Syntax To activate snap-layouts for any block of markdown on your slide simply wrap the block in opening @snap and closing @snapend tags, as shown in the above screenshot.
+ The first property on the opening tag always indicates a snap-position on the snap-layouts grid. The second property is typically a span-xxx value to control the width and height of the snapped content.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Remote Control</title>
+      <link>/speaker-features/remote-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/speaker-features/remote-control/</guid>
+      <description>GitPitch slideshow presentations support navigation between slides using remote control devices such as Logitech, Kensington, etc. See the Remote Control Setting documentation for further details.</description>
+    </item>
+    
+    <item>
+      <title>PPTX Slideshow</title>
+      <link>/foundation-features/pptx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/pptx/</guid>
+      <description>Export to Microsoft PowerPoint, Apple Keynote, and Google Slides GitPitch subscribers enjoy GitPitch Desktop. It&amp;rsquo;s a dedicated desktop presentation tool that let&amp;rsquo;s you develop, preview, and present slide decks offline.
+Within the Desktop press the D key on your keyboard when viewing any slide deck to open the Desktop Document Generator. With one click you can then export your slide deck as a PPTX document.
+
+  Your PPTX document is a highly portable document that can be open directly within Microsoft PowerPoint and Apple Keynote on your desktop.</description>
+    </item>
+    
+    <item>
+      <title>Code Line Numbers Setting</title>
+      <link>/settings/line-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/line-numbers/</guid>
+      <description>Purpose The code-line-numbers setting lets you activate the display of line-numbers alongside code rendered on slides within your presentation.
+Sample Syntax code-line-numbers : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The activation of line-numbers alongside code can help simplify conversations between you and your audience - providing an effective way to identify and discuss specific lines of code on any slide.</description>
+    </item>
+    
+    <item>
+      <title>Background Positioning</title>
+      <link>/image-features/positioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/positioning/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a position parameter that gives you complete control over background image positioning within slides.
+The position paramter can take any value that is valid on the background-position css property. These values include center, left, right, 25% 75%, bottom 50px right 100px, etc.
+If the position parameter is not specified, the default position value for background images is center.</description>
+    </item>
+    
+    <item>
+      <title>Font Awesome 5 Icons</title>
+      <link>/rich-media-features/font-awesome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/font-awesome/</guid>
+      <description>GitPitch provides a PITCHME.md markdown shortcut syntax that can be used to render Font Awesome 5 Solid &amp;amp; Brand Icons. This features gives GitPitch presentation authors the use of up to 2000 beautifully rendered icons for use within any slideshow.
+ Due to license restrictions, Font Awesome 5 Pro Icons are not available for use on GitPitch slides.
+  FA5 Solid Icons Basic Syntax FA5 Solid Icons Basic Syntax With Label FA5 Brand Icons Basic Syntax FA5 Brand Icons Basic Syntax With Label Font Awesome Icon Sizing Font Awesome Icon Rotations Font Awesome Icon Animations Font Awesome Custom Styles Font Awesome 4 Backwards Compatibility</description>
+    </item>
+    
+    <item>
+      <title>GitHub GIST Snippets</title>
+      <link>/code-features/gists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/gists/</guid>
+      <description>Learn By Example Learn By Example With Delimiter Options  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special gist delimiter syntax allows the loading of any GitHub GIST code snippet into a fenced code block on any slide.
+The gist delimiter syntax takes the following options:
+ A GIST Identifier and A lang option - providing a langugage hint for your source code A title option - providing an optional title text for the slide A color option - providing an optional slide background color override A file option - providing an optional named file within a multi-file GIST</description>
+    </item>
+    
+    <item>
+      <title>GitLab Quickstart</title>
+      <link>/the-template/gitlab-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/gitlab-quickstart/</guid>
+      <description>This guide is a template quickstart for GitLab.com users.
+ The Template is delivered as a set of files maintained within the-template repo on GitLab.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own GitLab repositories. This guide explains how best to do that:
+ Add The Template To New GitLab Repository Add The Template To Existing GitLab Repository</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Security</title>
+      <link>/pro-features/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/security/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Pro Security.
+ Pro Security activates unique slideshow presentation privacy features powered by private Git repositories in the cloud.
+By convention, GitPitch will automatically transform the contents of any PITCHME.md markdown file found within any public repository into a fully responsive, slideshow presentation.
+GitPitch Security extends this convention by supporting the transformation of PITCHME.md markdown files found within private repositories on GitHub, GitLab, and Bitbucket.</description>
+    </item>
+    
+    <item>
+      <title>Install GitPitch Enterprise</title>
+      <link>/enterprise/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/install/</guid>
+      <description>Step 1. Getting Started Step 2. Install Docker Step 3. Create Docker Hub Account Step 4. Register your Docker Hub ID Step 5. Await Access Confirmation Step 6. Login To Docker Hub Step 7. Pull GitPitch Enterprise Image Step 8. Verify GitPitch Enterprise Image  
+Step 1. Getting Started If you have not activated a trial subscription for GitPitch Enterprise you can do so now on the GitPitch website, click here.</description>
+    </item>
+    
+    <item>
+      <title>Launch GitPitch Enterprise</title>
+      <link>/enterprise/launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/launch/</guid>
+      <description>Step 1. Verify GitPitch Enterprise Docker Image Step 2. Prepare GitPitch Server Test Configuration Step 3. Prepare GitPitch Server Log Configuration Step 4. Prepare Docker Volume Directory Step 5. Test Launch GitPitch Enterprise Step 6. Verify Test Launch GitPitch Enterprise Step 7. Prepare GitPitch Server Production Configuration Step 8. Launch GitPitch Enterprise Step 9. Verify Launch GitPitch Enterprise Appendix - Interactive v Detached Mode Launch  
+Step 1.</description>
+    </item>
+    
+    <item>
+      <title>Layout Setting</title>
+      <link>/settings/layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/layout/</guid>
+      <description>Purpose The layout setting lets you set an automatic layout policy for your slideshow content.
+Sample Syntax layout : top-left  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The active layout sets an automatic layout policy for content on all slides within your presentation. See snap layouts to learn how to override the automatic layout policy for individual content on individual slides.
+GitPitch currently supports the following slideshow layouts:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Basics</title>
+      <link>/getting-started/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/markdown/</guid>
+      <description>GitHub Flavored Markdown is the principal creation tool for slide content within PITCHME.md. This is the same tool you use as a developer to create project READMEs or Wikis for your Git repos.
+The Mastering Markdown Guide is a good resource to learn or refresh the basic usage of Markdown and the GitHub Flavored Markdown (GFM) extensions.
+ Use slide delimiters in your PITCHME.md file to split your markdown content across different slides.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Widgets</title>
+      <link>/markdown-features/widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/widgets/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+ @box - Boxed Text Widget @box - Boxed Text With Title Widget @quote - Quote Widget @quote - Quote With Attribution Widget @fa - Font Awesome 5 Icon Widget @img - Image Widget @gitlink - Git Repo Link Widget @diff - Git Diff Widget @snap - Snap Layouts Widget</description>
+    </item>
+    
+    <item>
+      <title>Modular Markdown</title>
+      <link>/git/branch-shared-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-shared-markdown/</guid>
+      <description>Developers are accustomed to writing code in a modular fashion. Modularity is achieved using distinct functions, files, and directories to partition code in meaningful ways. This approach typically improves code clarity and aids modifications and maintenance over time.
+GitPitch supports this same modular approach for presentation markdown and associated image assets, settings, and custom css.
+ Learn By Example The Modular Markdown Slide Delimiter Example: Modular HTML5 Training Slideshow Example: Modular Localized Slideshow Content Example: Modular Audience Specific Slideshow Content</description>
+    </item>
+    
+    <item>
+      <title>Pro Cloud Hosted Service</title>
+      <link>/about/pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/pro/</guid>
+      <description>GitPitch Pro is a subscription-service hosted on gitpitch.com. Pro + Lite subscription details are available here. This service is available to everyone with an account on GitHub, GitLab, and Bitbucket.
+
+GitPitch Lite unlocks a single user license for GitPitch Desktop, a dedicated desktop tool for creating modern slide decks. The desktop tool supports working offline. It is delivered as a Docker image for Linux, OSX, and Windows 10 ( Pro + Enterprise ) desktops.</description>
+    </item>
+    
+    <item>
+      <title>Pro Google Web Fonts</title>
+      <link>/themes/pro-fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/themes/pro-fonts/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate Pro Fonts.
+ By default, the font used to render text on your slides is determined by the font-family style rule set by the fixed theme active for your presentation.
+Pro Fonts deliver new and beautiful typographic options for presentation authors. And thanks to a little bit of GitPitch magic, Pro Fonts work flawlessly whether you are sharing your slideshow content online or presenting offline.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 1</title>
+      <link>/layout-features/snap-layouts-example-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-1/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Slide Content Sizing  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for our sample slide looks as follows:
+### GraphQL @fa[quote-left](A query language for your API) ![GRAPHQL](assets/img/graphql.png)  The only new markdown in this snippet that may be unfamiliar to you is the use of the Font Awesome Markdown Widget.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Demo Gods</title>
+      <link>/speaker-features/demo-gods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/speaker-features/demo-gods/</guid>
+      <description>If you have ever given a live presentation at a conference or meetup then you know only too well that the number of problems you experience with your slides, microphone, remote control device, etc. is directly proportional to the size and importance of your audience ;-)
+GitPitch understands your pain. And offers the following pain-killers for common scenarios:
+ When you can present your slides using your own Laptop  When you must present your slides using the Conference Laptop When you must present your slides as Microsoft PowerPoint PPTX</description>
+    </item>
+    
+    <item>
+      <title>Theme Switcher</title>
+      <link>/foundation-features/theme-switcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/theme-switcher/</guid>
+      <description>GitPitch ships with a set of distinct slideshow themes out-of-the-box. Each theme offers it&amp;rsquo;s own unique look-and-feel for your slideshow content. Themes vary font styles, spacing, colors, backgrounds, etc.
+You can use the Theme Switching panel found under the slideshow menu to try out the different themes. Simply select any theme shown in the switching panel and your presentation will be instantly rendered using a new look-and-feel.
+One you find a theme that you like you can activate it as the fixed theme for your presentation using the theme setting in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Git Diff for Commit</title>
+      <link>/code-features/diff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/diff/</guid>
+      <description>GitPitch provides a powerful markdown widget that can be used to generate and render a diff for any commit on any repository on github.com.
+ Diff for Commit within any GitHub Repository Diff for Commit within the Presentation Repository Disable Automatic Code Presenting on Diff Offline Git Diff Support   Currently this feature is GitHub only. Generating diffs for content on GitLab and Bitbucket is not supported.</description>
+    </item>
+    
+    <item>
+      <title>Background Colors</title>
+      <link>/image-features/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/colors/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a color parameter that gives you the ability to change the color of the exposed area of a slide background for an individual slide.
+By default, the background color for any slide is determined by the active slideshow theme. Using the color parameter you can change the background color to a custom value for an individual slide.</description>
+    </item>
+    
+    <item>
+      <title>Bitbucket Quickstart</title>
+      <link>/the-template/bitbucket-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/bitbucket-quickstart/</guid>
+      <description>This guide is a template quickstart for Bitbucket.org users.
+ The Template is delivered as a set of files maintained within the-template repo on Bitbucket.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own Bitbucket repositories. This guide explains how best to do that:
+ Add The Template To New Bitbucket Repository Add The Template To Existing Bitbucket Repository</description>
+    </item>
+    
+    <item>
+      <title>Config GitPitch Enterprise</title>
+      <link>/enterprise/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/config/</guid>
+      <description>Server Log Production Configuration Server Log Debug Configuration Activate Personal Access Tokens HTTPS/SSL Certificate Configuration HTTPS/SSL Using PEM Certificates HTTPS/SSL Using JKS Certificates  
+Server Log Production Configuration The following production log configuration instructs the GitPitch server to write all log statements to a file called gitpitch-server-production.log in your Docker volume directory. Logging to standard out is disabled.
+&amp;lt;configuration&amp;gt; &amp;lt;conversionRule conversionWord=&amp;quot;coloredLevel&amp;quot; converterClass=&amp;quot;play.api.libs.logback.ColoredLevel&amp;quot; /&amp;gt; &amp;lt;appender name=&amp;quot;FILE&amp;quot; class=&amp;quot;ch.qos.logback.core.rolling.RollingFileAppender&amp;quot;&amp;gt; &amp;lt;file&amp;gt;/data/gitpitch-server-production.log&amp;lt;/file&amp;gt; &amp;lt;rollingPolicy class=&amp;quot;ch.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Self Hosted Service</title>
+      <link>/about/enterprise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/enterprise/</guid>
+      <description>The GitPitch markdown presentation service made available for deployment on-premises is called GitPitch Enterprise. It is delivered using Docker container technology.
+GitPitch Enterprise integrates seamlessly with the following self-hosted Git servers:
+ GitHub Enterprise GitLab Server Bitbucket Server GitBucket Server Gitea Server Gogs Server  The deployment of GitPitch Enterprise gives you an opportunity to get more out of your existing Git infrastructure and investment. Detailed documentation for GitPitch Enterprise can be found here.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Surveys</title>
+      <link>/pro-features/surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/surveys/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Pro Surveys.
+ Pro Surveys turn any online slideshow into a two-way conversation. Deliver your message using a GitPitch slideshow presentation. Then gather feedback from your audience by seamlessly embedding a professional survey directly inside your slidedeck.
+Surveys let you gather feedback from your audience long after you leave the stage.
+ JotForm Surveys SurveyMonkey Surveys Google Forms Surveys</description>
+    </item>
+    
+    <item>
+      <title>Inline Videos</title>
+      <link>/rich-media-features/inline-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/inline-videos/</guid>
+      <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more.
+  Learn By Example Slide Inline YouTube Video Slide Inline Vimeo Video Slide Inline MP4 Video  Enhance any slideshow presentation by embedding rich video content. This technique provides a great way to take advantage of existing teaching or training materials.</description>
+    </item>
+    
+    <item>
+      <title>Keyboard Controls</title>
+      <link>/foundation-features/keyboard-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/foundation-features/keyboard-controls/</guid>
+      <description>GitPitch slideshow presentations offer numerous keyboard controls and shortcuts to help presentation authors and their audiences to navigate and interact with slideshow content.
+Live presentation speakers should take special note of the following slideshow modes:
+ Press F for Fullscreen Mode Press O for Overview Mode Press B for Blackout Mode  Press the ? key when viewing any slideshow presentation to view the following keyboard shortcuts table:
+Beyond keyboard navigations, GitPitch also supports mouse-wheel navigation and remote-control navigation.</description>
+    </item>
+    
+    <item>
+      <title>Logo Setting</title>
+      <link>/settings/logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/logo/</guid>
+      <description>Purpose The logo setting lets you use a custom logo to brand every slide in your presentation.
+Sample Syntax logo : assets/img/logo.png  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ The logo setting supports both relative and absolute paths to the image file.
+By default your logo will be displayed in the top-left corner of every slide. However, you can change the position of your logo by specifying a logo-position setting alongside the logo setting.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Pro Widgets</title>
+      <link>/markdown-features/pro-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/pro-widgets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+ @code - Code Widget @gist - GitHub GIST Widget @emoji - Emoji Widget @tweet - Tweet Widget @uml - UML Widget for Diagrams @uml - UML Widget for LaTeX + AsciiMath @audio - Audio Widget for Audio Slide Decks</description>
+    </item>
+    
+    <item>
+      <title>Raw Markdown Files</title>
+      <link>/code-features/raw-markdown-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/raw-markdown-files/</guid>
+      <description>Learn By Example Raw Markdown Rendering Limitations  
+Learn By Example To display raw Markdown content on a slide you must use a code delimiter. The code delimiter ensures proper encoding of the raw markdown content prior to rendering on the slide. The markdown file referenced on the code delimiter must also have a .md extension.
+For example, you can render the contents of the file src/snippet.</description>
+    </item>
+    
+    <item>
+      <title>Slideshow URLs</title>
+      <link>/getting-started/urls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/urls/</guid>
+      <description>GitHub Slideshow URLs GitLab Slideshow URLs Bitbucket Slideshow URLs Advanced Slideshow URLs  
+Presentation authors can publish and share slideshow presentations from public and private repositories on GitHub, GitLab, and Bitbucket. Each presentation has it&amp;rsquo;s own unique URL.
+By default, GitPitch treats GitHub as the default git repository service a.k.a. GRS.
+If you want to view or share a slideshow URL for a presentation published from a GitLab or Bitbucket repository you need to indicate the GRS on the slideshow URL as explained in the following sections.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 2</title>
+      <link>/layout-features/snap-layouts-example-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-2/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Vertical Split Screen Step 3. Boxed Title-and-Text Step 4. Colored Boxed Title-and-Text  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the west of our sample slide looks as follows:
+@snap[west span-40 text-center] ### GraphQL @fa[quote-left](A query language for your API) !</description>
+    </item>
+    
+    <item>
+      <title>Modular Slideshows</title>
+      <link>/git/branch-modular-slideshows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-modular-slideshows/</guid>
+      <description>The Modular Markdown Guide details the recommended approach and key benefits of adopting a modular design when developing and managing slideshow presentation content. Especially when you are developing course or training materials.
+This guide takes modularity one step further, showing you how you can use modular markdown to deliver modular slideshows.
+ What is a Modular Slideshow? Example: HTML5 Training Slideshow Revisited Example: HTML5 Training Mini-Slideshows  Example: The GitPitch Quickstart Template</description>
+    </item>
+    
+    <item>
+      <title>Background Repeat</title>
+      <link>/image-features/repeat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/repeat/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Image delimiter syntax supports a repeat parameter that gives you the ability to have a background image repeated on a slide background.
+By default, background images are rendered with a no-repeat pattern. The repeat paramter can take any value that is valid on the background-repeat css property.
+
+Learn By Example This PITCHME.md markdown snippet:</description>
+    </item>
+    
+    <item>
+      <title>Background Setting</title>
+      <link>/settings/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/background/</guid>
+      <description>GitPitch supports a number of background-* settings that can be combined to deliver precise control over default background images used by any presentation.
+ Background Setting Background Size Setting Background Position Setting Background Color Setting Background Repeat Setting Background Opacity Setting  
+Setting: Background Purpose The background setting lets you specify a default background image for all slides within your presentation.
+Sample Syntax background : assets/img/bg.png  Details  Slideshow settings are activated using a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Background Videos</title>
+      <link>/rich-media-features/background-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/background-videos/</guid>
+      <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more.
+  Learn By Example  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special video delimiter syntax allows overriding the basic delimiter semantics in order to display any MP4 or WebM as a background video on specific slides.</description>
+    </item>
+    
+    <item>
+      <title>Code Syntax Highlighting</title>
+      <link>/code-features/syntax-highlighting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/syntax-highlighting/</guid>
+      <description>See the Code Highlight Settings documentation for details about customizing the syntax highlighting style for code rendered on slides within your presentation.</description>
+    </item>
+    
+    <item>
+      <title>Desktop Quickstart</title>
+      <link>/the-template/desktop-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/desktop-quickstart/</guid>
+      <description>This guide is a template quickstart for GitPitch Desktop users.
+ If you are a GitPitch Pro subscriber you have access to GitPitch Desktop. And as a GitPitch Desktop user you can activate the template for your own slideshow presentations with just a single click. Read on to learn how.
+ Not yet a subscriber? Click here to activate a GitPitch Pro subscription and enjoy a no-risk 7 day free trial.</description>
+    </item>
+    
+    <item>
+      <title>Do More With Git</title>
+      <link>/getting-started/do-more-with-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/do-more-with-git/</guid>
+      <description>GitPitch offers seamless integration with any existing Git Flow. GitPitch also unlocks unique features powered by Git that can be used to develop and publish GitPitch slide decks. From within any branch on any Git repository:
+ Publish unlimited slideshow presentations on a single branch Share slides, image assets, and custom styles across slideshows Develop and maintain modular content for any slideshow Publish modular mini-decks from a single master slideshow  For further details including examples, see the Do More With Git Guide.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Audio Decks</title>
+      <link>/pro-features/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/audio/</guid>
+      <description>About  Activate a GitPitch Pro subscription to unlock GitPitch Audio Slide Decks.
+ GitPitch Audio Slide Decks let you enhance traditional slide decks with the spoken word. By activating a voice-over for individual slides and slide fragments, you can unlock brand new ways to SHARE knowledge, TEACH, and deliver TRAINING materials.
+ Live Audio Slide Deck Example Audio Deck Activation Master Audio v Fragment Audio Add Slide Master Audio Add Slide Code Fragment Audio Add Slide Snap Fragment Audio Add Slide List Fragment Audio Slides / Fragments without Audio Customize Audio Player Controls Audio File Caching Policies Supported Audio Formats Audio Recording Tool Recommendations</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 3</title>
+      <link>/layout-features/snap-layouts-example-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-3/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Horizontal Split Screen Step 3. Code Injection  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the north of our sample slide looks as follows:
+@snap[north span-40 h3-black] ### GraphQL @fa[quote-left quote-graphql](A query language for your API) @snapend  This markdown snippet renders as follows:</description>
+    </item>
+    
+    <item>
+      <title>Background Animations</title>
+      <link>/image-features/animations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/animations/</guid>
+      <description>Important! Remember to size-optimize your presentation images for the Web.
+ Learn By Example  Consecutive image delimiters can be used to create an seamless animation effect using a series of related background images.
+To achieve a fluid animation, the slide transition setting - for the entire presentation or for the individual slides participating in the animation - must be set to none.
+
+Learn By Example This PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Code Line Numbers</title>
+      <link>/code-features/line-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/line-numbers/</guid>
+      <description>
+See the Code Line Numbers Setting documentation for details about activating the display of line-numbers alongside code rendered on slides within your presentation.
+
+ Click on the above image to experience code line-numbers within a live GitPitch presentation.
+ </description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Code Features</title>
+      <link>/pro-features/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/code/</guid>
+      <description> About GitPitch Pro + Lite subscriptions activate a wide range of enhanced code features for slideshow presentation authors. Click on any of the links below to get started with Pro Code slide decks.
+ Code Widget Code Widget with Step-and-ZOOM GitHub GIST Widget GitHub GIST Widget with Step-and-ZOOM Code Presenting with Reveal Properties Code Presenting with Power Properties Asciinema Live Terminal Sessions  </description>
+    </item>
+    
+    <item>
+      <title>Pro Emoji Widget</title>
+      <link>/rich-media-features/emojis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/emojis/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @emoji widget.
+ @emoji - Emoji Widget GitPitch Emoji Library Learn By Example  
+Emoji Widget To render an Emoji on any slide you can use the @emoji widget. Using the following syntax in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 4</title>
+      <link>/layout-features/snap-layouts-example-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-4/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Gradient Background Step 3. Image Vertical Sizing Step 4. Step-by-Step Content Step 5. Step-by-Step Fragments  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the north of our sample slide looks as follows:
+@snap[north span-40] ### GraphQL @fa[quote-left quote-graphql text-white](A query language for your API) @snapend  This markdown snippet renders as follows:</description>
+    </item>
+    
+    <item>
+      <title>Template Basics</title>
+      <link>/the-template/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/basics/</guid>
+      <description>The Template itself is a regular GitPitch slideshow presentation. Albeit using sample markdown content and images, plus template-specific CSS styling.
+This guide draws your attention to some high-level design features of the template:
+ The Template Anatomy The Template Modular Markdown The Template Custom Styling The Template Custom Settings  Understanding these features will help you to get the most out of the template.
+
+The Template Anatomy The following directory listing provides a high level overview of the basic file strucutre used by the template:</description>
+    </item>
+    
+    <item>
+      <title>Transition Setting</title>
+      <link>/settings/transition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/transition/</guid>
+      <description>Purpose The transition setting lets you select the default slide transition style for your presentation.
+Sample Syntax transition : fade  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Your chosen transition setting is activated by default for all slides within your presentation. To override this default behavior, see slide specific transition override.
+GitPitch currently supports the following slide transition styles:
+ none (default) slide fade convex concave zoom   If you do not explicitly set a value for the transition setting your slides will automatically transition using the default transition style - the none transition.</description>
+    </item>
+    
+    <item>
+      <title>Title Setting</title>
+      <link>/settings/title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/title/</guid>
+      <description>Purpose The title setting lets you set a custom HTML title for your slideshow presentation.
+ Note: The title setting is a Pro Bonus feature only.
+ Sample Syntax title : &amp;quot;Do More With Markdown&amp;quot;  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, a custom title for your presentation has the following affects:
+ Displays a custom title for the presentation in search-engine results Defines a custom title for the presentation in the browser toolbar or tab Provides a custom title for the presentation when it is added to favorites  For example, here is a sample custom title set in a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Footnote Setting</title>
+      <link>/settings/footnote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/footnote/</guid>
+      <description>Purpose The footnote setting lets you display a custom footnote on every slide within your presentation.
+Sample Syntax footnote : &amp;quot;© 2018 One Tap Ltd.&amp;quot;  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Footnotes are visible on-screen whether your slideshow presentation is being viewed in normal mode or fullscreen mode.
+HTML Footnotes The footnote setting also supports the use of arbitrary HTML fragments alongside plain text.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Image Features</title>
+      <link>/pro-features/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/image/</guid>
+      <description>About GitPitch Pro + Lite subscriptions activate enhanced image support for slideshow presentation authors.
+ Leverage SVG Images for Pixel Perfect Rendering Slide-Specific Background Image Opacity Controls Global Background Image Opacity Controls  
+Leverage SVG Images for Pixel Perfect Rendering GitPitch Pro supports rendering SVG images directly from public and private Git repositories. These images can now be used either as inline images or as background images for presentation slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Background Opacity</title>
+      <link>/image-features/opacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/opacity/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate the Background Image Opacity feature.
+  Learn By Example  Important! Remember to size-optimize your presentation images for the Web.
+Image delimiter syntax supports an opacity parameter that gives you the ability to apply opacity filters to individual background images.
+By default, background images are displayed with 100% opacity. Reducing the opacity level increases the transparency of background images. The more transparent a slide background image, the more other content on the slide - such as text content - stands out.</description>
+    </item>
+    
+    <item>
+      <title>Pro Tweet Widget</title>
+      <link>/rich-media-features/tweets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/tweets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @tweet widget.
+ @tweet - Tweet Widget Tweet Offline Support Tweet Browser Content Blocking  
+Tweet Widget To render a Tweet on any slide you can use the @tweet widget. Using the following syntax in your PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Published Setting</title>
+      <link>/settings/published/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/published/</guid>
+      <description>Purpose The published setting is dual purpose:
+ For public repositories, it lets you flag a presentation as post-development and ready for sharing.
+ For private repositories, it also activates GitPitch Security Published Mode.
+  This page describes it&amp;rsquo;s usage within public repositories. See the GitPitch Security Guide for usage of the published setting within private repositories.
+Sample Syntax published : true  Details  Slideshow settings are activated using a PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 5</title>
+      <link>/layout-features/snap-layouts-example-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-5/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Tilted Split Screen Step 3. Heading Text Step 4. PlantUML Generated Diagram  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the west of our sample slide looks as follows:
+@snap[west span-40 -center] ### GraphQL @fa[quote-left](A query language for your API) !</description>
+    </item>
+    
+    <item>
+      <title>Template Mastery</title>
+      <link>/the-template/mastery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/mastery/</guid>
+      <description>This guide is designed to give you the information you need to quickly master the use of powerful layout and styling features that ship within The Template.
+Whether you are simply trying to understand the core template syntax, or you plan to extend the template by developing custom CSS styles or even new slide designs, this guide provides invaluable information to help you achieve those goals.
+ The Template Snap Layouts Foundation The Template CSS Utility Styles The Template List Rendering Styles The Template Partial Color Backgrounds</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Power Features</title>
+      <link>/pro-features/bonus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pro-features/bonus/</guid>
+      <description>About GitPitch Pro + Lite subscriptions activate a wide range of power features for slideshow presentation authors.
+ Pro Code Features Pro Audio Features Pro Image Features Google Web Fonts Emoji Widget Tweet Widget Table Data Widget UML Widget for Diagrams UML Widget for LaTeX + AsciiMath Asciinema Terminal Sessions Offline Video Streaming Quickstart Template Pro Only Twitter Card Settings Pro Only Slideshow Title Setting Pro Only Slideshow Menu Control  Remember to check back here periodically as new power features may be added over time.</description>
+    </item>
+    
+    <item>
+      <title>Image Size Limits</title>
+      <link>/image-features/size-limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/image-features/size-limits/</guid>
+      <description>To ensure the best possible user experience for visitors to GitPitch slideshow presentations on the Web, a 1Mb file size limit is now enforced for all images displayed inline or as backgrounds on slides.
+While we strongly encourage you to size-optimize all image assets used by your GitPitch slideshow presentations, GitPitch now automatically detects, rejects, and reports images that exceed the size-limit directly within your slides.
+For example, the following screenshots show how inline and background images that exceed the 1Mb size limit are reported directly within their respective slides:</description>
+    </item>
+    
+    <item>
+      <title>Loop Setting</title>
+      <link>/settings/loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/loop/</guid>
+      <description>Purpose The loop setting lets you activate circular navigation for your slideshow presentation.
+Sample Syntax loop : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the loop setting permits direct navigation from the last slide within your slideshow back to the first slide.
+By default, this style of looping or circular navigation is disabled.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Widgets</title>
+      <link>/code-features/pro-code-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-widgets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide introduces these markdown widgets.
+ @code - Code Widget @gist - GitHub GIST Widget  
+Code Widget The Code Widget renders source code from any file onto your slide.</description>
+    </item>
+    
+    <item>
+      <title>Pro Table Data Widget</title>
+      <link>/rich-media-features/table-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/table-data/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @table widget.
+ @table - Table Data Widget Working with Table Data Headers Working with Table Data Fragments Working with Tabbed Table Data Working with Custom Table Styles Sizing Tables with Text Properties Positioning Tables with Snap Layouts</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Step-and-ZOOM</title>
+      <link>/code-features/pro-code-zoom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-zoom/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a wide range of powerful extensions beyond standard code presenting. This guide describes the Step-and-ZOOM extension. This feature gives you the ability to zoom-in and zoom-out on code as you step through it on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro UML Diagram Widget</title>
+      <link>/rich-media-features/uml-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/uml-diagrams/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @uml widget.
+ @uml - UML Widget for Diagrams Learn By Example - Sequence Diagrams Learn By Example - Activity Diagrams Learn By Example - State Diagrams Learn By Example - Timing Diagrams Learn By Example - Use Case Diagrams Learn By Example - Deployment Diagrams Learn By Example - Object Diagrams Learn By Example - LaTeX Math Diagrams Learn By Example - Ascii Math Diagrams UML Diagrams Layout Controls UML Diagrams Caching Policy</description>
+    </item>
+    
+    <item>
+      <title>RTL Setting</title>
+      <link>/settings/rtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/rtl/</guid>
+      <description>Purpose The rtl setting lets you activate Right-To-Left navigation for your slideshow presentation.
+Sample Syntax rtl : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the rtl setting activates Right-To-Left navigation between slides for your slideshow presentation.
+By default, Left-To-Right navigation is activated for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Controls Layout Setting</title>
+      <link>/settings/controls-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/controls-layout/</guid>
+      <description>Purpose The controls-layout setting lets you control the position of the navigation controls for your presentation.
+Sample Syntax controls-layout : edges  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ By default, the navigation controls for a presentation are found in the bottom-right corner of each slide:
+You can override this default position by setting an edges value for the controls-layout setting. Edges cause the navigation controls to display in a centered position as shown in the following screenshot:</description>
+    </item>
+    
+    <item>
+      <title>Print Fragments Setting</title>
+      <link>/settings/print-fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/print-fragments/</guid>
+      <description>Purpose The print-fragments setting lets you force each slide fragment to be printed on an independent page during PDF generation for your presentation.
+Sample Syntax print-fragments : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ Offline Printing By default, when PDF printing offline using GitPitch Desktop, each markdown fragment and code presenting fragment is printed on an individual page during the PDF printing process.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Revealing</title>
+      <link>/code-features/pro-code-revealing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-revealing/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide describes the Code Revealing extension. This feature gives you complete control over how and when code snippets are revealed on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro LaTeX &amp; AsciiMath Widget</title>
+      <link>/rich-media-features/latex-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/latex-math/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide. This guide introduces the @uml widget for LaTeX and AsciiMath.
+ @uml - UML Widget for LaTeX + AsciiMath Learn By Example - LaTeX Math Learn By Example - Ascii Math  
+UML Widget for LaTeX + AsciiMath The @uml widget provides some excellent extensions for rendering math formulas on any slide.</description>
+    </item>
+    
+    <item>
+      <title>Mouse Wheel Setting</title>
+      <link>/settings/mouse-wheel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/mouse-wheel/</guid>
+      <description>Purpose The mousewheel setting lets you activate navigation by mouse-wheel for your slideshow presentation.
+Sample Syntax mousewheel : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the mousewheel setting activates support for navigation between slides by mouse-wheel. Navigation by keyboard is unaffected by this setting.
+By default, navigation by mousewheel is disabled.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Power Properties</title>
+      <link>/code-features/pro-code-power-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-power-properties/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide describes the Code Power Properties extension. This feature gives you a set of properties that control the visual appearance and behavior of the code widgets on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Offline Video Streaming</title>
+      <link>/rich-media-features/offline-video-streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/rich-media-features/offline-video-streaming/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate Offline Video Streaming.
+ GitPitch Pro users can stream MP4 and WebM video content directly from the local repository when presenting offline using GitPitch Desktop.
+Simply add your MP4 and WebM video content to the Git repository for your presentation and then use relative paths to the video files on standard video delimiter syntax.
+ Pro offline video streaming is automatically disabled for presentations viewed online at gitpitch.</description>
+    </item>
+    
+    <item>
+      <title>Pro Terminal Sessions</title>
+      <link>/code-features/terminal-sessions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/terminal-sessions/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate the Terminal Sessions feature.
+  About Terminal Sessions Terminal Delimiter Syntax Learn By Example with Custom Font Size + Title Learn By Example with Custom Poster Learn By Example with Custom Font Size + Theme + Poster  
+About Terminal Sessions Using terminal delimiter syntax, GitPitch supports the playback of Asciinema recorded terminal sessions. This feature is available to presentation authors when working online or offline.</description>
+    </item>
+    
+    <item>
+      <title>Remote Control Setting</title>
+      <link>/settings/remote-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/remote-control/</guid>
+      <description>Purpose The remote-control setting lets you activate navigation using a remote control device: Logitech, Kensington, etc.
+Sample Syntax remote-control : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the remote-control setting gives presentation authors the ability to present hands-free - far away from the keyboard.
+By default, navigation by remote-control is disabled.
+Activate Remote Control Custom Key Mappings In order to navigate through the full set of slides in a GitPitch presentation, a remote control device must emit a stream of Previous and Next events.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Slide Transitions</title>
+      <link>/layout-features/snap-layouts-slide-transitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-slide-transitions/</guid>
+      <description>Snap-Layouts Rendering And Slide Transitions Transition Management When Using Snap-Layouts On Many Slides Transition Management When Using Snap-Layouts On Few Slides Disable Transitions Globally For All Slides Disable Transitions On Individual Slides  
+Snap-Layouts Rendering And Slide Transitions Slide content rendered by the snap-layout system is processed by an out-of-band snap-renderer that operates independently of the automatic slideshow layout.
+One consequence of this design is that slide content rendered by the snap-layouts system does not participate in automatic slide transitions.</description>
+    </item>
+    
+    <item>
+      <title>Eager Loading Setting</title>
+      <link>/settings/eager-loading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/eager-loading/</guid>
+      <description>Purpose The eager-loading setting activates an eager-loading policy for slideshow presentation assets.
+Sample Syntax eager-loading : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When the eager-loading setting is activated slideshow assets, including images and videos, are loaded over the network when a presentation is first opened in the browser.
+This setting is provide mainly for conference speakers.
+By default, this setting is disabled, ensuring a lazy-loading policy is used for slideshow presentation assets.</description>
+    </item>
+    
+    <item>
+      <title>Charts Plugin Setting</title>
+      <link>/settings/charts-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/charts-plugin/</guid>
+      <description>Purpose The charts setting lets you activate Chart.js rendering for your slideshow presentation.
+Sample Syntax charts : true  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the charts setting activates the Chart.js plugin for your slideshow presentation. See the Rich Media Charts documentation for details.
+By default, the Chart.js plugin is disabled for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Maths Plugin Setting</title>
+      <link>/settings/maths-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/maths-plugin/</guid>
+      <description>Purpose The mathjax setting lets you activate MathJax rendering for your slideshow presentation.
+Sample Syntax mathjax : TeX-MML-AM_HTMLorMML-full  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the mathjax setting activates the MathJax plugin for your slideshow presentation. See the Rich Media Math Formulas documentation for details.
+By default, the MathJax plugin is disabled for all slideshow presentations.</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics Setting</title>
+      <link>/settings/google-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/google-analytics/</guid>
+      <description>Purpose The gatoken setting lets you activate Google Analytics tracking for your slideshow presentation.
+Sample Syntax gatoken : UA-1111111-1  Details  Slideshow settings are activated using a PITCHME.yaml properties file.
+ When activated, the gatoken setting will enable Google Analytics tracking for your slideshow presentation.
+Create GA Property In order to enable the gatoken setting you must first create your own GA Property for gitpitch.com. To create a GA Property do as follows:</description>
+    </item>
+    
+    <item>
+      <title>Twitter Card Settings</title>
+      <link>/settings/twitter-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/settings/twitter-card/</guid>
+      <description>Twitter Card Details Twitter Card Examples Twitter Card Testing  
+Purpose A combination of title, description, and thumbnail settings let you customize the details of a Twitter Card or other Open Graph card for your slideshow presentation.
+ Note: These Twitter Cards settings are a Pro Bonus feature only.
+ Sample Syntax title : &amp;quot;Elixir Lang&amp;quot; description : &amp;quot;A functional, concurrent language on the Erlang VM&amp;quot; thumbnail : assets/img/screenshot.</description>
+    </item>
+    
+  </channel>
+</rss>

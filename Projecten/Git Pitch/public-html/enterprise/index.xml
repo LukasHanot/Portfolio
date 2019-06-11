@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enterprise Guide on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/enterprise/</link>
+    <description>Recent content in Enterprise Guide on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/enterprise/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enterprise Licensing</title>
+      <link>/enterprise/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/license/</guid>
+      <description>GitPitch Enterprise [ Server Only ] License The Server-Only license unlocks a single instance of the GitPitch server for deployment on-premises delivering seamless integration with any self-hosted GitHub Enterprise, GitLab, or Bitbucket server.
+This license is made available on a recurring subscription basis. Monthly and annual subscription plans are available. Pricing details are available on the GitPitch website, see here.
+
+GitPitch Enterprise Bundle [ Server + Desktop ] License The Server + Desktop license unlocks a single instance of the GitPitch server for deployment on-premises plus GitPitch Desktop for use across your organization.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise Features</title>
+      <link>/enterprise/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/features/</guid>
+      <description>Features GitPitch Enterprise delivers a modified version of the production software used on gitpitch.com. Please note the following feature differences exist between the gitpitch.com server and the GitPitch Enterprise server:
+
+Private Repository Support The GitPitch Enterprise server can be used to publish slideshow presentations from both public and private repositories managed by your self-hosted Git servers. However, the stealth and confidential mode publishing features on gitpitch.com are not supported by the GitPitch Enterprise server.</description>
+    </item>
+    
+    <item>
+      <title>Deployment Prerequisites</title>
+      <link>/enterprise/prerequisites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/prerequisites/</guid>
+      <description>Deployment Prerequisites GitPitch Enterprise must be deployed as a Docker container running in a Linux server environment. The GitPitch Enterprise container depends on a Docker volume at runtime. This volume is used:
+ To pass custom GitPitch server configuration to the live container. To cache GitPitch server log data outside of the live container. To cache GitPitch server runtime data outside of the live container.  For on-premises deployment, the Docker volume is typically a dedicated directory on your host Linux server.</description>
+    </item>
+    
+    <item>
+      <title>Install GitPitch Enterprise</title>
+      <link>/enterprise/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/install/</guid>
+      <description>Step 1. Getting Started Step 2. Install Docker Step 3. Create Docker Hub Account Step 4. Register your Docker Hub ID Step 5. Await Access Confirmation Step 6. Login To Docker Hub Step 7. Pull GitPitch Enterprise Image Step 8. Verify GitPitch Enterprise Image  
+Step 1. Getting Started If you have not activated a trial subscription for GitPitch Enterprise you can do so now on the GitPitch website, click here.</description>
+    </item>
+    
+    <item>
+      <title>Launch GitPitch Enterprise</title>
+      <link>/enterprise/launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/launch/</guid>
+      <description>Step 1. Verify GitPitch Enterprise Docker Image Step 2. Prepare GitPitch Server Test Configuration Step 3. Prepare GitPitch Server Log Configuration Step 4. Prepare Docker Volume Directory Step 5. Test Launch GitPitch Enterprise Step 6. Verify Test Launch GitPitch Enterprise Step 7. Prepare GitPitch Server Production Configuration Step 8. Launch GitPitch Enterprise Step 9. Verify Launch GitPitch Enterprise Appendix - Interactive v Detached Mode Launch  
+Step 1.</description>
+    </item>
+    
+    <item>
+      <title>Config GitPitch Enterprise</title>
+      <link>/enterprise/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enterprise/config/</guid>
+      <description>Server Log Production Configuration Server Log Debug Configuration Activate Personal Access Tokens HTTPS/SSL Certificate Configuration HTTPS/SSL Using PEM Certificates HTTPS/SSL Using JKS Certificates  
+Server Log Production Configuration The following production log configuration instructs the GitPitch server to write all log statements to a file called gitpitch-server-production.log in your Docker volume directory. Logging to standard out is disabled.
+&amp;lt;configuration&amp;gt; &amp;lt;conversionRule conversionWord=&amp;quot;coloredLevel&amp;quot; converterClass=&amp;quot;play.api.libs.logback.ColoredLevel&amp;quot; /&amp;gt; &amp;lt;appender name=&amp;quot;FILE&amp;quot; class=&amp;quot;ch.qos.logback.core.rolling.RollingFileAppender&amp;quot;&amp;gt; &amp;lt;file&amp;gt;/data/gitpitch-server-production.log&amp;lt;/file&amp;gt; &amp;lt;rollingPolicy class=&amp;quot;ch.</description>
+    </item>
+    
+  </channel>
+</rss>

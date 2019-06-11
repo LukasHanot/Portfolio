@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Do More With Git on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/git/</link>
+    <description>Recent content in Do More With Git on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unlimited Slideshows</title>
+      <link>/git/branch-many-slideshows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-many-slideshows/</guid>
+      <description>The PITCHME.md convention guarantees that any PITCHME.md markdown file found within any directory on any branch within your repository can be turned into a GitPitch slideshow presentation.
+This guide explains how you can create, manage, and share an unlimited number of slideshow presentations within a single Git repository branch.
+ Working with the default Slideshow Presentation within a Branch Working with additional Slideshow Presentations within a Branch Example - Conference Slideshow Presentation URL Example - New York Meetup Slideshow Presentation URL Slideshow Presentation Settings Policy</description>
+    </item>
+    
+    <item>
+      <title>Slideshow Shared Assets</title>
+      <link>/git/branch-shared-assets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-shared-assets/</guid>
+      <description>The Many Slideshows Guide details the ability of GitPitch to serve an unlimited number of slideshow presentations from within a single Git branch. This guide discusses some of the added advantages of using a single branch in this way.
+Specifically, a single branch approach allows for the reuse of a wide range of slideshow assets across multiple presentations. These assets can include images, custom logos, slide backgrounds, and even custom css.</description>
+    </item>
+    
+    <item>
+      <title>Modular Markdown</title>
+      <link>/git/branch-shared-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-shared-markdown/</guid>
+      <description>Developers are accustomed to writing code in a modular fashion. Modularity is achieved using distinct functions, files, and directories to partition code in meaningful ways. This approach typically improves code clarity and aids modifications and maintenance over time.
+GitPitch supports this same modular approach for presentation markdown and associated image assets, settings, and custom css.
+ Learn By Example The Modular Markdown Slide Delimiter Example: Modular HTML5 Training Slideshow Example: Modular Localized Slideshow Content Example: Modular Audience Specific Slideshow Content</description>
+    </item>
+    
+    <item>
+      <title>Modular Slideshows</title>
+      <link>/git/branch-modular-slideshows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/git/branch-modular-slideshows/</guid>
+      <description>The Modular Markdown Guide details the recommended approach and key benefits of adopting a modular design when developing and managing slideshow presentation content. Especially when you are developing course or training materials.
+This guide takes modularity one step further, showing you how you can use modular markdown to deliver modular slideshows.
+ What is a Modular Slideshow? Example: HTML5 Training Slideshow Revisited Example: HTML5 Training Mini-Slideshows  Example: The GitPitch Quickstart Template</description>
+    </item>
+    
+  </channel>
+</rss>

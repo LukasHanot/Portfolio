@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layout Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/layout-features/</link>
+    <description>Recent content in Layout Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/layout-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatic Layout</title>
+      <link>/layout-features/automatic-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/automatic-layout/</guid>
+      <description>When you develop slide content using GitPitch markdown you benefit from automatic layout of that content. The default layout policy centers content on your slides. However, if you ever want to change that default layout policy for your slide deck you can activate a custom layout policy in your PITCHME.yaml.
+The following screenshot demonstrates the set of available automatic layout policies:
+
+While these automatic layout policies are a great way to get started, GitPitch is unique among markdown presentation solutions in offering support for flexible slide layouts.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts</title>
+      <link>/layout-features/snap-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts/</guid>
+      <description>GitPitch provides a PITCHME.md markdown snap-layout syntax that can be used to deliver flexible slide designs by controlling the placement of content on any slide.
+This feature can be used to override the automatic slideshow layout for individual content on individual slides. Giving you the power to create unique layouts for your content on any slide.
+
+ Click on the above screenshot to open the GitPitch Snap Layouts video tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Syntax</title>
+      <link>/layout-features/snap-layouts-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-syntax/</guid>
+      <description>Snap Layouts Basic Syntax Snap Layouts 3x3 Grid Snap Layouts Content Positioning Snap Layouts Content Sizing  
+Snap Layouts Basic Syntax To activate snap-layouts for any block of markdown on your slide simply wrap the block in opening @snap and closing @snapend tags, as shown in the above screenshot.
+ The first property on the opening tag always indicates a snap-position on the snap-layouts grid. The second property is typically a span-xxx value to control the width and height of the snapped content.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 1</title>
+      <link>/layout-features/snap-layouts-example-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-1/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Slide Content Sizing  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for our sample slide looks as follows:
+### GraphQL @fa[quote-left](A query language for your API) ![GRAPHQL](assets/img/graphql.png)  The only new markdown in this snippet that may be unfamiliar to you is the use of the Font Awesome Markdown Widget.</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 2</title>
+      <link>/layout-features/snap-layouts-example-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-2/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Vertical Split Screen Step 3. Boxed Title-and-Text Step 4. Colored Boxed Title-and-Text  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the west of our sample slide looks as follows:
+@snap[west span-40 text-center] ### GraphQL @fa[quote-left](A query language for your API) !</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 3</title>
+      <link>/layout-features/snap-layouts-example-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-3/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Horizontal Split Screen Step 3. Code Injection  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the north of our sample slide looks as follows:
+@snap[north span-40 h3-black] ### GraphQL @fa[quote-left quote-graphql](A query language for your API) @snapend  This markdown snippet renders as follows:</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 4</title>
+      <link>/layout-features/snap-layouts-example-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-4/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Gradient Background Step 3. Image Vertical Sizing Step 4. Step-by-Step Content Step 5. Step-by-Step Fragments  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the north of our sample slide looks as follows:
+@snap[north span-40] ### GraphQL @fa[quote-left quote-graphql text-white](A query language for your API) @snapend  This markdown snippet renders as follows:</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Example 5</title>
+      <link>/layout-features/snap-layouts-example-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-example-5/</guid>
+      <description>Snap Layouts Learn By Example  Step 1. Initial Markdown Step 2. Tilted Split Screen Step 3. Heading Text Step 4. PlantUML Generated Diagram  This guide demonstrates the use of GitPitch Snap Layouts to create the following sample slide.
+Step 1. Initial Markdown The initial markdown snippet for the west of our sample slide looks as follows:
+@snap[west span-40 -center] ### GraphQL @fa[quote-left](A query language for your API) !</description>
+    </item>
+    
+    <item>
+      <title>Snap Layouts Slide Transitions</title>
+      <link>/layout-features/snap-layouts-slide-transitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/layout-features/snap-layouts-slide-transitions/</guid>
+      <description>Snap-Layouts Rendering And Slide Transitions Transition Management When Using Snap-Layouts On Many Slides Transition Management When Using Snap-Layouts On Few Slides Disable Transitions Globally For All Slides Disable Transitions On Individual Slides  
+Snap-Layouts Rendering And Slide Transitions Slide content rendered by the snap-layout system is processed by an out-of-band snap-renderer that operates independently of the automatic slideshow layout.
+One consequence of this design is that slide content rendered by the snap-layouts system does not participate in automatic slide transitions.</description>
+    </item>
+    
+  </channel>
+</rss>

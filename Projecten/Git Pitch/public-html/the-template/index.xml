@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Template on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/the-template/</link>
+    <description>Recent content in The Template on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/the-template/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>/the-template/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/introduction/</guid>
+      <description>The Template is a collection of flexible slide designs available out-of-the-box to GitPitch presentation authors. Developed using markdown. Customizable using CSS. And guaranteed to delight audiences.
+ The Template provides the perfect building-blocks to quickstart any slideshow presentation.
+ 
+ Click on the above image to take a live, interactive tour of The Template in your browser.
+ The Template slide designs are directly inspired by some of the most popular templates widely used by established tools like Powerpoint, Keynote, and Google Slides.</description>
+    </item>
+    
+    <item>
+      <title>Slide Designs</title>
+      <link>/the-template/slide-designs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/slide-designs/</guid>
+      <description>The Template has grouped related slide designs into popular categories. This modular approach can help you more easily discover the perfect slide templates for your next slideshow.
+The following sections introduce each slide design category. The accompanying screenshot provides a quick visual clue to the types of slides you will find within each category.
+Click on any image below to interact directly with a live slideshow for the chosen slide design category.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Quickstart</title>
+      <link>/the-template/github-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/github-quickstart/</guid>
+      <description>This guide is a template quickstart for GitHub.com users.
+ The Template is delivered as a set of files maintained within the-template repo on GitHub.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own GitHub repositories. This guide explains how best to do that:
+ Add The Template To New GitHub Repository Add The Template To Existing GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>GitLab Quickstart</title>
+      <link>/the-template/gitlab-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/gitlab-quickstart/</guid>
+      <description>This guide is a template quickstart for GitLab.com users.
+ The Template is delivered as a set of files maintained within the-template repo on GitLab.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own GitLab repositories. This guide explains how best to do that:
+ Add The Template To New GitLab Repository Add The Template To Existing GitLab Repository</description>
+    </item>
+    
+    <item>
+      <title>Bitbucket Quickstart</title>
+      <link>/the-template/bitbucket-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/bitbucket-quickstart/</guid>
+      <description>This guide is a template quickstart for Bitbucket.org users.
+ The Template is delivered as a set of files maintained within the-template repo on Bitbucket.
+You can activate the template for your own slideshow presentations simply by adding this set of files to your own Bitbucket repositories. This guide explains how best to do that:
+ Add The Template To New Bitbucket Repository Add The Template To Existing Bitbucket Repository</description>
+    </item>
+    
+    <item>
+      <title>Desktop Quickstart</title>
+      <link>/the-template/desktop-quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/desktop-quickstart/</guid>
+      <description>This guide is a template quickstart for GitPitch Desktop users.
+ If you are a GitPitch Pro subscriber you have access to GitPitch Desktop. And as a GitPitch Desktop user you can activate the template for your own slideshow presentations with just a single click. Read on to learn how.
+ Not yet a subscriber? Click here to activate a GitPitch Pro subscription and enjoy a no-risk 7 day free trial.</description>
+    </item>
+    
+    <item>
+      <title>Template Basics</title>
+      <link>/the-template/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/basics/</guid>
+      <description>The Template itself is a regular GitPitch slideshow presentation. Albeit using sample markdown content and images, plus template-specific CSS styling.
+This guide draws your attention to some high-level design features of the template:
+ The Template Anatomy The Template Modular Markdown The Template Custom Styling The Template Custom Settings  Understanding these features will help you to get the most out of the template.
+
+The Template Anatomy The following directory listing provides a high level overview of the basic file strucutre used by the template:</description>
+    </item>
+    
+    <item>
+      <title>Template Mastery</title>
+      <link>/the-template/mastery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-template/mastery/</guid>
+      <description>This guide is designed to give you the information you need to quickly master the use of powerful layout and styling features that ship within The Template.
+Whether you are simply trying to understand the core template syntax, or you plan to extend the template by developing custom CSS styles or even new slide designs, this guide provides invaluable information to help you achieve those goals.
+ The Template Snap Layouts Foundation The Template CSS Utility Styles The Template List Rendering Styles The Template Partial Color Backgrounds</description>
+    </item>
+    
+  </channel>
+</rss>

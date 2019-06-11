@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/settings/pitchme/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/slideshow-menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/automatic-layout/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/presenting/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/color-backgrounds/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/license/</loc>
+  </url>
+  
+  <url>
+    <loc>/themes/default/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/desktop/</loc>
+  </url>
+  
+  <url>
+    <loc>/auxiliary-features/google-analytics/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/inline/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/fragments/</loc>
+  </url>
+  
+  <url>
+    <loc>/promotions/microsoft-mvp/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/online/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/service/</loc>
+  </url>
+  
+  <url>
+    <loc>/speaker-features/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/theme/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/beyond-the-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/auxiliary-features/table-of-contents/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/background/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/charts/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/custom-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>/themes/custom/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/features/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/fenced-blocks/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/desktop-launch/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/list-fragments/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/offline/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/pitchme/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts/</loc>
+  </url>
+  
+  <url>
+    <loc>/speaker-features/window/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/branch-many-slideshows/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/revealjs/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/scaling/</loc>
+  </url>
+  
+  <url>
+    <loc>/themes/css-utility-styles/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/highlight/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/prerequisites/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/free/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/github-quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/desktop-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/math-formulas/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/pdf/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/source-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/delimiters/</loc>
+  </url>
+  
+  <url>
+    <loc>/auxiliary-features/slideshow-embedding/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/branch-shared-assets/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-syntax/</loc>
+  </url>
+  
+  <url>
+    <loc>/speaker-features/remote-control/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/pptx/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/line-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/positioning/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/font-awesome/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/gists/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/gitlab-quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/security/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/install/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/launch/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/layout/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/branch-shared-markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/pro/</loc>
+  </url>
+  
+  <url>
+    <loc>/themes/pro-fonts/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-example-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/speaker-features/demo-gods/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/theme-switcher/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/diff/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/colors/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/bitbucket-quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/config/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/enterprise/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/surveys/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/inline-videos/</loc>
+  </url>
+  
+  <url>
+    <loc>/foundation-features/keyboard-controls/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/logo/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/markdown-features/pro-widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/raw-markdown-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/urls/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-example-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/branch-modular-slideshows/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/repeat/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/background/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/background-videos/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/syntax-highlighting/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/desktop-quickstart/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/do-more-with-git/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/audio/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-example-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/animations/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/line-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/code/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/emojis/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-example-4/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/transition/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/title/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/footnote/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/image/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/opacity/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/tweets/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/published/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-example-5/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/mastery/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/bonus/</loc>
+  </url>
+  
+  <url>
+    <loc>/image-features/size-limits/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/loop/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/pro-code-widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/table-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/auxiliary-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/pro-code-zoom/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/uml-diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/rtl/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/controls-layout/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/print-fragments/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/pro-code-revealing/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/latex-math/</loc>
+  </url>
+  
+  <url>
+    <loc>/speaker-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/mouse-wheel/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/pro-code-power-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/rich-media-features/offline-video-streaming/</loc>
+  </url>
+  
+  <url>
+    <loc>/themes/</loc>
+  </url>
+  
+  <url>
+    <loc>/code-features/terminal-sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/remote-control/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/layout-features/snap-layouts-slide-transitions/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/eager-loading/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/charts-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>/git/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/maths-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>/pro-features/</loc>
+  </url>
+  
+  <url>
+    <loc>/enterprise/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/google-analytics/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-template/</loc>
+  </url>
+  
+  <url>
+    <loc>/settings/twitter-card/</loc>
+  </url>
+  
+  <url>
+    <loc>/samples/</loc>
+  </url>
+  
+  <url>
+    <loc>/promotions/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

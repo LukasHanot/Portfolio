@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/markdown-features/</link>
+    <description>Recent content in Markdown Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/markdown-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Fragments</title>
+      <link>/markdown-features/fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/fragments/</guid>
+      <description>Markdown fragments are a great way to introduce key concepts to your audience - one idea at a time.
+ Markdown fragment support is a simple yet powerful feature that can be used to reveal individual elements on a slide one-by-one. As distinct to revealing all elements on the slide at once.
+This feature has great utility for presentation authors as it allows you to focus your audience&amp;rsquo;s attention on key concepts, revealing additional content on the slide only when the time is right.</description>
+    </item>
+    
+    <item>
+      <title>Markdown List Fragments</title>
+      <link>/markdown-features/list-fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/list-fragments/</guid>
+      <description>This guide introduces a special markdown shortcut syntax for working with list content as slide fragments.
+ Unordered Lists With Fragment Items Unordered Lists With Custom CSS Class Fragment Items Unordered Lists With Fragment Specific Speaker Notes Ordered Lists With Fragment Items Ordered Lists With Custom Css Fragment Items Ordered Lists With Fragment Specific Speaker Notes Static Lists With Fragments Disabled  
+1. Unordered Lists with Fragment Items Sample GitPitch shortcut syntax:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Shortcuts</title>
+      <link>/markdown-features/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/shortcuts/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to alter the appearance or behavior of content on any slide.
+ @size - Set Custom Font Size @color - Set Custom Font Color @css - Set Custom CSS Class @title - Set Custom TOC Label for Slide @transition - Set Slide-Specific Transition   Note: These Markdown Shortcuts are supported by gitpitch.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Widgets</title>
+      <link>/markdown-features/widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/widgets/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+ @box - Boxed Text Widget @box - Boxed Text With Title Widget @quote - Quote Widget @quote - Quote With Attribution Widget @fa - Font Awesome 5 Icon Widget @img - Image Widget @gitlink - Git Repo Link Widget @diff - Git Diff Widget @snap - Snap Layouts Widget</description>
+    </item>
+    
+    <item>
+      <title>Markdown Pro Widgets</title>
+      <link>/markdown-features/pro-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/markdown-features/pro-widgets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+ @code - Code Widget @gist - GitHub GIST Widget @emoji - Emoji Widget @tweet - Tweet Widget @uml - UML Widget for Diagrams @uml - UML Widget for LaTeX + AsciiMath @audio - Audio Widget for Audio Slide Decks</description>
+    </item>
+    
+  </channel>
+</rss>

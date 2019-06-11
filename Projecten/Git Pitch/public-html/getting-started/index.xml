@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/getting-started/</link>
+    <description>Recent content in Getting Started on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In 60 Seconds</title>
+      <link>/getting-started/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/tutorial/</guid>
+      <description>A Very Short Tutorial If you have an account on GitHub, GitLab, or Bitbucket then the best way to get started with GitPitch is to follow along with this very short tutorial:
+ GitPitch In-60-Seconds for GitHub Users GitPitch In-60-Seconds for GitLab Users GitPitch In-60-Seconds for Bitbucket Users  These tutorials demonstrate the basic GitPitch concepts by taking you through a simple step-by-step process to create your first GitPitch slide deck.</description>
+    </item>
+    
+    <item>
+      <title>Beyond The Basics</title>
+      <link>/getting-started/beyond-the-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/beyond-the-basics/</guid>
+      <description>Beyond The Basics If you have completed the GitPitch In 60 Seconds Tutorial then you are ready to go beyond the basics. And for that, see the Snap Layouts Guide. You will quickly learn how to create stunning slide designs while working with a wide range of slide content perfect for delivering modern developer side decks.</description>
+    </item>
+    
+    <item>
+      <title>PITCHME.md</title>
+      <link>/getting-started/pitchme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/pitchme/</guid>
+      <description>The README.md Convention If you have ever worked with Git - on GitHub, GitLab, or Bitbucket - you are probably already familiar with the README.md convention. This convention automatically turns any README.md file found within a Git repository into nicely rendered documentation.
+This convention gives developers a simple and convenient way to document any project.
+
+The PITCHME.md Convention GitPitch introduces a brand new convention for all Git users, the PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Slide Delimiters</title>
+      <link>/getting-started/delimiters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/delimiters/</guid>
+      <description>GitPitch slideshow presentation content is created using markdown. To split markdown content into a series of slides, presentation authors must use a special slide delimiter syntax. Each delimiter denotes the start of a new slide.
+To create a new slide use the following delimiter syntax within your PITCHME.md file:
+---  As both horizontal (default) and vertical slides are supported by GitPitch each has it&amp;rsquo;s own unique delimiter syntax.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Basics</title>
+      <link>/getting-started/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/markdown/</guid>
+      <description>GitHub Flavored Markdown is the principal creation tool for slide content within PITCHME.md. This is the same tool you use as a developer to create project READMEs or Wikis for your Git repos.
+The Mastering Markdown Guide is a good resource to learn or refresh the basic usage of Markdown and the GitHub Flavored Markdown (GFM) extensions.
+ Use slide delimiters in your PITCHME.md file to split your markdown content across different slides.</description>
+    </item>
+    
+    <item>
+      <title>Slideshow URLs</title>
+      <link>/getting-started/urls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/urls/</guid>
+      <description>GitHub Slideshow URLs GitLab Slideshow URLs Bitbucket Slideshow URLs Advanced Slideshow URLs  
+Presentation authors can publish and share slideshow presentations from public and private repositories on GitHub, GitLab, and Bitbucket. Each presentation has it&amp;rsquo;s own unique URL.
+By default, GitPitch treats GitHub as the default git repository service a.k.a. GRS.
+If you want to view or share a slideshow URL for a presentation published from a GitLab or Bitbucket repository you need to indicate the GRS on the slideshow URL as explained in the following sections.</description>
+    </item>
+    
+    <item>
+      <title>Do More With Git</title>
+      <link>/getting-started/do-more-with-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-started/do-more-with-git/</guid>
+      <description>GitPitch offers seamless integration with any existing Git Flow. GitPitch also unlocks unique features powered by Git that can be used to develop and publish GitPitch slide decks. From within any branch on any Git repository:
+ Publish unlimited slideshow presentations on a single branch Share slides, image assets, and custom styles across slideshows Develop and maintain modular content for any slideshow Publish modular mini-decks from a single master slideshow  For further details including examples, see the Do More With Git Guide.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Features on GitPitch - The Markdown Presentation Service on Git</title>
+    <link>/code-features/</link>
+    <description>Recent content in Code Features on GitPitch - The Markdown Presentation Service on Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/code-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code Presenting</title>
+      <link>/code-features/presenting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/presenting/</guid>
+      <description>Code presenting lets you focus-on and step-through specific code snippets, loops, functions, output, etc. from directly within your slideshow. For live presentations this can mean the end of switching back-and-forth between your presentation slides and your IDE.
+Code presenting can be activated for any code block on any slide - whether the code originated as a fenced code-block, a repo source file, or a GitHub GIST.
+ Learn By Example Code Presenting Syntax Code Presenting With Annotations Syntax Pro Code Widgets Pro Code Presenting Step-and-ZOOM Pro Code Revealing Pro Code Power Properties</description>
+    </item>
+    
+    <item>
+      <title>Fenced Code Blocks</title>
+      <link>/code-features/fenced-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/fenced-blocks/</guid>
+      <description>Learn By Example Fenced Code Blocks Code Syntax Highlighting Code Language Hint (Important) Code Syntax Highlighting Setting  
+Learn By Example This PITCHME.md markdown snippet:
+``` defmodule GenMetrics.GenStage.Monitor do use GenServer alias GenMetrics.GenStage.Manager alias GenMetrics.GenStage.Monitor alias GenMetrics.GenStage.Pipeline alias GenMetrics.GenStage.Window alias GenMetrics.Reporter alias GenMetrics.Utils.Runtime @moduledoc false @handle_demand :handle_demand @handle_events :handle_events @handle_call :handle_call @handle_cast :handle_cast defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0 ```  Results in the rendering of the following slide:</description>
+    </item>
+    
+    <item>
+      <title>Repo Source Files</title>
+      <link>/code-features/source-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/source-files/</guid>
+      <description>Learn By Example Learn By Example With Delimiter Options  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special code delimiter syntax allows the loading of source code from any file in your repo into a fenced code block on any slide.
+The code delimiter syntax takes the following options:
+ A relative path to any source file within your repo and A lang option - providing a langugage hint for your source code A title option - providing an optional title text for the slide A color option - providing an optional slide background color override</description>
+    </item>
+    
+    <item>
+      <title>GitHub GIST Snippets</title>
+      <link>/code-features/gists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/gists/</guid>
+      <description>Learn By Example Learn By Example With Delimiter Options  Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special gist delimiter syntax allows the loading of any GitHub GIST code snippet into a fenced code block on any slide.
+The gist delimiter syntax takes the following options:
+ A GIST Identifier and A lang option - providing a langugage hint for your source code A title option - providing an optional title text for the slide A color option - providing an optional slide background color override A file option - providing an optional named file within a multi-file GIST</description>
+    </item>
+    
+    <item>
+      <title>Git Diff for Commit</title>
+      <link>/code-features/diff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/diff/</guid>
+      <description>GitPitch provides a powerful markdown widget that can be used to generate and render a diff for any commit on any repository on github.com.
+ Diff for Commit within any GitHub Repository Diff for Commit within the Presentation Repository Disable Automatic Code Presenting on Diff Offline Git Diff Support   Currently this feature is GitHub only. Generating diffs for content on GitLab and Bitbucket is not supported.</description>
+    </item>
+    
+    <item>
+      <title>Raw Markdown Files</title>
+      <link>/code-features/raw-markdown-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/raw-markdown-files/</guid>
+      <description>Learn By Example Raw Markdown Rendering Limitations  
+Learn By Example To display raw Markdown content on a slide you must use a code delimiter. The code delimiter ensures proper encoding of the raw markdown content prior to rendering on the slide. The markdown file referenced on the code delimiter must also have a .md extension.
+For example, you can render the contents of the file src/snippet.</description>
+    </item>
+    
+    <item>
+      <title>Code Syntax Highlighting</title>
+      <link>/code-features/syntax-highlighting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/syntax-highlighting/</guid>
+      <description>See the Code Highlight Settings documentation for details about customizing the syntax highlighting style for code rendered on slides within your presentation.</description>
+    </item>
+    
+    <item>
+      <title>Code Line Numbers</title>
+      <link>/code-features/line-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/line-numbers/</guid>
+      <description>
+See the Code Line Numbers Setting documentation for details about activating the display of line-numbers alongside code rendered on slides within your presentation.
+
+ Click on the above image to experience code line-numbers within a live GitPitch presentation.
+ </description>
+    </item>
+    
+    <item>
+      <title>Pro Code Widgets</title>
+      <link>/code-features/pro-code-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-widgets/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide introduces these markdown widgets.
+ @code - Code Widget @gist - GitHub GIST Widget  
+Code Widget The Code Widget renders source code from any file onto your slide.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Step-and-ZOOM</title>
+      <link>/code-features/pro-code-zoom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-zoom/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a wide range of powerful extensions beyond standard code presenting. This guide describes the Step-and-ZOOM extension. This feature gives you the ability to zoom-in and zoom-out on code as you step through it on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Revealing</title>
+      <link>/code-features/pro-code-revealing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-revealing/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide describes the Code Revealing extension. This feature gives you complete control over how and when code snippets are revealed on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Code Power Properties</title>
+      <link>/code-features/pro-code-power-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/pro-code-power-properties/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate powerful Pro syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+The Code Widget and GitHub GIST Widget support a number of powerful extensions beyond standard code presenting. This guide describes the Code Power Properties extension. This feature gives you a set of properties that control the visual appearance and behavior of the code widgets on your slides.</description>
+    </item>
+    
+    <item>
+      <title>Pro Terminal Sessions</title>
+      <link>/code-features/terminal-sessions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-features/terminal-sessions/</guid>
+      <description>GitPitch Pro + Lite subscriptions activate the Terminal Sessions feature.
+  About Terminal Sessions Terminal Delimiter Syntax Learn By Example with Custom Font Size + Title Learn By Example with Custom Poster Learn By Example with Custom Font Size + Theme + Poster  
+About Terminal Sessions Using terminal delimiter syntax, GitPitch supports the playback of Asciinema recorded terminal sessions. This feature is available to presentation authors when working online or offline.</description>
+    </item>
+    
+  </channel>
+</rss>
