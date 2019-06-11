@@ -1,0 +1,3 @@
+In c: moet een mapje temp bestaan met de alle csv's die geimporteerd moeten worden.
+
+Als dit zo is, hoef je enkel het script te runnen om de DB op te zetten.

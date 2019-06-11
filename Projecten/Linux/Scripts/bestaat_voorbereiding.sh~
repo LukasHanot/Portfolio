@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#
+
+if [ -f "$1" -a -s "$1" ]
+then
+lijnen=$(wc -l "$1")
+lijnen=`echo $lijnen | egrep -o '[0-9]+'`
+echo "Het bestand $1 heeft $lijnen lijnen"
+else
+echo "Bestand $1 niet gevonden"
+exit 127
+fi

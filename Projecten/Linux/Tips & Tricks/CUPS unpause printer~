@@ -1,0 +1,4 @@
+
+Start printer: cupsenable *printername*
+
+Get printer name: lpstat -p or lpc status

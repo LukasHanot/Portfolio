@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1296</x>
+      <y>256</y>
+      <w>232</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>Reservatie
+
+--
+getDate(): Date
+
+getAanbieder(): Gebruiker
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1184</x>
+      <y>320</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* 
+m2=</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1288</x>
+      <y>520</y>
+      <w>232</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>Gereedschap
+
+--
+getAanbieder(): Gebruiker
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1400</x>
+      <y>424</y>
+      <w>24</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>472</y>
+      <w>320</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>Transactie
+
+--
+Transactie(aanbieder, ontlener, selectieLijst[i], selectie[i], type)
+
+checkBevestigingsCode(bevestigingsCode): boolean
+
+changeStatussen(status)
+
+berekenSharepoints()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>248</y>
+      <w>328</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Gebruiker
+
+--
+vraagReservatiesOp(status, Gebruiker): Collection&lt;Reservatie&gt;
+
+getCode(): string
+
+pasSharepointsAan(sharepoints)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>776</y>
+      <w>304</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>ReservatieStatus
+
+--
+ReservatieStatus(Reservatie, type)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>472</y>
+      <w>304</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>TransactieLijn
+
+--
+Transactielijn(reservatieStatus,transactielijnType)
+
+changeReservatieStatus(bevestigd)
+
+getSharepoints(): Transactielijn.sharepoints</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>328</x>
+      <y>552</y>
+      <w>160</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=*
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>640</y>
+      <w>24</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>248</y>
+      <w>360</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>LeenController
+
+--
+vraagAfhalingsReservatiesOp(ontlenerEmail): Collection&lt;Reservatie&gt;
+
+selecteerReservatiesVoorAfhaling(selectieLijst,selectie): Transactie
+
+bevestigAfhaling(bevestigingsCode): Transactie.status</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>384</y>
+      <w>24</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>312</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* 
+m2=</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>640</y>
+      <w>312</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;290.0;370.0;290.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>384</y>
+      <w>248</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=2
+m2=</panel_attributes>
+    <additional_attributes>280.0;10.0;280.0;230.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>16</y>
+      <w>328</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>AuthorisatieCode
+
+--
+GetCode(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1016</x>
+      <y>152</y>
+      <w>24</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* 
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+</diagram>

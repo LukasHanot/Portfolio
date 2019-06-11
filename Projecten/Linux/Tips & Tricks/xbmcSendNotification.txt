@@ -1,0 +1,5 @@
+This command can be used to send a notification to xbmc/Kodi
+
+xbmc-send -a "Notification(Header, Message)"
+
+Header/Message does not have to be in quotes

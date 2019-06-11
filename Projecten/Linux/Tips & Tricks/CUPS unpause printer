@@ -1,0 +1,7 @@
+
+Start printer: cupsenable *printername*
+
+Get printer name: lpstat -p or lpc status
+
+Thuis:  HP_Photosmart_B010_series
+

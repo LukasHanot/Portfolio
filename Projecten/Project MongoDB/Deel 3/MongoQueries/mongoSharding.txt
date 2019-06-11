@@ -1,0 +1,30 @@
+info:
+//Dit is de informatie voor de services die moeten worden opgestart
+//service, nut/folder, poort
+mongod, controller/configserver 27017
+mongod, datamongodshard1 27018
+mongod, datamongodshard2 27019
+mongos, router 27020
+
+command: mongod --dbpath C:\datamongodshard1 --port 27018
+		mongod --dbpath C:\datamongodshard2 --port 27019
+		mongod --dbpath C:\datamongosConfigServer --port 27017 --conigsvr
+		mongos --configdb localhost:27017 --port 27020
+		mongo --host localhost --port 27020
+		
+		in mongo:
+		sh.addShard( "localhost:27018")
+		sh.addShard("localhost:27019")
+		use config 
+		db.settings.save({ _id:"chunksize", value: 1 })
+		use cinema
+		sh.enableSharding("HealthE")
+		
+		in shell met server\bin als currentdirectory:
+		mongoimport --port 27020 --db HealthE --collection Activiteiten --type json --file C:\temp\mongoTestData.json
+		
+		in mongo:
+		//wijzig _id naar een andere index om te verdelen op een andere key
+		db.metingen.ensureIndex({_id:1})
+		sh.shardCollection("Health.Activiteiten", {_id:1})
+		

@@ -1,0 +1,1110 @@
+<ProductList>
+	<Product Id='330' Name='Chocolate Bar Mini M&amp;M' Calories='14,9886717021023' Barcode='9709190'>
+		<Nutrients Fats='44,1161882265549' Carbohydrates='44,1161882265549' Fibres='0,892746390381049' Proteins='8,03936383206915' Salt='0,223064571092645' Sugars='17,8448355483834' />
+	</Product>
+	<Product Id='331' Name='Chocolate Bar Candy Twix' Calories='46,1944097053882' Barcode='89885128'>
+		<Nutrients Fats='44,4917017182297' Carbohydrates='44,4917017182297' Fibres='0,680672208849829' Proteins='7,5275266519266' Salt='0,154188391431453' Sugars='29,8047689838014' />
+	</Product>
+	<Product Id='332' Name='Chocolate Bar 6 pack Bounty' Calories='51,5022106034189' Barcode='71065445'>
+		<Nutrients Fats='42,1669409788421' Carbohydrates='42,1669409788421' Fibres='0,708533899063819' Proteins='8,2223480916937' Salt='0,0889105795148816' Sugars='18,7471018588767' />
+	</Product>
+	<Product Id='333' Name='Chocolate Bar Maxi Twix' Calories='206,642037040832' Barcode='92458556'>
+		<Nutrients Fats='41,0970594729281' Carbohydrates='41,0970594729281' Fibres='0,723027840387628' Proteins='8,83372163378993' Salt='0,167433316556789' Sugars='38,8520921504819' />
+	</Product>
+	<Product Id='334' Name='Chocolate Bar Mini Twix' Calories='85,8600567052779' Barcode='69998887'>
+		<Nutrients Fats='43,6851062771078' Carbohydrates='43,6851062771078' Fibres='0,770610610773365' Proteins='7,91291766315045' Salt='0,174337776702622' Sugars='35,1881522803473' />
+	</Product>
+	<Product Id='335' Name='Chocolate Bar Maxi Bounty' Calories='145,032607310707' Barcode='18883482'>
+		<Nutrients Fats='40,6287420916622' Carbohydrates='40,6287420916622' Fibres='0,83259168280854' Proteins='9,65321743467068' Salt='0,0970511446313904' Sugars='29,435353125173' />
+	</Product>
+	<Product Id='336' Name='Chocolate Bar 3 pack Mars' Calories='161,574899758915' Barcode='59075883'>
+		<Nutrients Fats='42,6507048385958' Carbohydrates='42,6507048385958' Fibres='0,9071722786369' Proteins='10,7123467420102' Salt='0,0925527168751397' Sugars='30,3613597080617' />
+	</Product>
+	<Product Id='337' Name='Chocolate Bar Candy Raider' Calories='179,156223038921' Barcode='96288517'>
+		<Nutrients Fats='43,0116325141231' Carbohydrates='43,0116325141231' Fibres='0,716845564936793' Proteins='9,51995144890264' Salt='0,163039637690013' Sugars='37,2667451796788' />
+	</Product>
+	<Product Id='338' Name='Chocolate Bar Mini Snickers' Calories='9,87474013993847' Barcode='54938207'>
+		<Nutrients Fats='43,9381711443356' Carbohydrates='43,9381711443356' Fibres='0,552630868362687' Proteins='9,27953931809554' Salt='0,219584045653714' Sugars='19,1024228317293' />
+	</Product>
+	<Product Id='339' Name='Chocolate Bar 3 pack Milky Way' Calories='124,17615432873' Barcode='8114781'>
+		<Nutrients Fats='40,980216971757' Carbohydrates='40,980216971757' Fibres='0,706852640204925' Proteins='9,37617754383335' Salt='0,0454310712671305' Sugars='6,09277481915247' />
+	</Product>
+	<Product Id='340' Name='Chocolate Bar Candy Twix' Calories='116,972585138846' Barcode='69213891'>
+		<Nutrients Fats='40,6644580922983' Carbohydrates='40,6644580922983' Fibres='0,574541920795267' Proteins='9,66906619544993' Salt='0,496293054702863' Sugars='24,4280793125376' />
+	</Product>
+	<Product Id='341' Name='Chocolate Bar Regular Milky Way' Calories='159,647618079343' Barcode='6538126'>
+		<Nutrients Fats='43,4745390070328' Carbohydrates='43,4745390070328' Fibres='0,874781713913827' Proteins='10,7934382372772' Salt='0,164056356513531' Sugars='15,5102078170701' />
+	</Product>
+	<Product Id='342' Name='Chocolate Bar 3 pack Raider' Calories='104,76478889824' Barcode='3376069'>
+		<Nutrients Fats='43,4653146776245' Carbohydrates='43,4653146776245' Fibres='0,882634755277217' Proteins='7,55516119787482' Salt='0,39984883983984' Sugars='7,16127541591836' />
+	</Product>
+	<Product Id='343' Name='Chocolate Bar Candy M&amp;M' Calories='170,007056382334' Barcode='80429805'>
+		<Nutrients Fats='41,4406883224702' Carbohydrates='41,4406883224702' Fibres='0,647084783860589' Proteins='9,38195610205634' Salt='0,0749080665342605' Sugars='36,4728628480919' />
+	</Product>
+	<Product Id='344' Name='Chocolate Bar Candy Bounty' Calories='19,0354830781203' Barcode='61390973'>
+		<Nutrients Fats='40,0129325868299' Carbohydrates='40,0129325868299' Fibres='0,975285753863421' Proteins='8,10484222683771' Salt='0,154623985896744' Sugars='2,88381592093258' />
+	</Product>
+	<Product Id='345' Name='Chocolate Bar Family pack Raider' Calories='60,4668246433075' Barcode='39348695'>
+		<Nutrients Fats='43,5180612190259' Carbohydrates='43,5180612190259' Fibres='0,8110778843098' Proteins='10,6097873738548' Salt='0,0926640836650314' Sugars='19,1662787542332' />
+	</Product>
+	<Product Id='346' Name='Chocolate Bar 3 pack Raider' Calories='124,996735638867' Barcode='80228210'>
+		<Nutrients Fats='44,3032156704356' Carbohydrates='44,3032156704356' Fibres='0,767533775410331' Proteins='7,53288572288845' Salt='0,227835677956043' Sugars='36,8375806315742' />
+	</Product>
+	<Product Id='347' Name='Chocolate Bar Family pack Twix' Calories='71,1686852153921' Barcode='7746740'>
+		<Nutrients Fats='44,0758929969071' Carbohydrates='44,0758929969071' Fibres='0,560208747056487' Proteins='9,40815331096291' Salt='0,147900990620038' Sugars='15,6167414706388' />
+	</Product>
+	<Product Id='348' Name='Chocolate Bar Family pack Raider' Calories='115,693927698873' Barcode='19622943'>
+		<Nutrients Fats='43,6185162422832' Carbohydrates='43,6185162422832' Fibres='0,772505758000488' Proteins='7,30838874524033' Salt='0,384920013812055' Sugars='1,02918591002325' />
+	</Product>
+	<Product Id='349' Name='Chocolate Bar Regular Twix' Calories='130,333970217942' Barcode='76626116'>
+		<Nutrients Fats='43,7056203202414' Carbohydrates='43,7056203202414' Fibres='0,78716726302981' Proteins='8,41724023368647' Salt='0,275828868070083' Sugars='28,1060630277388' />
+	</Product>
+	<Product Id='350' Name='Chocolate Bar Mini Bounty' Calories='65,4592020918557' Barcode='7725657'>
+		<Nutrients Fats='42,7972380306404' Carbohydrates='42,7972380306404' Fibres='0,656821461701979' Proteins='7,3157952128301' Salt='0,257010964907906' Sugars='25,2114420531692' />
+	</Product>
+	<Product Id='351' Name='Chocolate Bar 6 pack M&amp;M' Calories='193,318599941579' Barcode='69230804'>
+		<Nutrients Fats='43,0191828843394' Carbohydrates='43,0191828843394' Fibres='0,899894245198607' Proteins='8,52300225643665' Salt='0,00262978839608929' Sugars='8,44988160901305' />
+	</Product>
+	<Product Id='352' Name='Chocolate Bar Candy Milky Way' Calories='168,10441012287' Barcode='28788496'>
+		<Nutrients Fats='42,8386588478131' Carbohydrates='42,8386588478131' Fibres='0,542685084290715' Proteins='7,53999004443255' Salt='0,146904985641924' Sugars='4,1337102418518' />
+	</Product>
+	<Product Id='353' Name='Chocolate Bar 6 pack Raider' Calories='56,9768375403734' Barcode='17123977'>
+		<Nutrients Fats='43,7899423224305' Carbohydrates='43,7899423224305' Fibres='0,757208471390177' Proteins='10,0360348702134' Salt='0,156625409062261' Sugars='2,09509762885474' />
+	</Product>
+	<Product Id='354' Name='Chocolate Bar Candy Raider' Calories='135,428654801817' Barcode='28572247'>
+		<Nutrients Fats='44,1793827634443' Carbohydrates='44,1793827634443' Fibres='0,969349134036155' Proteins='9,92755293692529' Salt='0,0445941284464025' Sugars='2,07015529790825' />
+	</Product>
+	<Product Id='355' Name='Chocolate Bar Family pack Mars' Calories='74,8200343704156' Barcode='38841349'>
+		<Nutrients Fats='44,3681025929485' Carbohydrates='44,3681025929485' Fibres='0,99924240273838' Proteins='8,72910056908006' Salt='0,46803689332125' Sugars='4,2718055473655' />
+	</Product>
+	<Product Id='356' Name='Chocolate Bar 3 pack Twix' Calories='25,7190372928199' Barcode='29905389'>
+		<Nutrients Fats='44,57247355063' Carbohydrates='44,57247355063' Fibres='0,980625233260761' Proteins='10,5026425775635' Salt='0,22927472335543' Sugars='3,925849081456' />
+	</Product>
+	<Product Id='357' Name='Chocolate Bar Family pack M&amp;M' Calories='32,909772117212' Barcode='3517629'>
+		<Nutrients Fats='43,9156905380464' Carbohydrates='43,9156905380464' Fibres='0,591615068726208' Proteins='9,6397422102262' Salt='0,107717443434304' Sugars='36,1994957833758' />
+	</Product>
+	<Product Id='358' Name='Chocolate Bar 3 pack Dove' Calories='231,81549709639' Barcode='80308660'>
+		<Nutrients Fats='40,1642705633832' Carbohydrates='40,1642705633832' Fibres='0,839173858770351' Proteins='8,1059775789511' Salt='0,260801990304675' Sugars='39,7521870461271' />
+	</Product>
+	<Product Id='359' Name='Chocolate Bar Maxi Milky Way' Calories='24,7907994627075' Barcode='27883513'>
+		<Nutrients Fats='40,0871010825255' Carbohydrates='40,0871010825255' Fibres='0,641366309922741' Proteins='7,20432415874642' Salt='0,275000072043248' Sugars='20,2513383969651' />
+	</Product>
+	<Product Id='360' Name='Chocolate Bar Candy Bounty' Calories='29,2470126052195' Barcode='81055663'>
+		<Nutrients Fats='44,1757022066684' Carbohydrates='44,1757022066684' Fibres='0,661924499285224' Proteins='9,6756614525791' Salt='0,0218987320883856' Sugars='23,4797344250073' />
+	</Product>
+	<Product Id='361' Name='Chocolate Bar Maxi Dove' Calories='116,162300971675' Barcode='81827083'>
+		<Nutrients Fats='43,6175405255159' Carbohydrates='43,6175405255159' Fibres='0,708081403995429' Proteins='10,1394598069555' Salt='0,0815966312562427' Sugars='30,3034643567325' />
+	</Product>
+	<Product Id='362' Name='Chocolate Bar Family pack Snickers' Calories='57,0950011988168' Barcode='73454187'>
+		<Nutrients Fats='44,9397619179915' Carbohydrates='44,9397619179915' Fibres='0,91216810290281' Proteins='8,67508587259398' Salt='0,0909446795293763' Sugars='8,40558282018961' />
+	</Product>
+	<Product Id='363' Name='Chocolate Bar 6 pack M&amp;M' Calories='122,03524493056' Barcode='64959319'>
+		<Nutrients Fats='41,5763215465856' Carbohydrates='41,5763215465856' Fibres='0,60479799542183' Proteins='8,70885963626145' Salt='0,315753015265598' Sugars='39,134737325735' />
+	</Product>
+	<Product Id='364' Name='Chocolate Bar Family pack Twix' Calories='36,1529213915377' Barcode='75687323'>
+		<Nutrients Fats='44,6097736075152' Carbohydrates='44,6097736075152' Fibres='0,587366404393436' Proteins='8,01892030837569' Salt='0,172082288908609' Sugars='21,2823120385008' />
+	</Product>
+	<Product Id='365' Name='Chocolate Bar Mini M&amp;M' Calories='63,635218701308' Barcode='55530846'>
+		<Nutrients Fats='43,4087066119165' Carbohydrates='43,4087066119165' Fibres='0,753940504168964' Proteins='8,56311360545692' Salt='0,403498048690812' Sugars='15,7669429820651' />
+	</Product>
+	<Product Id='366' Name='Chocolate Bar Candy Raider' Calories='28,8531511230692' Barcode='22557792'>
+		<Nutrients Fats='40,27520459104' Carbohydrates='40,27520459104' Fibres='0,654262546693239' Proteins='7,35491448355236' Salt='0,217201617892992' Sugars='7,94047688470954' />
+	</Product>
+	<Product Id='367' Name='Chocolate Bar Family pack Snickers' Calories='34,776077134958' Barcode='45410332'>
+		<Nutrients Fats='42,9033376501384' Carbohydrates='42,9033376501384' Fibres='0,686819369876728' Proteins='8,00802896776031' Salt='0,390906053168804' Sugars='4,58972904138127' />
+	</Product>
+	<Product Id='368' Name='Chocolate Bar Maxi Mars' Calories='68,1938936131758' Barcode='97724020'>
+		<Nutrients Fats='42,1731715795162' Carbohydrates='42,1731715795162' Fibres='0,702938803457802' Proteins='10,427958544277' Salt='0,13382103369562' Sugars='40,4201940229312' />
+	</Product>
+	<Product Id='369' Name='Chocolate Bar Mini Raider' Calories='171,382206610176' Barcode='80329221'>
+		<Nutrients Fats='42,2423280870911' Carbohydrates='42,2423280870911' Fibres='0,54666201916857' Proteins='8,35746778710345' Salt='0,26042380886855' Sugars='5,59700946802431' />
+	</Product>
+	<Product Id='370' Name='Chocolate Bar Candy Dove' Calories='201,421502790656' Barcode='92247211'>
+		<Nutrients Fats='43,8744692446118' Carbohydrates='43,8744692446118' Fibres='0,585257319016929' Proteins='9,74435070917823' Salt='0,248212955996371' Sugars='27,0574962474963' />
+	</Product>
+	<Product Id='371' Name='Chocolate Bar Mini Milky Way' Calories='120,001301889532' Barcode='30690803'>
+		<Nutrients Fats='41,8236518732493' Carbohydrates='41,8236518732493' Fibres='0,607528323205837' Proteins='8,07209985488738' Salt='0,0122835179786367' Sugars='5,89841730766014' />
+	</Product>
+	<Product Id='372' Name='Chocolate Bar Family pack Milky Way' Calories='63,537487345135' Barcode='71087645'>
+		<Nutrients Fats='43,3886889928613' Carbohydrates='43,3886889928613' Fibres='0,983203905387168' Proteins='10,8725288614311' Salt='0,033400630600835' Sugars='22,2306290029289' />
+	</Product>
+	<Product Id='373' Name='Chocolate Bar Mini Raider' Calories='51,6108586751743' Barcode='6042831'>
+		<Nutrients Fats='40,2763676505231' Carbohydrates='40,2763676505231' Fibres='0,756828076773499' Proteins='7,75644488052325' Salt='0,347714586263966' Sugars='27,2700499916952' />
+	</Product>
+	<Product Id='374' Name='Chocolate Bar Family pack Snickers' Calories='158,064270854097' Barcode='89347802'>
+		<Nutrients Fats='44,1357641681517' Carbohydrates='44,1357641681517' Fibres='0,739211096312821' Proteins='8,43142668359077' Salt='0,237575565187637' Sugars='41,4871808987635' />
+	</Product>
+	<Product Id='375' Name='Chocolate Bar Regular M&amp;M' Calories='170,609836327181' Barcode='53636456'>
+		<Nutrients Fats='40,3525913274955' Carbohydrates='40,3525913274955' Fibres='0,608279759791855' Proteins='10,6381791854764' Salt='0,316037970377534' Sugars='23,0085936321912' />
+	</Product>
+	<Product Id='376' Name='Chocolate Bar 6 pack M&amp;M' Calories='159,046872008757' Barcode='79277706'>
+		<Nutrients Fats='44,5322565052676' Carbohydrates='44,5322565052676' Fibres='0,516232088211271' Proteins='10,6032177718577' Salt='0,371748136289017' Sugars='7,33193488670882' />
+	</Product>
+	<Product Id='377' Name='Chocolate Bar 3 pack Dove' Calories='140,193564454164' Barcode='12964166'>
+		<Nutrients Fats='42,6583671549734' Carbohydrates='42,6583671549734' Fibres='0,846969616874646' Proteins='9,05641998353416' Salt='0,261916399843923' Sugars='19,0113809164213' />
+	</Product>
+	<Product Id='378' Name='Chocolate Bar Maxi Milky Way' Calories='33,339221850045' Barcode='88515177'>
+		<Nutrients Fats='44,3506609864093' Carbohydrates='44,3506609864093' Fibres='0,892347152976438' Proteins='7,90941072192284' Salt='0,371577651504964' Sugars='22,3516681484097' />
+	</Product>
+	<Product Id='379' Name='Chocolate Bar Regular Milky Way' Calories='16,6395601807892' Barcode='22600570'>
+		<Nutrients Fats='41,6138542352037' Carbohydrates='41,6138542352037' Fibres='0,909797420467447' Proteins='10,3533352686682' Salt='0,0260791896009737' Sugars='7,09200598081337' />
+	</Product>
+	<Product Id='380' Name='Chocolate Bar Candy Raider' Calories='31,1401233581727' Barcode='43883297'>
+		<Nutrients Fats='41,4555723403781' Carbohydrates='41,4555723403781' Fibres='0,505873982678405' Proteins='9,65213964646617' Salt='0,353115804895735' Sugars='34,2732313761578' />
+	</Product>
+	<Product Id='381' Name='Chocolate Bar 6 pack Mars' Calories='72,938124571964' Barcode='41108740'>
+		<Nutrients Fats='40,6830943463805' Carbohydrates='40,6830943463805' Fibres='0,818277712874204' Proteins='7,07788764001985' Salt='0,314831308144134' Sugars='2,92106111417159' />
+	</Product>
+	<Product Id='382' Name='Chocolate Bar Family pack Mars' Calories='22,7310812033869' Barcode='55802811'>
+		<Nutrients Fats='44,2674036430548' Carbohydrates='44,2674036430548' Fibres='0,682705747190431' Proteins='9,83458626960914' Salt='0,20307956804881' Sugars='23,4726961208097' />
+	</Product>
+	<Product Id='383' Name='Chocolate Bar Candy M&amp;M' Calories='43,2629848313788' Barcode='50079428'>
+		<Nutrients Fats='41,7072306152619' Carbohydrates='41,7072306152619' Fibres='0,51754931082986' Proteins='10,7212043262463' Salt='0,301791324868063' Sugars='36,9155688577705' />
+	</Product>
+	<Product Id='384' Name='Chocolate Bar Regular Milky Way' Calories='179,128650619452' Barcode='99199169'>
+		<Nutrients Fats='42,919615930455' Carbohydrates='42,919615930455' Fibres='0,79435855973349' Proteins='7,2195716839824' Salt='0,139548111427467' Sugars='39,6540326612259' />
+	</Product>
+	<Product Id='385' Name='Chocolate Bar Family pack Bounty' Calories='77,2434076431577' Barcode='19807890'>
+		<Nutrients Fats='41,280286445017' Carbohydrates='41,280286445017' Fibres='0,524475395041521' Proteins='10,9084848712207' Salt='0,223263574248915' Sugars='8,46307876606635' />
+	</Product>
+	<Product Id='386' Name='Chocolate Bar 3 pack M&amp;M' Calories='154,826854765903' Barcode='84345086'>
+		<Nutrients Fats='40,3579600322289' Carbohydrates='40,3579600322289' Fibres='0,658792276642762' Proteins='9,42571183153946' Salt='0,162550349091697' Sugars='6,80046682546641' />
+	</Product>
+	<Product Id='387' Name='Chocolate Bar 6 pack Raider' Calories='13,2390476322525' Barcode='6281932'>
+		<Nutrients Fats='42,8173076775613' Carbohydrates='42,8173076775613' Fibres='0,754119862064953' Proteins='7,78846433094636' Salt='0,0342671383159163' Sugars='31,1996220440213' />
+	</Product>
+	<Product Id='388' Name='Chocolate Bar Mini Raider' Calories='116,415349191198' Barcode='95957684'>
+		<Nutrients Fats='42,5003054879493' Carbohydrates='42,5003054879493' Fibres='0,887250736475346' Proteins='7,00380360430009' Salt='0,38284802183005' Sugars='27,81840203298' />
+	</Product>
+	<Product Id='389' Name='Chocolate Bar 3 pack Snickers' Calories='76,567991530174' Barcode='3259945'>
+		<Nutrients Fats='42,7225567683586' Carbohydrates='42,7225567683586' Fibres='0,704965641040555' Proteins='8,68877422049241' Salt='0,149263613011046' Sugars='36,9532738592845' />
+	</Product>
+	<Product Id='390' Name='Chocolate Bar Regular M&amp;M' Calories='210,331334661553' Barcode='25027651'>
+		<Nutrients Fats='40,4283068676' Carbohydrates='40,4283068676' Fibres='0,881783664071146' Proteins='10,978859984576' Salt='0,092373626434242' Sugars='29,7597547793973' />
+	</Product>
+	<Product Id='391' Name='Chocolate Bar Regular Twix' Calories='192,210728570082' Barcode='42750293'>
+		<Nutrients Fats='40,1941478491716' Carbohydrates='40,1941478491716' Fibres='0,812772032389476' Proteins='7,44828710508763' Salt='0,476767974587019' Sugars='28,3732009603235' />
+	</Product>
+	<Product Id='392' Name='Chocolate Bar Candy Raider' Calories='80,2017287189872' Barcode='2905313'>
+		<Nutrients Fats='43,2606692118477' Carbohydrates='43,2606692118477' Fibres='0,857750570213086' Proteins='7,15324795816274' Salt='0,490112073426671' Sugars='23,9433040583936' />
+	</Product>
+	<Product Id='393' Name='Chocolate Bar Regular Twix' Calories='24,371564872436' Barcode='79190558'>
+		<Nutrients Fats='41,8522960288381' Carbohydrates='41,8522960288381' Fibres='0,561751455968232' Proteins='7,51115946298185' Salt='0,079213852521054' Sugars='7,0275689768973' />
+	</Product>
+	<Product Id='394' Name='Chocolate Bar Family pack Raider' Calories='125,651225553695' Barcode='92640373'>
+		<Nutrients Fats='40,414858358973' Carbohydrates='40,414858358973' Fibres='0,996675057168006' Proteins='10,2931255388895' Salt='0,163295309535089' Sugars='35,4951022120084' />
+	</Product>
+	<Product Id='395' Name='Chocolate Bar Regular Bounty' Calories='103,407644804628' Barcode='87533073'>
+		<Nutrients Fats='40,8542047888855' Carbohydrates='40,8542047888855' Fibres='0,835836078637574' Proteins='8,78905431977869' Salt='0,107573487240586' Sugars='26,1722800859565' />
+	</Product>
+	<Product Id='396' Name='Chocolate Bar 3 pack Bounty' Calories='187,676207926784' Barcode='92509949'>
+		<Nutrients Fats='42,9293246146457' Carbohydrates='42,9293246146457' Fibres='0,533313971398669' Proteins='8,96649765390451' Salt='0,495585513328387' Sugars='27,8463560531053' />
+	</Product>
+	<Product Id='397' Name='Chocolate Bar Maxi Bounty' Calories='90,9264624100715' Barcode='4129941'>
+		<Nutrients Fats='40,5824894540101' Carbohydrates='40,5824894540101' Fibres='0,906476930904024' Proteins='7,80946356611595' Salt='0,253234207159061' Sugars='11,9181815151027' />
+	</Product>
+	<Product Id='398' Name='Chocolate Bar 3 pack Twix' Calories='133,921786840615' Barcode='11048797'>
+		<Nutrients Fats='40,4962949437811' Carbohydrates='40,4962949437811' Fibres='0,617673500740206' Proteins='10,1862612488713' Salt='0,307339183951423' Sugars='37,451480994066' />
+	</Product>
+	<Product Id='399' Name='Chocolate Bar Family pack Dove' Calories='16,6927833934807' Barcode='22147173'>
+		<Nutrients Fats='41,6104151985352' Carbohydrates='41,6104151985352' Fibres='0,978932037888845' Proteins='7,5990807233622' Salt='0,478781849585683' Sugars='12,9721915950562' />
+	</Product>
+	<Product Id='400' Name='Suzi wan Ready to eat soba' Calories='57,4427099498551' Barcode='7858565'>
+		<Nutrients Fats='30,5937593312549' Carbohydrates='30,5937593312549' Fibres='1,78772622584758' Proteins='0,56194436327641' Salt='0,869608001130356' Sugars='15,1762388475041' />
+	</Product>
+	<Product Id='401' Name='Suzi wan 1kg Brown Rice' Calories='41,2537300413266' Barcode='52133613'>
+		<Nutrients Fats='19,4944272779192' Carbohydrates='19,4944272779192' Fibres='7,09013075600277' Proteins='0,308338280223081' Salt='0,418691841691561' Sugars='0,757496761232611' />
+	</Product>
+	<Product Id='402' Name='Miracloli 500gr Noodles' Calories='111,196347778785' Barcode='8212498'>
+		<Nutrients Fats='32,4073904016004' Carbohydrates='32,4073904016004' Fibres='11,4562444390219' Proteins='2,30887928213021' Salt='0,159924360635761' Sugars='29,6927802522745' />
+	</Product>
+	<Product Id='403' Name='Suzi wan Ready to eat Capellini' Calories='120,803036306085' Barcode='97453192'>
+		<Nutrients Fats='23,9837388660854' Carbohydrates='23,9837388660854' Fibres='7,57808953089319' Proteins='3,83238890047449' Salt='0,059693544744481' Sugars='23,9028897863523' />
+	</Product>
+	<Product Id='404' Name='Suzi wan Economy mi fen' Calories='48,2860023117668' Barcode='14760017'>
+		<Nutrients Fats='36,898996012775' Carbohydrates='36,898996012775' Fibres='4,53172558905571' Proteins='7,59838822227383' Salt='0,597515284930928' Sugars='10,7824600813639' />
+	</Product>
+	<Product Id='405' Name='Uncle Bens Economy Fusilli' Calories='43,7456288161593' Barcode='46007050'>
+		<Nutrients Fats='14,0733219586563' Carbohydrates='14,0733219586563' Fibres='5,12561189079137' Proteins='3,62754688625329' Salt='0,202288214026395' Sugars='6,18364837652908' />
+	</Product>
+	<Product Id='406' Name='Miracloli Cooked Farfalle' Calories='92,2998222522716' Barcode='26962884'>
+		<Nutrients Fats='39,4070341210099' Carbohydrates='39,4070341210099' Fibres='1,31455399617867' Proteins='6,5088193711234' Salt='0,596006418511697' Sugars='32,1814326528443' />
+	</Product>
+	<Product Id='407' Name='Suzi wan Quick Fusilli' Calories='81,4100276752676' Barcode='29319480'>
+		<Nutrients Fats='22,6713661664645' Carbohydrates='22,6713661664645' Fibres='5,21057275053509' Proteins='5,14348579397984' Salt='0,867554278345385' Sugars='15,0418102351513' />
+	</Product>
+	<Product Id='408' Name='Suzi wan Integral Dessert Rice' Calories='4,11149135022271' Barcode='29946756'>
+		<Nutrients Fats='30,4935896172825' Carbohydrates='30,4935896172825' Fibres='7,56556340403463' Proteins='0,494811287924312' Salt='0,878443861328604' Sugars='3,51408543354401' />
+	</Product>
+	<Product Id='409' Name='Suzi wan 250gr Capellini' Calories='10,4658798478505' Barcode='13638019'>
+		<Nutrients Fats='12,975203895882' Carbohydrates='12,975203895882' Fibres='2,00429202743297' Proteins='1,08935594814526' Salt='0,671472569804015' Sugars='4,18561969720977' />
+	</Product>
+	<Product Id='410' Name='Miracloli 1kg Fusilli' Calories='89,520219812958' Barcode='26604959'>
+		<Nutrients Fats='34,247792485404' Carbohydrates='34,247792485404' Fibres='7,63647612546215' Proteins='5,17998058097031' Salt='0,89703284902631' Sugars='12,2209884195263' />
+	</Product>
+	<Product Id='411' Name='Miracloli Family pack Noodles' Calories='90,0798848443011' Barcode='57210559'>
+		<Nutrients Fats='27,628548509916' Carbohydrates='27,628548509916' Fibres='1,53202701346136' Proteins='7,08513004436952' Salt='0,442613004480956' Sugars='10,8946642441726' />
+	</Product>
+	<Product Id='412' Name='Miracloli Quick Brown Rice' Calories='65,4109301925616' Barcode='96611979'>
+		<Nutrients Fats='31,5999340685776' Carbohydrates='31,5999340685776' Fibres='11,20483790511' Proteins='4,28334194234186' Salt='0,934774359329913' Sugars='29,2757661239574' />
+	</Product>
+	<Product Id='413' Name='Miracloli 1kg somen' Calories='73,4025338831113' Barcode='86314490'>
+		<Nutrients Fats='38,7217644886235' Carbohydrates='38,7217644886235' Fibres='7,69769822440227' Proteins='0,177015566804306' Salt='0,700287762159166' Sugars='8,20790440611175' />
+	</Product>
+	<Product Id='414' Name='Miracloli Portioned Capellini' Calories='36,9939084564389' Barcode='79080698'>
+		<Nutrients Fats='10,8272342934514' Carbohydrates='10,8272342934514' Fibres='0,194524828541502' Proteins='5,76039025536551' Salt='0,0179078926326545' Sugars='4,43562901889269' />
+	</Product>
+	<Product Id='415' Name='Miracloli Integral Brown Rice' Calories='38,5720527103514' Barcode='7186281'>
+		<Nutrients Fats='15,1889836813224' Carbohydrates='15,1889836813224' Fibres='1,4837068940709' Proteins='6,19592931065576' Salt='0,0877623674652246' Sugars='2,76502176877856' />
+	</Product>
+	<Product Id='416' Name='Miracloli Portioned White Rice' Calories='98,0272143661097' Barcode='98058997'>
+		<Nutrients Fats='35,6628723615594' Carbohydrates='35,6628723615594' Fibres='11,5601207978919' Proteins='1,58792888071706' Salt='0,719873579234106' Sugars='34,1716659402702' />
+	</Product>
+	<Product Id='417' Name='Suzi wan Cooked somen' Calories='25,1186082857723' Barcode='26398204'>
+		<Nutrients Fats='20,2840911011147' Carbohydrates='20,2840911011147' Fibres='3,74233300824653' Proteins='6,39832288907379' Salt='0,502707772973718' Sugars='15,8304659040816' />
+	</Product>
+	<Product Id='418' Name='Suzi wan Quick fen sso' Calories='127,231235809818' Barcode='74334217'>
+		<Nutrients Fats='20,8796003232341' Carbohydrates='20,8796003232341' Fibres='1,57285048663937' Proteins='6,62989208582295' Salt='0,457991453590766' Sugars='18,6105423811412' />
+	</Product>
+	<Product Id='419' Name='Suzi wan 250gr Noodles' Calories='20,3618210136247' Barcode='53456781'>
+		<Nutrients Fats='11,5655276050414' Carbohydrates='11,5655276050414' Fibres='7,86275480423788' Proteins='2,59166682331576' Salt='0,232834278556755' Sugars='8,05605404938774' />
+	</Product>
+	<Product Id='420' Name='Suzi wan Portioned Gnocci' Calories='64,0336115161756' Barcode='4221491'>
+		<Nutrients Fats='25,3823502729445' Carbohydrates='25,3823502729445' Fibres='9,94591305367607' Proteins='4,32412635707331' Salt='0,449681222583038' Sugars='2,97123952871439' />
+	</Product>
+	<Product Id='421' Name='Uncle Bens Add hot water fen sso' Calories='4,99683578331225' Barcode='2725813'>
+		<Nutrients Fats='27,5160164282395' Carbohydrates='27,5160164282395' Fibres='4,5489182207586' Proteins='3,43695357896322' Salt='0,783385839146652' Sugars='7,15739124609994' />
+	</Product>
+	<Product Id='422' Name='Miracloli Add hot water Basmati Roce' Calories='52,1769413548802' Barcode='618220'>
+		<Nutrients Fats='14,1560109450431' Carbohydrates='14,1560109450431' Fibres='5,65504366387529' Proteins='7,87720523711507' Salt='0,508987166668078' Sugars='9,43843719247003' />
+	</Product>
+	<Product Id='423' Name='Suzi wan 250gr fen sso' Calories='1,46458695756017' Barcode='19685538'>
+		<Nutrients Fats='30,7168864027536' Carbohydrates='30,7168864027536' Fibres='2,60310207378302' Proteins='2,93526692195195' Salt='0,301879589508788' Sugars='11,2728247814473' />
+	</Product>
+	<Product Id='424' Name='Miracloli Family pack Spaghetti' Calories='79,7909978085934' Barcode='33969090'>
+		<Nutrients Fats='30,4555159203502' Carbohydrates='30,4555159203502' Fibres='5,98679995008503' Proteins='3,8537673262187' Salt='0,0121891730016314' Sugars='21,2190626350399' />
+	</Product>
+	<Product Id='425' Name='Miracloli 1kg Risotto Rice' Calories='23,0699221349854' Barcode='65783110'>
+		<Nutrients Fats='23,4623153430886' Carbohydrates='23,4623153430886' Fibres='11,9219093450071' Proteins='1,44007373089535' Salt='0,363517682908641' Sugars='19,9828561832924' />
+	</Product>
+	<Product Id='426' Name='Uncle Bens 500gr soba' Calories='85,7433433805419' Barcode='1862876'>
+		<Nutrients Fats='37,8501175664225' Carbohydrates='37,8501175664225' Fibres='11,2100582808766' Proteins='7,689749708191' Salt='0,78786818977304' Sugars='30,3518510047236' />
+	</Product>
+	<Product Id='427' Name='Suzi wan Quick Dessert Rice' Calories='37,7068453260107' Barcode='99103920'>
+		<Nutrients Fats='19,0796529347989' Carbohydrates='19,0796529347989' Fibres='9,91444766000335' Proteins='1,6850069840678' Salt='0,394647920330143' Sugars='18,2102727822592' />
+	</Product>
+	<Product Id='428' Name='Miracloli 250gr Tan mien ' Calories='106,375414969181' Barcode='98165660'>
+		<Nutrients Fats='35,2606082720245' Carbohydrates='35,2606082720245' Fibres='3,29193562077015' Proteins='2,0165372757275' Salt='0,200314871792929' Sugars='6,64357629439078' />
+	</Product>
+	<Product Id='429' Name='Miracloli Portioned Farfalle' Calories='107,530921022419' Barcode='40740958'>
+		<Nutrients Fats='23,9883573043321' Carbohydrates='23,9883573043321' Fibres='0,54305476569427' Proteins='2,01452095273551' Salt='0,844331254075696' Sugars='13,8573642473198' />
+	</Product>
+	<Product Id='430' Name='Uncle Bens Portioned Penne' Calories='0,32448900969438' Barcode='83863247'>
+		<Nutrients Fats='18,7071182429626' Carbohydrates='18,7071182429626' Fibres='3,96879592186103' Proteins='3,89787438348029' Salt='0,991201718224917' Sugars='4,98467383795516' />
+	</Product>
+	<Product Id='431' Name='Uncle Bens 250gr Fusilli' Calories='5,728884132543' Barcode='33608612'>
+		<Nutrients Fats='21,4342167439706' Carbohydrates='21,4342167439706' Fibres='11,1975301384655' Proteins='5,3486606739291' Salt='0,33386402754065' Sugars='18,4865282702998' />
+	</Product>
+	<Product Id='432' Name='Miracloli Microwave udo' Calories='125,911003504028' Barcode='95553143'>
+		<Nutrients Fats='24,5813963247396' Carbohydrates='24,5813963247396' Fibres='4,83520449756395' Proteins='0,957755994175127' Salt='0,636347144869556' Sugars='19,0635391166844' />
+	</Product>
+	<Product Id='433' Name='Uncle Bens Quick Dessert Rice' Calories='63,3456077760374' Barcode='75880033'>
+		<Nutrients Fats='14,0566794247165' Carbohydrates='14,0566794247165' Fibres='8,65763303695114' Proteins='3,07548429738002' Salt='0,331972837543423' Sugars='10,6597364500489' />
+	</Product>
+	<Product Id='434' Name='Suzi wan 250gr fen sso' Calories='14,4597574078886' Barcode='43580299'>
+		<Nutrients Fats='10,2494794285859' Carbohydrates='10,2494794285859' Fibres='4,61501040211719' Proteins='6,22086229093356' Salt='0,423928323582362' Sugars='5,78122322917453' />
+	</Product>
+	<Product Id='435' Name='Miracloli Microwave DarkWild Rice' Calories='131,092095544085' Barcode='22347112'>
+		<Nutrients Fats='39,7584618639382' Carbohydrates='39,7584618639382' Fibres='5,04299517291181' Proteins='1,09730295633982' Salt='0,936988227727998' Sugars='10,4375877004827' />
+	</Product>
+	<Product Id='436' Name='Uncle Bens Integral Unpeeled Rice' Calories='6,44056924469244' Barcode='25275273'>
+		<Nutrients Fats='15,399025197688' Carbohydrates='15,399025197688' Fibres='5,75681853610984' Proteins='2,66398604309831' Salt='0,0921274269555418' Sugars='1,50404050019157' />
+	</Product>
+	<Product Id='437' Name='Miracloli Economy Farfalle' Calories='1,01331573253538' Barcode='53420183'>
+		<Nutrients Fats='11,2443910106202' Carbohydrates='11,2443910106202' Fibres='3,48404576190317' Proteins='7,60584919026566' Salt='0,0137655681496996' Sugars='8,51873127374719' />
+	</Product>
+	<Product Id='438' Name='Miracloli Integral Unpeeled Rice' Calories='35,0721347229936' Barcode='25791901'>
+		<Nutrients Fats='16,7374327574358' Carbohydrates='16,7374327574358' Fibres='1,97276021416526' Proteins='3,2891446812888' Salt='0,715499296905275' Sugars='0,43587378735916' />
+	</Product>
+	<Product Id='439' Name='Miracloli Integral fen sso' Calories='22,1975661599963' Barcode='16411558'>
+		<Nutrients Fats='14,6817138009867' Carbohydrates='14,6817138009867' Fibres='8,28763119645564' Proteins='4,72849244892966' Salt='0,592253432746212' Sugars='10,3049118397765' />
+	</Product>
+	<Product Id='440' Name='Suzi wan 1kg Unpeeled Rice' Calories='37,5941783837038' Barcode='33759597'>
+		<Nutrients Fats='31,4637645346332' Carbohydrates='31,4637645346332' Fibres='8,7576035295672' Proteins='1,18949042564999' Salt='0,886165215828986' Sugars='15,4842218311785' />
+	</Product>
+	<Product Id='441' Name='Suzi wan 1 portion White Rice' Calories='86,1390049514833' Barcode='70652691'>
+		<Nutrients Fats='38,4059539846801' Carbohydrates='38,4059539846801' Fibres='1,84132974077061' Proteins='2,35096167494421' Salt='0,803505390159711' Sugars='26,4204332900598' />
+	</Product>
+	<Product Id='442' Name='Suzi wan Microwave Gnocci' Calories='103,666965372076' Barcode='96004499'>
+		<Nutrients Fats='27,3800295170051' Carbohydrates='27,3800295170051' Fibres='7,09366175032508' Proteins='2,79697092310453' Salt='0,87529203514595' Sugars='16,9483675787228' />
+	</Product>
+	<Product Id='443' Name='Miracloli 250gr somen' Calories='88,0096287207684' Barcode='49058064'>
+		<Nutrients Fats='21,1648793731967' Carbohydrates='21,1648793731967' Fibres='4,32597148539895' Proteins='2,23529806841046' Salt='0,0534390971032856' Sugars='13,3147096005272' />
+	</Product>
+	<Product Id='444' Name='Miracloli Cooked Macaroni' Calories='4,28899543478597' Barcode='50521532'>
+		<Nutrients Fats='29,2318610305847' Carbohydrates='29,2318610305847' Fibres='9,73076689667843' Proteins='7,48580913805265' Salt='0,0442639463822461' Sugars='7,13689071758815' />
+	</Product>
+	<Product Id='445' Name='Suzi wan Cooked White Rice' Calories='52,8549637676056' Barcode='83345601'>
+		<Nutrients Fats='16,476438622885' Carbohydrates='16,476438622885' Fibres='4,38257715310834' Proteins='2,10472073667899' Salt='0,074428204720398' Sugars='5,58399454076002' />
+	</Product>
+	<Product Id='446' Name='Miracloli Luxe Unpeeled Rice' Calories='101,283943513809' Barcode='65417160'>
+		<Nutrients Fats='24,7730343443773' Carbohydrates='24,7730343443773' Fibres='9,58336792004615' Proteins='1,6054127579618' Salt='0,0685555742007029' Sugars='9,51330230156498' />
+	</Product>
+	<Product Id='447' Name='Miracloli Family pack White Rice' Calories='12,4381912472048' Barcode='52634689'>
+		<Nutrients Fats='11,4942327989375' Carbohydrates='11,4942327989375' Fibres='3,21190456599055' Proteins='7,53745887341528' Salt='0,771900542513561' Sugars='4,67029284476654' />
+	</Product>
+	<Product Id='448' Name='Miracloli Cooked Gnocci' Calories='51,9348845625225' Barcode='68643890'>
+		<Nutrients Fats='23,435447535385' Carbohydrates='23,435447535385' Fibres='10,1734834139923' Proteins='3,09505078047341' Salt='0,653497218272517' Sugars='5,32975716551365' />
+	</Product>
+	<Product Id='449' Name='Miracloli Add hot water fen sso' Calories='13,8640494949311' Barcode='1495868'>
+		<Nutrients Fats='15,3697417176376' Carbohydrates='15,3697417176376' Fibres='5,00097622133818' Proteins='7,00138928238781' Salt='0,230820620746049' Sugars='10,4167834807672' />
+	</Product>
+	<Product Id='450' Name='Miracloli 250gr Fusilli' Calories='72,7134820205459' Barcode='95735002'>
+		<Nutrients Fats='21,4532858629514' Carbohydrates='21,4532858629514' Fibres='6,61850956565121' Proteins='3,1461982261714' Salt='0,753633744699349' Sugars='12,1479940511478' />
+	</Product>
+	<Product Id='451' Name='Suzi wan 250gr soba' Calories='139,130506114073' Barcode='32462969'>
+		<Nutrients Fats='31,9193697789711' Carbohydrates='31,9193697789711' Fibres='3,39063120866875' Proteins='1,86345200892407' Salt='0,935316053990212' Sugars='17,3706488492759' />
+	</Product>
+	<Product Id='452' Name='Suzi wan 1kg Jasmine Rice' Calories='24,0985320014355' Barcode='88515982'>
+		<Nutrients Fats='15,7816095079855' Carbohydrates='15,7816095079855' Fibres='2,788099928713' Proteins='5,77293805263307' Salt='0,254232272478314' Sugars='13,3137443978621' />
+	</Product>
+	<Product Id='453' Name='Miracloli Economy Jasmine Rice' Calories='84,0901717020128' Barcode='11897260'>
+		<Nutrients Fats='27,2806855893417' Carbohydrates='27,2806855893417' Fibres='10,9714965723596' Proteins='1,18699945327313' Salt='0,451552017422078' Sugars='7,84797101566726' />
+	</Product>
+	<Product Id='454' Name='Uncle Bens Microwave White Rice' Calories='62,7272531973108' Barcode='29003099'>
+		<Nutrients Fats='21,7453382270204' Carbohydrates='21,7453382270204' Fibres='6,90788690191624' Proteins='7,68963674313341' Salt='0,562115027320922' Sugars='20,102338159954' />
+	</Product>
+	<Product Id='455' Name='Miracloli Cooked Capellini' Calories='50,1453541550023' Barcode='31826277'>
+		<Nutrients Fats='12,6982496313706' Carbohydrates='12,6982496313706' Fibres='10,6968709210955' Proteins='5,57383747326622' Salt='0,692487577763306' Sugars='1,56660322942789' />
+	</Product>
+	<Product Id='456' Name='Miracloli Cooked Brown Rice' Calories='127,142358926175' Barcode='14746341'>
+		<Nutrients Fats='30,4756008463754' Carbohydrates='30,4756008463754' Fibres='0,447268297021254' Proteins='6,37719499799218' Salt='0,555885142499854' Sugars='21,077496131973' />
+	</Product>
+	<Product Id='457' Name='Suzi wan Microwave Risotto Rice' Calories='52,733604159469' Barcode='57227048'>
+		<Nutrients Fats='28,7011032394919' Carbohydrates='28,7011032394919' Fibres='7,11452494697687' Proteins='5,11348510797755' Salt='0,971151730095736' Sugars='27,280708059164' />
+	</Product>
+	<Product Id='458' Name='Uncle Bens Cooked Noodles' Calories='11,8982009781305' Barcode='99066723'>
+		<Nutrients Fats='14,1123605389586' Carbohydrates='14,1123605389586' Fibres='4,19579453766991' Proteins='7,73811255104445' Salt='0,410125909596446' Sugars='11,1891639296626' />
+	</Product>
+	<Product Id='459' Name='Uncle Bens Quick somen' Calories='27,3718939306331' Barcode='11151267'>
+		<Nutrients Fats='36,1686423021892' Carbohydrates='36,1686423021892' Fibres='11,0023852304776' Proteins='7,24636939119499' Salt='0,0305170654094912' Sugars='33,1805960542115' />
+	</Product>
+	<Product Id='460' Name='Uncle Bens 1 portion Risotto Rice' Calories='94,6237668835235' Barcode='32529512'>
+		<Nutrients Fats='27,5487311466748' Carbohydrates='27,5487311466748' Fibres='8,13051308332382' Proteins='0,726433232443314' Salt='0,190537314805309' Sugars='7,29898321019406' />
+	</Product>
+	<Product Id='461' Name='Suzi wan Add hot water Risotto Rice' Calories='93,9444841006561' Barcode='12300315'>
+		<Nutrients Fats='27,2580514229463' Carbohydrates='27,2580514229463' Fibres='8,94468971639374' Proteins='0,111890685659589' Salt='0,823789200299898' Sugars='12,4745632212937' />
+	</Product>
+	<Product Id='462' Name='Suzi wan 500gr soba' Calories='165,948255311758' Barcode='83019865'>
+		<Nutrients Fats='34,2632541771299' Carbohydrates='34,2632541771299' Fibres='4,63722165304654' Proteins='1,11865756954651' Salt='0,651527968806311' Sugars='30,2845918333474' />
+	</Product>
+	<Product Id='463' Name='Miracloli Add hot water Rice' Calories='75,8104341654787' Barcode='73066896'>
+		<Nutrients Fats='32,5948198646487' Carbohydrates='32,5948198646487' Fibres='6,38135952337027' Proteins='7,19433041436468' Salt='0,416161454198859' Sugars='2,91249233438344' />
+	</Product>
+	<Product Id='464' Name='Suzi wan Integral Gnocci' Calories='66,5712528578923' Barcode='76398428'>
+		<Nutrients Fats='30,8963646110438' Carbohydrates='30,8963646110438' Fibres='9,27460674226093' Proteins='2,80024734907548' Salt='0,894211768315949' Sugars='22,6666994227876' />
+	</Product>
+	<Product Id='465' Name='Miracloli Family pack Jasmine Rice' Calories='3,271907144495' Barcode='58092721'>
+		<Nutrients Fats='10,5047774478605' Carbohydrates='10,5047774478605' Fibres='11,7445643740427' Proteins='7,93390681026685' Salt='0,667600270179156' Sugars='8,41373640672531' />
+	</Product>
+	<Product Id='466' Name='Uncle Bens Family pack somen' Calories='58,9411101657802' Barcode='2004305'>
+		<Nutrients Fats='27,4732228897311' Carbohydrates='27,4732228897311' Fibres='6,66240013258511' Proteins='5,63395682390913' Salt='0,359300465975325' Sugars='4,63675046933303' />
+	</Product>
+	<Product Id='467' Name='Miracloli Cooked Spaghetti' Calories='45,7308839674946' Barcode='16786016'>
+		<Nutrients Fats='24,5116555975301' Carbohydrates='24,5116555975301' Fibres='8,8920673310086' Proteins='4,01892166385023' Salt='0,992424896918971' Sugars='0,626288756364709' />
+	</Product>
+	<Product Id='468' Name='Miracloli 250gr Gnocci' Calories='44,4820495776938' Barcode='58315948'>
+		<Nutrients Fats='16,3931240717822' Carbohydrates='16,3931240717822' Fibres='2,1728558359104' Proteins='7,77795624390983' Salt='0,462805651281104' Sugars='3,69688880269444' />
+	</Product>
+	<Product Id='469' Name='Miracloli Quick Macaroni' Calories='115,983939220803' Barcode='89932259'>
+		<Nutrients Fats='29,9811379648222' Carbohydrates='29,9811379648222' Fibres='10,9902620407859' Proteins='1,03729909524326' Salt='0,848899377793548' Sugars='26,4347834765536' />
+	</Product>
+	<Product Id='470' Name='Suzi wan Ready to eat Macaroni' Calories='98,1514046775823' Barcode='19936509'>
+		<Nutrients Fats='27,4627095693796' Carbohydrates='27,4627095693796' Fibres='3,6182014161468' Proteins='6,80195775492278' Salt='0,0612858847843206' Sugars='10,6340702305222' />
+	</Product>
+	<Product Id='471' Name='Suzi wan Microwave Farfalle' Calories='22,7260524459638' Barcode='65390173'>
+		<Nutrients Fats='16,623194573029' Carbohydrates='16,623194573029' Fibres='5,50707902458289' Proteins='5,74266144437493' Salt='0,366053526224326' Sugars='8,53114047058127' />
+	</Product>
+	<Product Id='472' Name='Miracloli 250gr Capellini' Calories='45,3941766955603' Barcode='78767508'>
+		<Nutrients Fats='19,870949933805' Carbohydrates='19,870949933805' Fibres='6,70298051925085' Proteins='1,61622907801489' Salt='0,658876916692238' Sugars='5,46632474829512' />
+	</Product>
+	<Product Id='473' Name='Miracloli 250gr Jasmine Rice' Calories='138,325869095287' Barcode='73678267'>
+		<Nutrients Fats='27,4783554989537' Carbohydrates='27,4783554989537' Fibres='7,07183157110657' Proteins='2,24714707439268' Salt='0,296395844640546' Sugars='19,8420212083355' />
+	</Product>
+	<Product Id='474' Name='Miracloli Quick Rice' Calories='28,5939322844154' Barcode='18222262'>
+		<Nutrients Fats='38,5835652999714' Carbohydrates='38,5835652999714' Fibres='1,9143705890306' Proteins='0,800160616190821' Salt='0,00562163135426075' Sugars='15,3466348864158' />
+	</Product>
+	<Product Id='475' Name='Miracloli Economy DarkWild Rice' Calories='68,2664114511577' Barcode='7494161'>
+		<Nutrients Fats='18,7338997618936' Carbohydrates='18,7338997618936' Fibres='8,14263206393069' Proteins='5,08477663684419' Salt='0,891560137339079' Sugars='9,55343839868829' />
+	</Product>
+	<Product Id='476' Name='Suzi wan 500gr Spaghetti' Calories='63,3128079645528' Barcode='14362379'>
+		<Nutrients Fats='26,2457229381538' Carbohydrates='26,2457229381538' Fibres='4,11817787704196' Proteins='6,60981211307105' Salt='0,444575387063103' Sugars='2,15101287641612' />
+	</Product>
+	<Product Id='477' Name='Miracloli Integral mi fen' Calories='38,1977687176546' Barcode='43536873'>
+		<Nutrients Fats='28,3819172142117' Carbohydrates='28,3819172142117' Fibres='2,42595708115488' Proteins='3,37265605708665' Salt='0,353530826046003' Sugars='9,24044054289318' />
+	</Product>
+	<Product Id='478' Name='Suzi wan Ready to eat soba' Calories='62,2630078647582' Barcode='69694845'>
+		<Nutrients Fats='14,8383777204654' Carbohydrates='14,8383777204654' Fibres='0,0571585342961192' Proteins='0,762851480527396' Salt='0,880327240624261' Sugars='13,8842499455946' />
+	</Product>
+	<Product Id='479' Name='Miracloli Economy udo' Calories='121,228569247189' Barcode='10325209'>
+		<Nutrients Fats='39,6680168490537' Carbohydrates='39,6680168490537' Fibres='11,746875024512' Proteins='6,34439079148902' Salt='0,659150382705624' Sugars='36,710061186572' />
+	</Product>
+	<Product Id='480' Name='Uncle Bens Family pack soba' Calories='34,9226938047407' Barcode='14292816'>
+		<Nutrients Fats='28,8249712898772' Carbohydrates='28,8249712898772' Fibres='8,55057992755038' Proteins='5,43649701578889' Salt='0,165528587503517' Sugars='19,3234490907952' />
+	</Product>
+	<Product Id='481' Name='Suzi wan 500gr Risotto Rice' Calories='104,549970200727' Barcode='64540394'>
+		<Nutrients Fats='24,5872183602448' Carbohydrates='24,5872183602448' Fibres='2,70458265771388' Proteins='0,445348685705276' Salt='0,687856118970865' Sugars='15,0708633913238' />
+	</Product>
+	<Product Id='482' Name='Suzi wan Integral Dessert Rice' Calories='61,5359953741259' Barcode='23262629'>
+		<Nutrients Fats='15,9304197792016' Carbohydrates='15,9304197792016' Fibres='10,2343391523039' Proteins='2,84061279545248' Salt='0,0746244040613062' Sugars='5,12531418028914' />
+	</Product>
+	<Product Id='483' Name='Suzi wan Integral Capellini' Calories='34,2486754869238' Barcode='43347377'>
+		<Nutrients Fats='32,9816360780799' Carbohydrates='32,9816360780799' Fibres='11,2453469380493' Proteins='5,36656576768353' Salt='0,866538284561475' Sugars='3,57293187930675' />
+	</Product>
+	<Product Id='484' Name='Miracloli Ready to eat somen' Calories='118,279484792471' Barcode='18085709'>
+		<Nutrients Fats='30,9901285338595' Carbohydrates='30,9901285338595' Fibres='3,71060089150127' Proteins='7,37883352739403' Salt='0,934308079638183' Sugars='30,9494217660182' />
+	</Product>
+	<Product Id='485' Name='Miracloli Ready to eat Noodles' Calories='16,7620365123635' Barcode='67050449'>
+		<Nutrients Fats='39,1441891036436' Carbohydrates='39,1441891036436' Fibres='2,37330176834672' Proteins='7,26584337368241' Salt='0,886022218118981' Sugars='12,6094669600298' />
+	</Product>
+	<Product Id='486' Name='Miracloli 500gr Tan mien ' Calories='80,7273852231437' Barcode='87098521'>
+		<Nutrients Fats='39,3024252884755' Carbohydrates='39,3024252884755' Fibres='5,60019866301063' Proteins='1,75716881652732' Salt='0,143630119171196' Sugars='3,35459708660918' />
+	</Product>
+	<Product Id='487' Name='Miracloli Add hot water Macaroni' Calories='25,7456706042437' Barcode='31132093'>
+		<Nutrients Fats='22,5988169816978' Carbohydrates='22,5988169816978' Fibres='11,0230825893175' Proteins='7,35857563402673' Salt='0,100294396757949' Sugars='2,19407698481137' />
+	</Product>
+	<Product Id='488' Name='Miracloli Family pack Unpeeled Rice' Calories='54,8956092643901' Barcode='34072866'>
+		<Nutrients Fats='38,7315601906863' Carbohydrates='38,7315601906863' Fibres='9,34999836121846' Proteins='7,49994583212343' Salt='0,317907654758753' Sugars='23,714596906588' />
+	</Product>
+	<Product Id='489' Name='Miracloli 250gr Spaghetti' Calories='32,5088809803031' Barcode='40528727'>
+		<Nutrients Fats='28,372387953156' Carbohydrates='28,372387953156' Fibres='1,88945699296528' Proteins='5,7258564621675' Salt='0,925983094352923' Sugars='7,11292753869519' />
+	</Product>
+	<Product Id='490' Name='Suzi wan 500gr somen' Calories='10,1362937486486' Barcode='56770672'>
+		<Nutrients Fats='14,0131362301547' Carbohydrates='14,0131362301547' Fibres='10,268157358539' Proteins='2,50103049378466' Salt='0,787287964672238' Sugars='4,1632089585523' />
+	</Product>
+	<Product Id='491' Name='Suzi wan Portioned Capellini' Calories='86,9289101182027' Barcode='3445989'>
+		<Nutrients Fats='34,1288231122787' Carbohydrates='34,1288231122787' Fibres='8,76583183271264' Proteins='3,19644571576409' Salt='0,490854113219346' Sugars='3,93103485387768' />
+	</Product>
+	<Product Id='492' Name='Uncle Bens Cooked soba' Calories='104,009437490662' Barcode='12347748'>
+		<Nutrients Fats='29,5206841166881' Carbohydrates='29,5206841166881' Fibres='4,59022171055838' Proteins='4,07708934493609' Salt='0,0735477384324182' Sugars='3,78611003088209' />
+	</Product>
+	<Product Id='493' Name='Miracloli 250gr Basmati Roce' Calories='129,031023369099' Barcode='54654105'>
+		<Nutrients Fats='31,2456005107396' Carbohydrates='31,2456005107396' Fibres='7,92467412295308' Proteins='0,852072719321543' Salt='0,605570744101785' Sugars='19,0989553366458' />
+	</Product>
+	<Product Id='494' Name='Uncle Bens 1kg Basmati Roce' Calories='85,6835763459178' Barcode='3046803'>
+		<Nutrients Fats='20,2267866035706' Carbohydrates='20,2267866035706' Fibres='0,942735268174669' Proteins='6,14204030093985' Salt='0,0737048931466615' Sugars='12,1894187358163' />
+	</Product>
+	<Product Id='495' Name='Miracloli Portioned Basmati Roce' Calories='76,1937444640529' Barcode='97697173'>
+		<Nutrients Fats='24,6143685114708' Carbohydrates='24,6143685114708' Fibres='2,49698899884985' Proteins='0,744301925685274' Salt='0,552765532706496' Sugars='0,257267125678735' />
+	</Product>
+	<Product Id='496' Name='Suzi wan Cooked Tan mien ' Calories='35,2859646817908' Barcode='91463668'>
+		<Nutrients Fats='23,1875888474505' Carbohydrates='23,1875888474505' Fibres='1,94197194320829' Proteins='6,71228157634874' Salt='0,580037568200987' Sugars='20,0951607870051' />
+	</Product>
+	<Product Id='497' Name='Suzi wan Integral Unpeeled Rice' Calories='19,829545816394' Barcode='73380694'>
+		<Nutrients Fats='33,8523879893446' Carbohydrates='33,8523879893446' Fibres='0,885967878520831' Proteins='1,4834495746981' Salt='0,199212374249708' Sugars='24,3059224339974' />
+	</Product>
+	<Product Id='498' Name='Uncle Bens 500gr Rice' Calories='22,6072778412041' Barcode='35621854'>
+		<Nutrients Fats='34,1437447801248' Carbohydrates='34,1437447801248' Fibres='2,79834301029924' Proteins='3,82288544123722' Salt='0,192978371384053' Sugars='13,0147017573033' />
+	</Product>
+	<Product Id='499' Name='Miracloli 1kg Spaghetti' Calories='8,84507208872159' Barcode='27708767'>
+		<Nutrients Fats='22,6939735928589' Carbohydrates='22,6939735928589' Fibres='6,75192513971408' Proteins='6,63415023983314' Salt='0,205149721970808' Sugars='14,9285290143098' />
+	</Product>
+	<Product Id='500' Name='Miracloli Family pack Macaroni' Calories='38,1465386147779' Barcode='96670108'>
+		<Nutrients Fats='15,6423235786154' Carbohydrates='15,6423235786154' Fibres='3,85245275762686' Proteins='0,145778722628708' Salt='0,0177224813454182' Sugars='3,39314051561023' />
+	</Product>
+	<Product Id='501' Name='Suzi wan Quick Gnocci' Calories='18,4685332230083' Barcode='67019749'>
+		<Nutrients Fats='14,4390359557958' Carbohydrates='14,4390359557958' Fibres='9,28518874924743' Proteins='0,767697258568884' Salt='0,213781146839769' Sugars='1,74153619433932' />
+	</Product>
+	<Product Id='502' Name='Miracloli 250gr Farfalle' Calories='134,793537124496' Barcode='83799542'>
+		<Nutrients Fats='31,6519936757603' Carbohydrates='31,6519936757603' Fibres='1,38869415199714' Proteins='4,38843450338852' Salt='0,874796703781116' Sugars='17,8132321578267' />
+	</Product>
+	<Product Id='503' Name='Miracloli Cooked Tan mien ' Calories='67,1719214156827' Barcode='78450385'>
+		<Nutrients Fats='24,0431434192357' Carbohydrates='24,0431434192357' Fibres='4,14979756885252' Proteins='7,87384048904161' Salt='0,46124417032766' Sugars='11,3030572723433' />
+	</Product>
+	<Product Id='504' Name='Suzi wan 1kg Tan mien ' Calories='18,3801775304189' Barcode='3301544'>
+		<Nutrients Fats='34,807290930748' Carbohydrates='34,807290930748' Fibres='0,166294651853545' Proteins='5,48326718446902' Salt='0,812747995173164' Sugars='2,17514018079265' />
+	</Product>
+	<Product Id='505' Name='Miracloli Cooked Brown Rice' Calories='23,8660079490721' Barcode='62302707'>
+		<Nutrients Fats='11,2319762474349' Carbohydrates='11,2319762474349' Fibres='10,0832104797536' Proteins='0,0877473592457259' Salt='0,947611601861999' Sugars='10,4164543106787' />
+	</Product>
+	<Product Id='506' Name='Miracloli Microwave Farfalle' Calories='14,8044952592933' Barcode='72761708'>
+		<Nutrients Fats='13,9083248091475' Carbohydrates='13,9083248091475' Fibres='10,1160547706104' Proteins='0,147281567441212' Salt='0,803121933057656' Sugars='1,54201121867406' />
+	</Product>
+	<Product Id='507' Name='Miracloli Quick Rice' Calories='8,88310134920122' Barcode='95300685'>
+		<Nutrients Fats='32,2337617514491' Carbohydrates='32,2337617514491' Fibres='6,46995552382575' Proteins='3,68429915632444' Salt='0,938679627413549' Sugars='17,0826272054786' />
+	</Product>
+	<Product Id='508' Name='Suzi wan Economy Brown Rice' Calories='7,66049521083278' Barcode='55150877'>
+		<Nutrients Fats='20,6547914447275' Carbohydrates='20,6547914447275' Fibres='0,946882184229223' Proteins='2,10686594504602' Salt='0,818946246712939' Sugars='16,0765303132629' />
+	</Product>
+	<Product Id='509' Name='Uncle Bens Microwave Basmati Roce' Calories='42,6605661441031' Barcode='11867522'>
+		<Nutrients Fats='38,4775427555588' Carbohydrates='38,4775427555588' Fibres='9,64962536168944' Proteins='0,413432547045035' Salt='0,844619265861265' Sugars='5,82914449799032' />
+	</Product>
+	<Product Id='510' Name='Uncle Bens 500gr Fusilli' Calories='44,6986294320927' Barcode='58579994'>
+		<Nutrients Fats='14,8026001840328' Carbohydrates='14,8026001840328' Fibres='11,1447257837025' Proteins='2,75398171500805' Salt='0,59472818613173' Sugars='12,111001438543' />
+	</Product>
+	<Product Id='511' Name='Miracloli Quick fen sso' Calories='43,838312093377' Barcode='44916695'>
+		<Nutrients Fats='11,5325033285378' Carbohydrates='11,5325033285378' Fibres='11,3684386285438' Proteins='1,88031157985572' Salt='0,510458313919831' Sugars='10,6007141101051' />
+	</Product>
+	<Product Id='512' Name='Uncle Bens 250gr soba' Calories='84,6416709313225' Barcode='21811696'>
+		<Nutrients Fats='29,5415982946621' Carbohydrates='29,5415982946621' Fibres='2,79537223534202' Proteins='4,56108942818173' Salt='0,418575600393536' Sugars='17,5854287940768' />
+	</Product>
+	<Product Id='513' Name='Miracloli 1kg Gnocci' Calories='13,5889542091828' Barcode='29780801'>
+		<Nutrients Fats='16,0153200597785' Carbohydrates='16,0153200597785' Fibres='10,0842783345343' Proteins='2,50620329451191' Salt='0,996031139897837' Sugars='0,973786208413418' />
+	</Product>
+	<Product Id='514' Name='Miracloli Portioned DarkWild Rice' Calories='22,3453012542585' Barcode='90830877'>
+		<Nutrients Fats='16,9659409209571' Carbohydrates='16,9659409209571' Fibres='0,505180894158884' Proteins='7,19534162980031' Salt='0,0227367823981104' Sugars='16,7255651611278' />
+	</Product>
+	<Product Id='515' Name='Uncle Bens Integral Unpeeled Rice' Calories='19,5748046110896' Barcode='58820520'>
+		<Nutrients Fats='11,5511635930122' Carbohydrates='11,5511635930122' Fibres='2,7950967853157' Proteins='7,12659139285305' Salt='0,340486482304675' Sugars='1,20789355378554' />
+	</Product>
+	<Product Id='516' Name='Miracloli Economy fen sso' Calories='15,4601260325958' Barcode='77533875'>
+		<Nutrients Fats='39,2084483727082' Carbohydrates='39,2084483727082' Fibres='7,16786750983205' Proteins='2,00664867756113' Salt='0,0999034255184309' Sugars='10,947279521992' />
+	</Product>
+	<Product Id='517' Name='Suzi wan 250gr White Rice' Calories='64,5259607573177' Barcode='33492280'>
+		<Nutrients Fats='14,4293865995316' Carbohydrates='14,4293865995316' Fibres='6,53613426927038' Proteins='3,9389018989668' Salt='0,766457916555773' Sugars='11,7769874039379' />
+	</Product>
+	<Product Id='518' Name='Suzi wan Luxe mi fen' Calories='21,9646303752879' Barcode='17167895'>
+		<Nutrients Fats='15,6452556600878' Carbohydrates='15,6452556600878' Fibres='0,604086980602032' Proteins='2,51214881010197' Salt='0,349266653949442' Sugars='13,8208493398021' />
+	</Product>
+	<Product Id='519' Name='Miracloli 250gr Capellini' Calories='75,4420170456715' Barcode='41446957'>
+		<Nutrients Fats='32,2082775373311' Carbohydrates='32,2082775373311' Fibres='5,71904390958258' Proteins='7,47817874111083' Salt='0,717310710469604' Sugars='18,0023509472252' />
+	</Product>
+	<Product Id='520' Name='Uncle Bens 1kg Noodles' Calories='5,88205663353079' Barcode='18133287'>
+		<Nutrients Fats='25,4114611670583' Carbohydrates='25,4114611670583' Fibres='8,96316607789785' Proteins='3,87998918122721' Salt='0,116044581278796' Sugars='11,7076412532856' />
+	</Product>
+	<Product Id='521' Name='Miracloli Family pack Unpeeled Rice' Calories='62,2889684211886' Barcode='69031723'>
+		<Nutrients Fats='37,9151316478497' Carbohydrates='37,9151316478497' Fibres='2,94588498401506' Proteins='7,25108589740243' Salt='0,98346921416075' Sugars='33,4790613629789' />
+	</Product>
+	<Product Id='522' Name='Suzi wan Integral Jasmine Rice' Calories='39,2121183288577' Barcode='13226713'>
+		<Nutrients Fats='12,5124385823596' Carbohydrates='12,5124385823596' Fibres='1,29155031674926' Proteins='2,75612648484826' Salt='0,645146499331315' Sugars='10,6430176045937' />
+	</Product>
+	<Product Id='523' Name='Uncle Bens Economy Risotto Rice' Calories='53,6973814965276' Barcode='58214286'>
+		<Nutrients Fats='22,5593801594854' Carbohydrates='22,5593801594854' Fibres='3,83339508643271' Proteins='6,97613411737353' Salt='0,214545576972327' Sugars='10,8265093003025' />
+	</Product>
+	<Product Id='524' Name='Suzi wan 250gr Rice' Calories='53,1606664439273' Barcode='83575505'>
+		<Nutrients Fats='17,7381617228969' Carbohydrates='17,7381617228969' Fibres='1,61072869101795' Proteins='3,21985716433689' Salt='0,524295701728814' Sugars='14,1587662375909' />
+	</Product>
+	<Product Id='525' Name='Miracloli Family pack White Rice' Calories='94,8690272135855' Barcode='78443471'>
+		<Nutrients Fats='22,0096713644616' Carbohydrates='22,0096713644616' Fibres='10,4631844033272' Proteins='1,95058360102371' Salt='0,226081234605121' Sugars='20,9236693684716' />
+	</Product>
+	<Product Id='526' Name='Miracloli 250gr soba' Calories='23,8725771376532' Barcode='29712781'>
+		<Nutrients Fats='25,4351779176611' Carbohydrates='25,4351779176611' Fibres='2,67902310110525' Proteins='7,81650309474653' Salt='0,715356378950988' Sugars='2,58235687886285' />
+	</Product>
+	<Product Id='527' Name='Uncle Bens Ready to eat udo' Calories='89,0173812036253' Barcode='20242532'>
+		<Nutrients Fats='38,7821602487392' Carbohydrates='38,7821602487392' Fibres='10,8808210326121' Proteins='4,3528959109927' Salt='0,454687610042142' Sugars='37,2397692361866' />
+	</Product>
+	<Product Id='528' Name='Uncle Bens Economy Capellini' Calories='35,9063224531099' Barcode='90871785'>
+		<Nutrients Fats='31,4527442714904' Carbohydrates='31,4527442714904' Fibres='10,1387131409162' Proteins='3,47147733359421' Salt='0,593347361107012' Sugars='29,3844474673814' />
+	</Product>
+	<Product Id='529' Name='Miracloli 1 portion Jasmine Rice' Calories='90,3336123745005' Barcode='58442132'>
+		<Nutrients Fats='27,4280814511697' Carbohydrates='27,4280814511697' Fibres='0,848747949942842' Proteins='5,12300842964341' Salt='0,365308356883675' Sugars='17,8748131528395' />
+	</Product>
+	<Product Id='530' Name='Miracloli 1 portion Noodles' Calories='48,9576312555894' Barcode='80469302'>
+		<Nutrients Fats='20,009320868853' Carbohydrates='20,009320868853' Fibres='0,515442709149336' Proteins='6,94945311122877' Salt='0,151136018133368' Sugars='8,82013202671429' />
+	</Product>
+	<Product Id='531' Name='Suzi wan Add hot water DarkWild Rice' Calories='5,20837962339049' Barcode='26355625'>
+		<Nutrients Fats='37,4402412378151' Carbohydrates='37,4402412378151' Fibres='8,59717036141575' Proteins='3,22653937837627' Salt='0,208004032252198' Sugars='4,08395959016858' />
+	</Product>
+	<Product Id='532' Name='Suzi wan 1 portion Basmati Roce' Calories='46,3062410502706' Barcode='42645598'>
+		<Nutrients Fats='36,5286767869499' Carbohydrates='36,5286767869499' Fibres='2,90659364559093' Proteins='1,28145880126223' Salt='0,927692668972462' Sugars='18,1749194402426' />
+	</Product>
+	<Product Id='533' Name='Suzi wan Quick DarkWild Rice' Calories='54,975291568672' Barcode='87222589'>
+		<Nutrients Fats='11,8723808819536' Carbohydrates='11,8723808819536' Fibres='5,52517398947755' Proteins='5,8617389624392' Salt='0,163096910549184' Sugars='9,30411223001168' />
+	</Product>
+	<Product Id='534' Name='Miracloli Portioned Macaroni' Calories='71,0199995065508' Barcode='27802209'>
+		<Nutrients Fats='39,4899803585033' Carbohydrates='39,4899803585033' Fibres='4,31093463916532' Proteins='3,79584794843704' Salt='0,477030655419986' Sugars='24,8126003475972' />
+	</Product>
+	<Product Id='535' Name='Suzi wan 500gr Fusilli' Calories='87,9563510718132' Barcode='17778086'>
+		<Nutrients Fats='23,2547792111223' Carbohydrates='23,2547792111223' Fibres='0,455606403373804' Proteins='2,98873021654814' Salt='0,193418471161795' Sugars='15,6165620819724' />
+	</Product>
+	<Product Id='536' Name='Suzi wan Integral Tan mien ' Calories='23,8630470164868' Barcode='69634197'>
+		<Nutrients Fats='34,9962760817215' Carbohydrates='34,9962760817215' Fibres='8,9231410488401' Proteins='1,88351261205223' Salt='0,230801295179268' Sugars='20,5610970033091' />
+	</Product>
+	<Product Id='537' Name='Suzi wan Luxe somen' Calories='13,8532509583966' Barcode='97851469'>
+		<Nutrients Fats='10,5584995563448' Carbohydrates='10,5584995563448' Fibres='0,276084657878167' Proteins='2,72880985009338' Salt='0,773637840712176' Sugars='1,96734624524504' />
+	</Product>
+	<Product Id='538' Name='Miracloli 250gr Dessert Rice' Calories='41,2760940657318' Barcode='27776627'>
+		<Nutrients Fats='38,8146907379115' Carbohydrates='38,8146907379115' Fibres='9,10025179493728' Proteins='1,49616330864868' Salt='0,561766993884677' Sugars='9,25531643053519' />
+	</Product>
+	<Product Id='539' Name='Miracloli Portioned Penne' Calories='29,3227475809465' Barcode='76139007'>
+		<Nutrients Fats='30,2750699465129' Carbohydrates='30,2750699465129' Fibres='2,92264666371154' Proteins='5,4149837224158' Salt='0,664426173237915' Sugars='9,24983974201022' />
+	</Product>
+	<Product Id='540' Name='Miracloli Economy Macaroni' Calories='49,4018993233684' Barcode='11698667'>
+		<Nutrients Fats='14,5055944470766' Carbohydrates='14,5055944470766' Fibres='10,6469145207295' Proteins='4,38524785778517' Salt='0,592523182850816' Sugars='1,71853882882208' />
+	</Product>
+	<Product Id='541' Name='Miracloli Economy Rice' Calories='76,5271058896996' Barcode='31003309'>
+		<Nutrients Fats='23,2964488361306' Carbohydrates='23,2964488361306' Fibres='7,90791367236229' Proteins='5,84407749585165' Salt='0,433380440936333' Sugars='3,74910860009773' />
+	</Product>
+	<Product Id='542' Name='Suzi wan 1kg udo' Calories='18,104362234817' Barcode='4477440'>
+		<Nutrients Fats='12,411037383518' Carbohydrates='12,411037383518' Fibres='3,30316276955539' Proteins='0,0816551053701602' Salt='0,566762091872746' Sugars='11,7458880055251' />
+	</Product>
+	<Product Id='543' Name='Miracloli 250gr Dessert Rice' Calories='9,05982507199843' Barcode='19957668'>
+		<Nutrients Fats='24,2276114825426' Carbohydrates='24,2276114825426' Fibres='1,22732909007505' Proteins='6,91670527183003' Salt='0,792843806432223' Sugars='1,32293671775144' />
+	</Product>
+	<Product Id='544' Name='Miracloli Add hot water somen' Calories='21,0686218478931' Barcode='91877757'>
+		<Nutrients Fats='33,5373418120871' Carbohydrates='33,5373418120871' Fibres='1,42283393807916' Proteins='6,05276611852636' Salt='0,47092663814602' Sugars='1,35867616395139' />
+	</Product>
+	<Product Id='545' Name='Miracloli Ready to eat Farfalle' Calories='30,0839186949878' Barcode='34817644'>
+		<Nutrients Fats='30,9911320553234' Carbohydrates='30,9911320553234' Fibres='3,25994965212031' Proteins='3,69284236747591' Salt='0,52564758685677' Sugars='11,9941570381178' />
+	</Product>
+	<Product Id='546' Name='Miracloli Cooked soba' Calories='80,3064759152107' Barcode='11773094'>
+		<Nutrients Fats='38,5946600470899' Carbohydrates='38,5946600470899' Fibres='11,929361986285' Proteins='7,97318445278066' Salt='0,517203610096319' Sugars='35,9867099151357' />
+	</Product>
+	<Product Id='547' Name='Uncle Bens 500gr Penne' Calories='72,3406372932796' Barcode='25859271'>
+		<Nutrients Fats='19,2692127782771' Carbohydrates='19,2692127782771' Fibres='4,53721425317929' Proteins='3,37363150871878' Salt='0,998571747231758' Sugars='9,29396866989464' />
+	</Product>
+	<Product Id='548' Name='Miracloli Ready to eat Spaghetti' Calories='49,7999691456705' Barcode='2221527'>
+		<Nutrients Fats='30,7748230157435' Carbohydrates='30,7748230157435' Fibres='1,85063914033383' Proteins='4,82861219931542' Salt='0,871682507174583' Sugars='7,99104087579046' />
+	</Product>
+	<Product Id='549' Name='Miracloli Microwave Jasmine Rice' Calories='25,7129944733344' Barcode='3501466'>
+		<Nutrients Fats='17,3125907918473' Carbohydrates='17,3125907918473' Fibres='1,27481057608513' Proteins='4,33379592995069' Salt='0,347603196311219' Sugars='0,498781258945479' />
+	</Product>
+	<Product Id='550' Name='Miracloli 250gr Rice' Calories='35,9913487071364' Barcode='41729225'>
+		<Nutrients Fats='20,5385681944487' Carbohydrates='20,5385681944487' Fibres='8,58838982688263' Proteins='5,30339884201853' Salt='0,872037883793582' Sugars='16,3440930229765' />
+	</Product>
+	<Product Id='551' Name='Miracloli Integral Jasmine Rice' Calories='74,7357214227904' Barcode='24632360'>
+		<Nutrients Fats='16,3435959909289' Carbohydrates='16,3435959909289' Fibres='9,10619962226935' Proteins='2,46365119224543' Salt='0,0635308178797841' Sugars='14,2162542449421' />
+	</Product>
+	<Product Id='552' Name='Suzi wan 1kg mi fen' Calories='126,126470603573' Barcode='91740919'>
+		<Nutrients Fats='30,8278168187891' Carbohydrates='30,8278168187891' Fibres='0,943565656289511' Proteins='4,31134947594917' Salt='0,70596224388258' Sugars='30,1635935456021' />
+	</Product>
+	<Product Id='553' Name='Miracloli Cooked DarkWild Rice' Calories='88,3579960616033' Barcode='23287089'>
+		<Nutrients Fats='26,1870032113342' Carbohydrates='26,1870032113342' Fibres='8,40969766053479' Proteins='3,99858566196352' Salt='0,873796613871754' Sugars='4,10104810081657' />
+	</Product>
+	<Product Id='554' Name='Suzi wan Microwave Risotto Rice' Calories='13,8192108853915' Barcode='49828506'>
+		<Nutrients Fats='26,9251575913572' Carbohydrates='26,9251575913572' Fibres='9,05920752537446' Proteins='2,64871750003661' Salt='0,812890270115773' Sugars='15,8683952618928' />
+	</Product>
+	<Product Id='555' Name='Uncle Bens Cooked Noodles' Calories='7,68475331960997' Barcode='17324279'>
+		<Nutrients Fats='27,9575575616636' Carbohydrates='27,9575575616636' Fibres='3,3371933748584' Proteins='5,09005604598396' Salt='0,366950804599987' Sugars='21,0519124427479' />
+	</Product>
+	<Product Id='556' Name='Uncle Bens 1 portion udo' Calories='51,5854761328458' Barcode='23361590'>
+		<Nutrients Fats='20,0237612881969' Carbohydrates='20,0237612881969' Fibres='3,70978137964914' Proteins='7,74903173372714' Salt='0,134984878476231' Sugars='12,1384599263873' />
+	</Product>
+	<Product Id='557' Name='Miracloli Cooked DarkWild Rice' Calories='41,9314529003249' Barcode='77908016'>
+		<Nutrients Fats='15,354239815737' Carbohydrates='15,354239815737' Fibres='10,1196423024751' Proteins='4,6650420043813' Salt='0,559755721243797' Sugars='11,192025967748' />
+	</Product>
+	<Product Id='558' Name='Miracloli Add hot water Gnocci' Calories='22,533672347616' Barcode='46308967'>
+		<Nutrients Fats='38,931226186702' Carbohydrates='38,931226186702' Fibres='11,4981922994832' Proteins='5,65336017957654' Salt='0,0621664461725017' Sugars='14,5935414920916' />
+	</Product>
+	<Product Id='559' Name='Miracloli Economy Penne' Calories='133,567063425873' Barcode='58896012'>
+		<Nutrients Fats='29,181206115995' Carbohydrates='29,181206115995' Fibres='8,49577615414845' Proteins='2,40437312055453' Salt='0,871977802318831' Sugars='23,1057583922861' />
+	</Product>
+	<Product Id='560' Name='Miracloli Ready to eat Basmati Roce' Calories='102,356731468568' Barcode='7884727'>
+		<Nutrients Fats='31,3317265317815' Carbohydrates='31,3317265317815' Fibres='3,25741927653301' Proteins='0,153925036850329' Salt='0,850313027129151' Sugars='31,0203841201486' />
+	</Product>
+	<Product Id='561' Name='Uncle Bens Family pack Capellini' Calories='128,827723798727' Barcode='37078054'>
+		<Nutrients Fats='33,195854748171' Carbohydrates='33,195854748171' Fibres='6,84548425999842' Proteins='1,24943413525371' Salt='0,874652213554768' Sugars='28,0175384016019' />
+	</Product>
+	<Product Id='562' Name='Miracloli Quick fen sso' Calories='79,2374889833905' Barcode='90330960'>
+		<Nutrients Fats='34,5360674334749' Carbohydrates='34,5360674334749' Fibres='9,5239471449758' Proteins='2,56055517640803' Salt='0,233397329979906' Sugars='1,6590410065558' />
+	</Product>
+	<Product Id='563' Name='Suzi wan 250gr Risotto Rice' Calories='70,7359943196218' Barcode='22064642'>
+		<Nutrients Fats='11,5268937070928' Carbohydrates='11,5268937070928' Fibres='11,5187669043715' Proteins='7,57691499396763' Salt='0,627931397886613' Sugars='10,919169804125' />
+	</Product>
+	<Product Id='564' Name='Miracloli 1kg Capellini' Calories='75,5457065993019' Barcode='60863280'>
+		<Nutrients Fats='33,3268638029747' Carbohydrates='33,3268638029747' Fibres='7,41576787587729' Proteins='4,85966182623044' Salt='0,486856075783115' Sugars='7,13071357604066' />
+	</Product>
+	<Product Id='565' Name='Miracloli Portioned Fusilli' Calories='30,4847214668512' Barcode='46507375'>
+		<Nutrients Fats='20,3833113219202' Carbohydrates='20,3833113219202' Fibres='7,96980587407115' Proteins='1,10606294236435' Salt='0,0821481584981938' Sugars='13,7725324640807' />
+	</Product>
+	<Product Id='566' Name='Miracloli 250gr Penne' Calories='92,1360792464013' Barcode='32926522'>
+		<Nutrients Fats='37,738953069769' Carbohydrates='37,738953069769' Fibres='3,41730856745288' Proteins='4,90816996754466' Salt='0,293647230170318' Sugars='9,01657709696867' />
+	</Product>
+	<Product Id='567' Name='Uncle Bens 1kg Risotto Rice' Calories='9,60853333432332' Barcode='43408366'>
+		<Nutrients Fats='17,1312481038532' Carbohydrates='17,1312481038532' Fibres='2,23859559268564' Proteins='4,01780214100153' Salt='0,725641426795729' Sugars='0,754313105224403' />
+	</Product>
+	<Product Id='568' Name='Suzi wan 250gr Risotto Rice' Calories='61,2903845129525' Barcode='75707581'>
+		<Nutrients Fats='20,9124337828178' Carbohydrates='20,9124337828178' Fibres='3,48793206865272' Proteins='6,86708672853197' Salt='0,756704903154713' Sugars='10,033404784042' />
+	</Product>
+	<Product Id='569' Name='Uncle Bens Quick Rice' Calories='116,659823907525' Barcode='57734296'>
+		<Nutrients Fats='35,8322715168038' Carbohydrates='35,8322715168038' Fibres='11,502654945767' Proteins='0,146244770753736' Salt='0,945465120749493' Sugars='22,3196368675116' />
+	</Product>
+	<Product Id='570' Name='Suzi wan Family pack Rice' Calories='2,97026866652622' Barcode='82351278'>
+		<Nutrients Fats='31,1831038780201' Carbohydrates='31,1831038780201' Fibres='11,4346209275205' Proteins='6,51346501732864' Salt='0,957350049969528' Sugars='2,07753951027493' />
+	</Product>
+	<Product Id='571' Name='Suzi wan 250gr soba' Calories='43,2758283757462' Barcode='60075891'>
+		<Nutrients Fats='11,3570252001829' Carbohydrates='11,3570252001829' Fibres='9,25300996935337' Proteins='1,52031353082663' Salt='0,713030800560413' Sugars='10,566894480698' />
+	</Product>
+	<Product Id='572' Name='Miracloli Add hot water Jasmine Rice' Calories='22,3119594906366' Barcode='23293780'>
+		<Nutrients Fats='39,8981408505935' Carbohydrates='39,8981408505935' Fibres='9,12921966273288' Proteins='2,04407398535925' Salt='0,225416709928101' Sugars='38,8544159217586' />
+	</Product>
+	<Product Id='573' Name='Miracloli 500gr Rice' Calories='12,2960016321416' Barcode='77488822'>
+		<Nutrients Fats='17,7745936422805' Carbohydrates='17,7745936422805' Fibres='9,74207694070599' Proteins='7,44153519119133' Salt='0,432568123564' Sugars='4,66972957441889' />
+	</Product>
+	<Product Id='574' Name='Miracloli Portioned Noodles' Calories='48,2107758956571' Barcode='4157559'>
+		<Nutrients Fats='18,0848951091335' Carbohydrates='18,0848951091335' Fibres='10,2972436597649' Proteins='4,31309799544732' Salt='0,728422172334117' Sugars='6,16998173642824' />
+	</Product>
+	<Product Id='575' Name='Uncle Bens 500gr DarkWild Rice' Calories='3,4259958026713' Barcode='93409623'>
+		<Nutrients Fats='10,8975574328572' Carbohydrates='10,8975574328572' Fibres='5,7009688149637' Proteins='4,19204414070863' Salt='0,171284409065656' Sugars='8,79619973333485' />
+	</Product>
+	<Product Id='576' Name='Suzi wan 250gr Spaghetti' Calories='118,318217884505' Barcode='57609389'>
+		<Nutrients Fats='34,1166780378875' Carbohydrates='34,1166780378875' Fibres='5,12589871638014' Proteins='4,68386122789216' Salt='0,539779049284462' Sugars='18,3894139012775' />
+	</Product>
+	<Product Id='577' Name='Suzi wan Family pack Basmati Roce' Calories='37,4743264962977' Barcode='86889599'>
+		<Nutrients Fats='28,668704675225' Carbohydrates='28,668704675225' Fibres='6,31435713545679' Proteins='3,17471635270153' Salt='0,992370358010962' Sugars='15,1680894669226' />
+	</Product>
+	<Product Id='578' Name='Miracloli Quick soba' Calories='46,7269919423645' Barcode='21461598'>
+		<Nutrients Fats='12,0292218169168' Carbohydrates='12,0292218169168' Fibres='9,85426993956396' Proteins='2,57324442340075' Salt='0,291588702967055' Sugars='3,15208604503796' />
+	</Product>
+	<Product Id='579' Name='Suzi wan Luxe mi fen' Calories='51,2458528157413' Barcode='27835141'>
+		<Nutrients Fats='20,9052024155904' Carbohydrates='20,9052024155904' Fibres='0,284828958490298' Proteins='1,56401917607989' Salt='0,548388587575387' Sugars='2,44975251490141' />
+	</Product>
+	<Product Id='580' Name='Miracloli 500gr White Rice' Calories='6,12890183801985' Barcode='17611833'>
+		<Nutrients Fats='33,4844338192152' Carbohydrates='33,4844338192152' Fibres='10,0718536520558' Proteins='7,08237566429031' Salt='0,509269400037103' Sugars='9,80161267673429' />
+	</Product>
+	<Product Id='581' Name='Miracloli Portioned Rice' Calories='45,1405043395414' Barcode='13030544'>
+		<Nutrients Fats='33,5765307210562' Carbohydrates='33,5765307210562' Fibres='4,16333549625331' Proteins='6,81442401934425' Salt='0,771996204817589' Sugars='20,3741076120919' />
+	</Product>
+	<Product Id='582' Name='Uncle Bens Luxe Spaghetti' Calories='71,2220458382935' Barcode='91877472'>
+		<Nutrients Fats='19,6907631102604' Carbohydrates='19,6907631102604' Fibres='0,885285735759898' Proteins='3,08768989409227' Salt='0,417556551808892' Sugars='9,45793844503885' />
+	</Product>
+	<Product Id='583' Name='Miracloli Cooked Macaroni' Calories='75,6116971094945' Barcode='34387352'>
+		<Nutrients Fats='28,7059441916666' Carbohydrates='28,7059441916666' Fibres='7,58921245923982' Proteins='6,82328319454172' Salt='0,563477853190573' Sugars='25,4352780004191' />
+	</Product>
+	<Product Id='584' Name='Suzi wan 1kg White Rice' Calories='60,4852119291162' Barcode='40847065'>
+		<Nutrients Fats='19,5867816862212' Carbohydrates='19,5867816862212' Fibres='0,0101554224935514' Proteins='4,32645075304201' Salt='0,237760552745918' Sugars='17,5160353100341' />
+	</Product>
+	<Product Id='585' Name='Miracloli Microwave Fusilli' Calories='35,0254507198198' Barcode='71767443'>
+		<Nutrients Fats='26,2435739527906' Carbohydrates='26,2435739527906' Fibres='11,0373265937238' Proteins='6,56558195196321' Salt='0,941315176396844' Sugars='21,5987089497437' />
+	</Product>
+	<Product Id='586' Name='Suzi wan 250gr Spaghetti' Calories='25,7564395931449' Barcode='16532980'>
+		<Nutrients Fats='34,7233885805892' Carbohydrates='34,7233885805892' Fibres='4,39917888411059' Proteins='3,61769439697002' Salt='0,746740031024776' Sugars='21,2434171019448' />
+	</Product>
+	<Product Id='587' Name='Miracloli 250gr Capellini' Calories='31,8240831873129' Barcode='23495747'>
+		<Nutrients Fats='14,6738771380425' Carbohydrates='14,6738771380425' Fibres='9,51075736109998' Proteins='4,82434821189707' Salt='0,151804766820441' Sugars='14,5993984515436' />
+	</Product>
+	<Product Id='588' Name='Miracloli 250gr mi fen' Calories='19,379982640671' Barcode='86046165'>
+		<Nutrients Fats='13,37403126945' Carbohydrates='13,37403126945' Fibres='1,44111824992214' Proteins='4,81954591200696' Salt='0,898325771749544' Sugars='11,3918080342808' />
+	</Product>
+	<Product Id='589' Name='Suzi wan Microwave Farfalle' Calories='45,6695077777915' Barcode='56836198'>
+		<Nutrients Fats='25,2386656925823' Carbohydrates='25,2386656925823' Fibres='6,45707161390481' Proteins='1,73943173058731' Salt='0,798842523956796' Sugars='5,06332221960204' />
+	</Product>
+	<Product Id='590' Name='Miracloli Cooked soba' Calories='63,9402600006098' Barcode='93050610'>
+		<Nutrients Fats='29,6280659919053' Carbohydrates='29,6280659919053' Fibres='3,53442910180942' Proteins='7,24978027694632' Salt='0,540204075383278' Sugars='14,5378858824862' />
+	</Product>
+	<Product Id='591' Name='Uncle Bens Family pack Risotto Rice' Calories='103,319298790109' Barcode='75918535'>
+		<Nutrients Fats='26,8288137011227' Carbohydrates='26,8288137011227' Fibres='1,3531175327464' Proteins='7,34239194628406' Salt='0,720253008294675' Sugars='26,6978541539952' />
+	</Product>
+	<Product Id='592' Name='Suzi wan 250gr soba' Calories='45,8035058226263' Barcode='9489325'>
+		<Nutrients Fats='11,7188927131756' Carbohydrates='11,7188927131756' Fibres='4,10983541185802' Proteins='5,25427623421597' Salt='0,137765048810379' Sugars='8,61812931830968' />
+	</Product>
+	<Product Id='593' Name='Miracloli 250gr somen' Calories='6,05828245358923' Barcode='89117445'>
+		<Nutrients Fats='16,4603417387042' Carbohydrates='16,4603417387042' Fibres='3,16420055971288' Proteins='0,116194443791118' Salt='0,374001127016078' Sugars='3,91542279581426' />
+	</Product>
+	<Product Id='594' Name='Suzi wan Add hot water Unpeeled Rice' Calories='100,268606223658' Barcode='79295675'>
+		<Nutrients Fats='19,1988649893087' Carbohydrates='19,1988649893087' Fibres='11,5788564082175' Proteins='6,71142890655274' Salt='0,785001644533502' Sugars='11,5311058885324' />
+	</Product>
+	<Product Id='595' Name='Suzi wan Add hot water Penne' Calories='5,22706067891797' Barcode='92197433'>
+		<Nutrients Fats='38,9654077286836' Carbohydrates='38,9654077286836' Fibres='4,03300430463508' Proteins='4,67255492985451' Salt='0,0309717779626303' Sugars='10,3091222816532' />
+	</Product>
+	<Product Id='596' Name='Miracloli Cooked DarkWild Rice' Calories='87,655028068453' Barcode='13666139'>
+		<Nutrients Fats='32,7598674186061' Carbohydrates='32,7598674186061' Fibres='0,708494449616562' Proteins='3,24231360973048' Salt='0,263181396117806' Sugars='26,5062527284735' />
+	</Product>
+	<Product Id='597' Name='Miracloli Ready to eat Rice' Calories='5,21231360274218' Barcode='56758699'>
+		<Nutrients Fats='37,4756058757281' Carbohydrates='37,4756058757281' Fibres='8,78086259369932' Proteins='6,26802619445775' Salt='0,655968862025067' Sugars='24,4972744625317' />
+	</Product>
+	<Product Id='598' Name='Miracloli Integral Dessert Rice' Calories='41,2029667939726' Barcode='84803407'>
+		<Nutrients Fats='21,9562814571795' Carbohydrates='21,9562814571795' Fibres='6,51119421135212' Proteins='7,13963867244947' Salt='0,135912505232702' Sugars='7,45014556805674' />
+	</Product>
+	<Product Id='599' Name='Miracloli 250gr Jasmine Rice' Calories='18,8072130435084' Barcode='82710457'>
+		<Nutrients Fats='12,0170018243652' Carbohydrates='12,0170018243652' Fibres='0,530321062353642' Proteins='4,46313571175055' Salt='0,605983891795028' Sugars='4,62059204478338' />
+	</Product>
+	<Product Id='600' Name='Uncle Bens Family pack Gnocci' Calories='57,4465971826571' Barcode='9160185'>
+		<Nutrients Fats='27,25486691847' Carbohydrates='27,25486691847' Fibres='9,02123945959198' Proteins='3,02136289894316' Salt='0,727248336153506' Sugars='1,22341250005821' />
+	</Product>
+	<Product Id='601' Name='Miracloli 500gr White Rice' Calories='9,65269338845154' Barcode='4749446'>
+		<Nutrients Fats='22,9215595868325' Carbohydrates='22,9215595868325' Fibres='8,99975365280842' Proteins='0,259036621454626' Salt='0,860628827500571' Sugars='1,28537035227239' />
+	</Product>
+	<Product Id='602' Name='Miracloli Add hot water Tan mien ' Calories='59,168942264121' Barcode='6605000'>
+		<Nutrients Fats='13,9551312196383' Carbohydrates='13,9551312196383' Fibres='5,93111954128692' Proteins='0,857299305286634' Salt='0,336831358336821' Sugars='0,201055913018647' />
+	</Product>
+	<Product Id='603' Name='Miracloli Portioned Spaghetti' Calories='142,744680734028' Barcode='82026093'>
+		<Nutrients Fats='30,8037477549825' Carbohydrates='30,8037477549825' Fibres='6,08503530193525' Proteins='6,47002576556534' Salt='0,453032407076883' Sugars='29,0223737254046' />
+	</Product>
+	<Product Id='604' Name='Miracloli Cooked Unpeeled Rice' Calories='95,6290520566792' Barcode='73680158'>
+		<Nutrients Fats='30,731225082721' Carbohydrates='30,731225082721' Fibres='3,27736547724347' Proteins='7,20659382460122' Salt='0,465700335433709' Sugars='24,982101210155' />
+	</Product>
+	<Product Id='605' Name='Miracloli 1kg Macaroni' Calories='77,6429267348694' Barcode='2082589'>
+		<Nutrients Fats='16,8910033539722' Carbohydrates='16,8910033539722' Fibres='0,576217429344171' Proteins='4,73287893682442' Salt='0,999269267404516' Sugars='6,09593060235204' />
+	</Product>
+	<Product Id='606' Name='Miracloli 1 portion Dessert Rice' Calories='79,0882614122906' Barcode='67935237'>
+		<Nutrients Fats='30,6665624316762' Carbohydrates='30,6665624316762' Fibres='3,80187153363546' Proteins='6,339352751546' Salt='0,388758035308388' Sugars='8,37260874058802' />
+	</Product>
+	<Product Id='607' Name='Suzi wan Portioned Dessert Rice' Calories='68,2586957157486' Barcode='78908443'>
+		<Nutrients Fats='29,5884820462419' Carbohydrates='29,5884820462419' Fibres='2,18844614966969' Proteins='1,04815632547215' Salt='0,78057060576157' Sugars='15,5810804581008' />
+	</Product>
+	<Product Id='608' Name='Miracloli Luxe Brown Rice' Calories='44,2591804571923' Barcode='5380340'>
+		<Nutrients Fats='26,8045682048348' Carbohydrates='26,8045682048348' Fibres='1,24104002488363' Proteins='0,90216530940547' Salt='0,379940457633608' Sugars='11,9579495032804' />
+	</Product>
+	<Product Id='609' Name='Miracloli Integral soba' Calories='41,3364869126187' Barcode='81636337'>
+		<Nutrients Fats='36,807884493805' Carbohydrates='36,807884493805' Fibres='5,1588505453979' Proteins='0,683423642813069' Salt='0,0358618900954094' Sugars='31,8884518142407' />
+	</Product>
+	<Product Id='610' Name='Suzi wan Quick DarkWild Rice' Calories='47,4423111790735' Barcode='371634'>
+		<Nutrients Fats='19,8375612202915' Carbohydrates='19,8375612202915' Fibres='3,81760009918509' Proteins='0,093189980267594' Salt='0,752603165032567' Sugars='17,5077057343674' />
+	</Product>
+	<Product Id='611' Name='Uncle Bens Ready to eat Risotto Rice' Calories='51,6462010510655' Barcode='76530616'>
+		<Nutrients Fats='18,6578945633089' Carbohydrates='18,6578945633089' Fibres='2,36432784758253' Proteins='6,36568635698111' Salt='0,230794085553158' Sugars='10,9333542677127' />
+	</Product>
+	<Product Id='612' Name='Miracloli Economy Macaroni' Calories='25,2252462113661' Barcode='23249108'>
+		<Nutrients Fats='38,4410483388702' Carbohydrates='38,4410483388702' Fibres='9,14595052459019' Proteins='4,70169122016924' Salt='0,591512299164913' Sugars='6,11099740650948' />
+	</Product>
+	<Product Id='613' Name='Miracloli Integral Unpeeled Rice' Calories='14,0442947391923' Barcode='19299396'>
+		<Nutrients Fats='17,3892351049535' Carbohydrates='17,3892351049535' Fibres='7,35482684199341' Proteins='4,54061457228855' Salt='0,0901037428781417' Sugars='0,18142631452038' />
+	</Product>
+	<Product Id='614' Name='Miracloli 1kg udo' Calories='67,8177782259457' Barcode='54188185'>
+		<Nutrients Fats='30,9659992566679' Carbohydrates='30,9659992566679' Fibres='8,31530697624981' Proteins='1,56955394313635' Salt='0,210307665041805' Sugars='23,1796081988124' />
+	</Product>
+	<Product Id='615' Name='Miracloli Economy Tan mien ' Calories='94,0998367532378' Barcode='84034302'>
+		<Nutrients Fats='24,1335943520521' Carbohydrates='24,1335943520521' Fibres='1,51023917840609' Proteins='7,95205962942041' Salt='0,79753857349952' Sugars='5,52813100385396' />
+	</Product>
+	<Product Id='616' Name='Uncle Bens Microwave Capellini' Calories='76,5444116823771' Barcode='4559429'>
+		<Nutrients Fats='19,1461587549736' Carbohydrates='19,1461587549736' Fibres='11,3698405378484' Proteins='1,36387683082811' Salt='0,846942378279059' Sugars='18,072677072646' />
+	</Product>
+	<Product Id='617' Name='Suzi wan Integral Brown Rice' Calories='96,5916233341594' Barcode='17841942'>
+		<Nutrients Fats='37,5270722327546' Carbohydrates='37,5270722327546' Fibres='6,16337731329515' Proteins='2,67325391154168' Salt='0,907438126882441' Sugars='34,395129042119' />
+	</Product>
+	<Product Id='618' Name='Miracloli Family pack Gnocci' Calories='123,267176712317' Barcode='48634078'>
+		<Nutrients Fats='30,5809262851022' Carbohydrates='30,5809262851022' Fibres='6,68162569894304' Proteins='5,53904471895797' Salt='0,463136294423858' Sugars='12,4756769384711' />
+	</Product>
+	<Product Id='619' Name='Suzi wan Add hot water DarkWild Rice' Calories='105,434052170516' Barcode='99244011'>
+		<Nutrients Fats='29,7972902609318' Carbohydrates='29,7972902609318' Fibres='11,1629923762575' Proteins='3,32597493021687' Salt='0,640830809680282' Sugars='11,2160948686608' />
+	</Product>
+	<Product Id='620' Name='Miracloli 500gr Penne' Calories='5,88871406886012' Barcode='76547398'>
+		<Nutrients Fats='35,7123726859663' Carbohydrates='35,7123726859663' Fibres='2,06625221335557' Proteins='0,869483212356164' Salt='0,880221573912191' Sugars='6,38689161993636' />
+	</Product>
+	<Product Id='621' Name='Suzi wan Add hot water Farfalle' Calories='4,12747407860701' Barcode='51451720'>
+		<Nutrients Fats='31,9819158487508' Carbohydrates='31,9819158487508' Fibres='4,51907198381363' Proteins='3,32951616191785' Salt='0,594338724231023' Sugars='24,2550175068594' />
+	</Product>
+	<Product Id='622' Name='Miracloli Integral soba' Calories='43,2297641774452' Barcode='917116'>
+		<Nutrients Fats='28,6821897366275' Carbohydrates='28,6821897366275' Fibres='10,8844813377314' Proteins='5,58985531282826' Salt='0,342539608091969' Sugars='16,6536699124217' />
+	</Product>
+	<Product Id='623' Name='Miracloli Cooked Macaroni' Calories='89,5620968558143' Barcode='10055726'>
+		<Nutrients Fats='23,5944735310798' Carbohydrates='23,5944735310798' Fibres='5,68884750411639' Proteins='6,0454372141238' Salt='0,992266348645461' Sugars='19,9708004090525' />
+	</Product>
+	<Product Id='624' Name='Uncle Bens 250gr mi fen' Calories='49,8030818191139' Barcode='39918783'>
+		<Nutrients Fats='19,5861861223747' Carbohydrates='19,5861861223747' Fibres='6,12902275572371' Proteins='5,03858852834901' Salt='0,541909612868248' Sugars='4,85951231962353' />
+	</Product>
+	<Product Id='625' Name='Suzi wan 1 portion White Rice' Calories='81,6603378080163' Barcode='40139001'>
+		<Nutrients Fats='15,8100993506141' Carbohydrates='15,8100993506141' Fibres='6,54969420125794' Proteins='4,63028063142079' Salt='0,0968838614826592' Sugars='9,87655194361559' />
+	</Product>
+	<Product Id='626' Name='Miracloli Integral White Rice' Calories='32,2499620328747' Barcode='53639621'>
+		<Nutrients Fats='14,4249277744358' Carbohydrates='14,4249277744358' Fibres='10,9738693798639' Proteins='1,0074944363466' Salt='0,0250474826638856' Sugars='5,24168377078979' />
+	</Product>
+	<Product Id='627' Name='Miracloli Add hot water Basmati Roce' Calories='107,822476974417' Barcode='21080227'>
+		<Nutrients Fats='18,3199432066297' Carbohydrates='18,3199432066297' Fibres='3,35006157199678' Proteins='1,52470540191486' Salt='0,380915667587407' Sugars='17,2508324462331' />
+	</Product>
+	<Product Id='628' Name='Uncle Bens 1 portion Tan mien ' Calories='39,5913194845778' Barcode='66149118'>
+		<Nutrients Fats='14,1556673402995' Carbohydrates='14,1556673402995' Fibres='1,37989787782433' Proteins='0,385239999303977' Salt='0,690474741970254' Sugars='1,58151236694101' />
+	</Product>
+	<Product Id='629' Name='Miracloli 500gr Capellini' Calories='81,1029267349975' Barcode='97587521'>
+		<Nutrients Fats='19,6070085750947' Carbohydrates='19,6070085750947' Fibres='4,3260187914306' Proteins='4,14986772314978' Salt='0,560506990959195' Sugars='2,49293855487105' />
+	</Product>
+	<Product Id='630' Name='Suzi wan Family pack Noodles' Calories='47,7816077817753' Barcode='7335957'>
+		<Nutrients Fats='18,9420001857485' Carbohydrates='18,9420001857485' Fibres='2,5326073748551' Proteins='5,39873352399589' Salt='0,515714538585563' Sugars='13,8738306332128' />
+	</Product>
+	<Product Id='631' Name='Suzi wan 250gr Farfalle' Calories='145,115820049137' Barcode='93745141'>
+		<Nutrients Fats='36,3551737317829' Carbohydrates='36,3551737317829' Fibres='0,841335551877054' Proteins='0,431733634829841' Salt='0,150794568314087' Sugars='22,9338196625284' />
+	</Product>
+	<Product Id='632' Name='Suzi wan Ready to eat mi fen' Calories='23,0947587921642' Barcode='99246355'>
+		<Nutrients Fats='30,572245693971' Carbohydrates='30,572245693971' Fibres='0,381275899625087' Proteins='1,24750649105027' Salt='0,653838192425459' Sugars='22,9802197135795' />
+	</Product>
+	<Product Id='633' Name='Miracloli Integral Gnocci' Calories='75,6805952433037' Barcode='39384436'>
+		<Nutrients Fats='27,4312332613844' Carbohydrates='27,4312332613844' Fibres='10,6995191474194' Proteins='6,16367866573257' Salt='0,480425899080664' Sugars='26,5241094400004' />
+	</Product>
+	<Product Id='634' Name='Miracloli Integral Dessert Rice' Calories='44,9337808992816' Barcode='85859246'>
+		<Nutrients Fats='28,0938896222852' Carbohydrates='28,0938896222852' Fibres='5,98202282700264' Proteins='7,8089536917269' Salt='0,380499476160902' Sugars='27,5964163540087' />
+	</Product>
+	<Product Id='635' Name='Miracloli Integral Jasmine Rice' Calories='24,6706050454117' Barcode='83288078'>
+		<Nutrients Fats='13,1615888401675' Carbohydrates='13,1615888401675' Fibres='1,76501347807123' Proteins='7,28417249205114' Salt='0,0608983422156545' Sugars='10,3845199561043' />
+	</Product>
+	<Product Id='636' Name='Miracloli 1kg soba' Calories='58,160694312127' Barcode='7888475'>
+		<Nutrients Fats='27,4025169987128' Carbohydrates='27,4025169987128' Fibres='2,19382407730012' Proteins='7,00385194041975' Salt='0,41245387365021' Sugars='1,11409603340484' />
+	</Product>
+	<Product Id='637' Name='Miracloli 250gr Dessert Rice' Calories='26,5049661557806' Barcode='4177336'>
+		<Nutrients Fats='27,3114067309008' Carbohydrates='27,3114067309008' Fibres='11,0349018393219' Proteins='7,82881974480131' Salt='0,970643286863641' Sugars='0,502877800909064' />
+	</Product>
+	<Product Id='638' Name='Miracloli Family pack Tan mien ' Calories='8,76696945241612' Barcode='36339495'>
+		<Nutrients Fats='16,8247370925842' Carbohydrates='16,8247370925842' Fibres='2,50765524546959' Proteins='2,1998992397134' Salt='0,833021614913006' Sugars='16,8052614408092' />
+	</Product>
+	<Product Id='639' Name='Suzi wan Add hot water Basmati Roce' Calories='12,266266207816' Barcode='62904613'>
+		<Nutrients Fats='24,2649074157694' Carbohydrates='24,2649074157694' Fibres='5,02343934400171' Proteins='2,01044396370562' Salt='0,780752492999261' Sugars='15,0422575138102' />
+	</Product>
+	<Product Id='640' Name='Suzi wan Integral Capellini' Calories='13,9006945580374' Barcode='80281835'>
+		<Nutrients Fats='27,2225119122461' Carbohydrates='27,2225119122461' Fibres='9,85357952027657' Proteins='6,81401074676502' Salt='0,376890801809695' Sugars='6,52495815517048' />
+	</Product>
+	<Product Id='641' Name='Suzi wan 250gr Noodles' Calories='146,091692319678' Barcode='67572560'>
+		<Nutrients Fats='29,7336968948239' Carbohydrates='29,7336968948239' Fibres='3,90731124701638' Proteins='2,28798557424547' Salt='0,166362873956677' Sugars='26,8540630519411' />
+	</Product>
+	<Product Id='642' Name='Miracloli Integral Farfalle' Calories='18,4800306429694' Barcode='77212877'>
+		<Nutrients Fats='10,283717576124' Carbohydrates='10,283717576124' Fibres='6,72477340292222' Proteins='6,63967173356853' Salt='0,876528149422858' Sugars='4,82740555944698' />
+	</Product>
+	<Product Id='643' Name='Miracloli Portioned Basmati Roce' Calories='58,7284289989558' Barcode='56656346'>
+		<Nutrients Fats='25,0653055338236' Carbohydrates='25,0653055338236' Fibres='5,65256615201792' Proteins='6,86747988819067' Salt='0,625224518412407' Sugars='24,3943539591926' />
+	</Product>
+	<Product Id='644' Name='Uncle Bens Economy Brown Rice' Calories='5,90062836848569' Barcode='55437929'>
+		<Nutrients Fats='28,6094351505805' Carbohydrates='28,6094351505805' Fibres='9,52931622048952' Proteins='6,80362665417798' Salt='0,869384909546216' Sugars='8,56443131199518' />
+	</Product>
+	<Product Id='645' Name='Suzi wan Family pack Brown Rice' Calories='26,6323701692523' Barcode='31246928'>
+		<Nutrients Fats='24,9361983879337' Carbohydrates='24,9361983879337' Fibres='3,92917878528788' Proteins='3,96589007674256' Salt='0,360813983427135' Sugars='11,7085817507582' />
+	</Product>
+	<Product Id='646' Name='Uncle Bens Portioned Farfalle' Calories='51,6741586129793' Barcode='42331383'>
+		<Nutrients Fats='25,4848679997943' Carbohydrates='25,4848679997943' Fibres='11,5533885373829' Proteins='6,91893181596977' Salt='0,0435309832162811' Sugars='24,757216743045' />
+	</Product>
+	<Product Id='647' Name='Miracloli Economy Jasmine Rice' Calories='82,4408247821064' Barcode='52333979'>
+		<Nutrients Fats='31,1168356292781' Carbohydrates='31,1168356292781' Fibres='6,10189088786847' Proteins='2,89301349926492' Salt='0,0318112167944997' Sugars='15,7074035279778' />
+	</Product>
+	<Product Id='648' Name='Miracloli Economy somen' Calories='73,9644904878723' Barcode='97087966'>
+		<Nutrients Fats='20,6950194606048' Carbohydrates='20,6950194606048' Fibres='4,40500386538221' Proteins='2,28678746733656' Salt='0,832924444464818' Sugars='4,39046064785702' />
+	</Product>
+	<Product Id='649' Name='Suzi wan 1kg Rice' Calories='80,1367472141501' Barcode='77342349'>
+		<Nutrients Fats='26,9239086012891' Carbohydrates='26,9239086012891' Fibres='10,8947433554568' Proteins='7,95302494007821' Salt='0,619763530865315' Sugars='11,8455223402219' />
+	</Product>
+	<Product Id='650' Name='Uncle Bens Add hot water Fusilli' Calories='9,7387536105952' Barcode='99532410'>
+		<Nutrients Fats='18,1784545406519' Carbohydrates='18,1784545406519' Fibres='0,41261647571354' Proteins='7,71642363815438' Salt='0,105583636790015' Sugars='13,7018503338001' />
+	</Product>
+	<Product Id='651' Name='Miracloli Portioned Rice' Calories='33,9392283055022' Barcode='53614896'>
+		<Nutrients Fats='14,1801148488553' Carbohydrates='14,1801148488553' Fibres='6,74346662683059' Proteins='7,78960045368642' Salt='0,0738176372033492' Sugars='0,00783846788431983' />
+	</Product>
+	<Product Id='652' Name='Miracloli Family pack Rice' Calories='45,1697345728976' Barcode='91381194'>
+		<Nutrients Fats='10,3166823554732' Carbohydrates='10,3166823554732' Fibres='3,57003115415259' Proteins='3,6859132361091' Salt='0,611382783001566' Sugars='4,98599008965644' />
+	</Product>
+	<Product Id='653' Name='Uncle Bens Quick Fusilli' Calories='14,4382139741609' Barcode='24240242'>
+		<Nutrients Fats='25,2713403201698' Carbohydrates='25,2713403201698' Fibres='9,85746019194197' Proteins='4,3336421212948' Salt='0,0407077461206257' Sugars='14,4507088709031' />
+	</Product>
+	<Product Id='654' Name='Suzi wan Economy somen' Calories='20,4003458694919' Barcode='21221896'>
+		<Nutrients Fats='17,5768810831962' Carbohydrates='17,5768810831962' Fibres='1,43484465845708' Proteins='5,58946368161158' Salt='0,640299903831306' Sugars='9,49863136741709' />
+	</Product>
+	<Product Id='655' Name='Suzi wan Family pack Capellini' Calories='59,4386081472597' Barcode='31551071'>
+		<Nutrients Fats='31,0520105437094' Carbohydrates='31,0520105437094' Fibres='2,87225520697833' Proteins='7,69873569517224' Salt='0,686371756966062' Sugars='16,9125055345976' />
+	</Product>
+	<Product Id='656' Name='Miracloli 1 portion Dessert Rice' Calories='30,7569645883269' Barcode='9546431'>
+		<Nutrients Fats='15,7938174835455' Carbohydrates='15,7938174835455' Fibres='3,37361900015709' Proteins='1,33601085619979' Salt='0,579330045548217' Sugars='0,723228830786752' />
+	</Product>
+	<Product Id='657' Name='Miracloli 250gr DarkWild Rice' Calories='59,5282693736081' Barcode='41333053'>
+		<Nutrients Fats='17,7142010849297' Carbohydrates='17,7142010849297' Fibres='6,28140065012822' Proteins='4,4364146179858' Salt='0,443917552890311' Sugars='4,34272323139727' />
+	</Product>
+	<Product Id='658' Name='Miracloli 250gr mi fen' Calories='115,066663927905' Barcode='65038751'>
+		<Nutrients Fats='32,3132855086502' Carbohydrates='32,3132855086502' Fibres='4,71693478173821' Proteins='5,14946151214399' Salt='0,702366106081614' Sugars='8,60998782223717' />
+	</Product>
+	<Product Id='659' Name='Suzi wan Family pack soba' Calories='23,9218833436384' Barcode='27833538'>
+		<Nutrients Fats='17,7029987674803' Carbohydrates='17,7029987674803' Fibres='10,3157124297834' Proteins='3,17368177076911' Salt='0,381870637189047' Sugars='12,9016237730293' />
+	</Product>
+	<Product Id='660' Name='Suzi wan Add hot water Risotto Rice' Calories='127,878434442296' Barcode='38141150'>
+		<Nutrients Fats='30,3275235749424' Carbohydrates='30,3275235749424' Fibres='9,60537524889543' Proteins='4,2946298974652' Salt='0,995640527777006' Sugars='24,5734444909249' />
+	</Product>
+	<Product Id='661' Name='Miracloli Ready to eat Risotto Rice' Calories='33,9708306394415' Barcode='51442720'>
+		<Nutrients Fats='10,9479548868994' Carbohydrates='10,9479548868994' Fibres='2,22904238955859' Proteins='4,23275358756728' Salt='0,567733392257437' Sugars='9,61621410017451' />
+	</Product>
+	<Product Id='662' Name='Suzi wan Quick Unpeeled Rice' Calories='14,3841879668081' Barcode='61288281'>
+		<Nutrients Fats='11,2734878034346' Carbohydrates='11,2734878034346' Fibres='7,91702194222239' Proteins='2,36312283451697' Salt='0,362416048625463' Sugars='8,41921591914425' />
+	</Product>
+	<Product Id='663' Name='Miracloli 500gr fen sso' Calories='11,9461705199938' Barcode='94695102'>
+		<Nutrients Fats='22,732282141937' Carbohydrates='22,732282141937' Fibres='1,3811659074247' Proteins='3,79851026532259' Salt='0,529551759948447' Sugars='3,21432264643466' />
+	</Product>
+	<Product Id='664' Name='Suzi wan Cooked White Rice' Calories='6,23677402665485' Barcode='8041061'>
+		<Nutrients Fats='22,2614712078594' Carbohydrates='22,2614712078594' Fibres='11,8523766411012' Proteins='4,47218576665316' Salt='0,247185058798361' Sugars='14,695805528289' />
+	</Product>
+	<Product Id='665' Name='Miracloli 250gr somen' Calories='8,31768191233821' Barcode='32558976'>
+		<Nutrients Fats='16,3681738407148' Carbohydrates='16,3681738407148' Fibres='5,92826343570796' Proteins='0,201991629289673' Salt='0,821592501965902' Sugars='2,31676671736135' />
+	</Product>
+	<Product Id='666' Name='Miracloli Quick soba' Calories='32,1814624222459' Barcode='34955029'>
+		<Nutrients Fats='39,9297291712964' Carbohydrates='39,9297291712964' Fibres='9,63499683578089' Proteins='4,35686518931718' Salt='0,904013753826442' Sugars='0,350654725489711' />
+	</Product>
+	<Product Id='667' Name='Suzi wan Portioned Capellini' Calories='147,51308359642' Barcode='71244074'>
+		<Nutrients Fats='35,7329617070028' Carbohydrates='35,7329617070028' Fibres='1,49349070110904' Proteins='3,05092092107208' Salt='0,152435051637468' Sugars='25,6361671048195' />
+	</Product>
+	<Product Id='668' Name='Suzi wan Family pack Brown Rice' Calories='96,8784571425027' Barcode='72494998'>
+		<Nutrients Fats='31,5782668674751' Carbohydrates='31,5782668674751' Fibres='8,17866557525799' Proteins='4,70554885120388' Salt='0,820196220787519' Sugars='4,62803030292945' />
+	</Product>
+	<Product Id='669' Name='Miracloli Integral Fusilli' Calories='57,5802309345116' Barcode='5738311'>
+		<Nutrients Fats='25,7285632229004' Carbohydrates='25,7285632229004' Fibres='1,15648864882977' Proteins='1,68523536535789' Salt='0,767069090108634' Sugars='16,1143138684627' />
+	</Product>
+	<Product Id='670' Name='Miracloli Ready to eat Rice' Calories='35,8033199146312' Barcode='49468131'>
+		<Nutrients Fats='13,0046133036373' Carbohydrates='13,0046133036373' Fibres='0,449680637754494' Proteins='1,37742950410401' Salt='0,471574762240143' Sugars='3,13490708968362' />
+	</Product>
+	<Product Id='671' Name='Miracloli 1 portion White Rice' Calories='23,7201918298389' Barcode='92301688'>
+		<Nutrients Fats='39,9249151396657' Carbohydrates='39,9249151396657' Fibres='5,28478535653601' Proteins='3,85784087844398' Salt='0,957621783653464' Sugars='13,6312996309872' />
+	</Product>
+	<Product Id='672' Name='Suzi wan 1kg Brown Rice' Calories='11,8504597993092' Barcode='36633736'>
+		<Nutrients Fats='14,6750522741687' Carbohydrates='14,6750522741687' Fibres='8,47697385707435' Proteins='3,39111167999522' Salt='0,970889099404322' Sugars='10,4790327729949' />
+	</Product>
+	<Product Id='673' Name='Uncle Bens 250gr Farfalle' Calories='27,689003346258' Barcode='94996398'>
+		<Nutrients Fats='33,05961280539' Carbohydrates='33,05961280539' Fibres='1,86491601261791' Proteins='3,65404101598731' Salt='0,7039558469674' Sugars='11,7878459993879' />
+	</Product>
+	<Product Id='674' Name='Uncle Bens Microwave Risotto Rice' Calories='15,5691117788579' Barcode='41512812'>
+		<Nutrients Fats='26,1168146620466' Carbohydrates='26,1168146620466' Fibres='3,62718958528403' Proteins='1,40279311716356' Salt='0,952635957356254' Sugars='19,9770035555259' />
+	</Product>
+	<Product Id='675' Name='Miracloli Cooked Fusilli' Calories='123,8022788543' Barcode='51546499'>
+		<Nutrients Fats='39,5278880816771' Carbohydrates='39,5278880816771' Fibres='1,78022555826519' Proteins='4,18480181818977' Salt='0,0340445863658227' Sugars='30,9815135057192' />
+	</Product>
+	<Product Id='676' Name='Miracloli Luxe Risotto Rice' Calories='22,2346049515947' Barcode='13067201'>
+		<Nutrients Fats='37,4121785940957' Carbohydrates='37,4121785940957' Fibres='10,5780771000868' Proteins='4,58799487823285' Salt='0,664093689083454' Sugars='8,28849480132696' />
+	</Product>
+	<Product Id='677' Name='Miracloli 250gr soba' Calories='8,69502271703481' Barcode='34001619'>
+		<Nutrients Fats='33,5282090218079' Carbohydrates='33,5282090218079' Fibres='6,17867424839729' Proteins='0,00228383850800551' Salt='0,607512057286906' Sugars='23,5863099070746' />
+	</Product>
+	<Product Id='678' Name='Uncle Bens 250gr Basmati Roce' Calories='41,2264103787293' Barcode='93814387'>
+		<Nutrients Fats='39,5019245478214' Carbohydrates='39,5019245478214' Fibres='9,04390856288141' Proteins='3,59372364252728' Salt='0,484978110838501' Sugars='26,6923555689433' />
+	</Product>
+	<Product Id='679' Name='Miracloli Ready to eat Rice' Calories='22,6089533577628' Barcode='78230522'>
+		<Nutrients Fats='14,3587172026965' Carbohydrates='14,3587172026965' Fibres='6,05653393881122' Proteins='5,95644856262029' Salt='0,047785365354804' Sugars='11,045458310725' />
+	</Product>
+	<Product Id='680' Name='Uncle Bens Ready to eat Unpeeled Rice' Calories='83,5088134523775' Barcode='9467185'>
+		<Nutrients Fats='37,8622734606803' Carbohydrates='37,8622734606803' Fibres='0,584072812784279' Proteins='2,69501770441616' Salt='0,927522816998052' Sugars='4,21422665550607' />
+	</Product>
+	<Product Id='681' Name='Suzi wan 250gr Capellini' Calories='14,2287551288868' Barcode='36827352'>
+		<Nutrients Fats='28,3671564821012' Carbohydrates='28,3671564821012' Fibres='3,70883648324071' Proteins='4,86698243868065' Salt='0,356534708195086' Sugars='11,9789593851396' />
+	</Product>
+	<Product Id='682' Name='Uncle Bens Add hot water fen sso' Calories='47,589506667374' Barcode='75657144'>
+		<Nutrients Fats='37,8943023925473' Carbohydrates='37,8943023925473' Fibres='9,70930442837695' Proteins='4,01612243869663' Salt='0,199780753892467' Sugars='13,8413717257944' />
+	</Product>
+	<Product Id='683' Name='Miracloli Family pack White Rice' Calories='61,0524323736848' Barcode='76865735'>
+		<Nutrients Fats='19,9733635223739' Carbohydrates='19,9733635223739' Fibres='10,1490259921669' Proteins='0,643230880497132' Salt='0,00238427723599666' Sugars='11,5603426988228' />
+	</Product>
+	<Product Id='684' Name='Miracloli Cooked White Rice' Calories='2,8295412997937' Barcode='30306803'>
+		<Nutrients Fats='13,3051592135966' Carbohydrates='13,3051592135966' Fibres='1,45188922878973' Proteins='7,6835727645227' Salt='0,801009651890342' Sugars='3,87859183771575' />
+	</Product>
+	<Product Id='685' Name='Suzi wan 500gr Basmati Roce' Calories='42,8278773040551' Barcode='22943646'>
+		<Nutrients Fats='38,6064074459699' Carbohydrates='38,6064074459699' Fibres='11,3421442816804' Proteins='5,49766562612129' Salt='0,0198173081766407' Sugars='23,8676401936494' />
+	</Product>
+	<Product Id='686' Name='Miracloli Economy Unpeeled Rice' Calories='63,6489552594446' Barcode='93151467'>
+		<Nutrients Fats='38,8818811863794' Carbohydrates='38,8818811863794' Fibres='7,02471506815585' Proteins='1,68982796853735' Salt='0,189043377689956' Sugars='7,95795104826458' />
+	</Product>
+	<Product Id='687' Name='Miracloli 250gr Dessert Rice' Calories='98,8932606961935' Barcode='6443456'>
+		<Nutrients Fats='37,9500197533839' Carbohydrates='37,9500197533839' Fibres='8,17703300844025' Proteins='0,510837015669732' Salt='0,743399253100975' Sugars='36,4697186757213' />
+	</Product>
+	<Product Id='688' Name='Uncle Bens 250gr Penne' Calories='113,841415793604' Barcode='81596359'>
+		<Nutrients Fats='30,0225379294414' Carbohydrates='30,0225379294414' Fibres='10,4591003241363' Proteins='2,46493402080374' Salt='0,108536589566743' Sugars='29,2172391393746' />
+	</Product>
+	<Product Id='689' Name='Suzi wan Add hot water Tan mien ' Calories='147,096478176543' Barcode='53097322'>
+		<Nutrients Fats='38,7998172128259' Carbohydrates='38,7998172128259' Fibres='6,41578579675139' Proteins='2,30762385156817' Salt='0,458059769232316' Sugars='19,9704101054428' />
+	</Product>
+	<Product Id='690' Name='Suzi wan Add hot water Risotto Rice' Calories='7,09175932982833' Barcode='28135861'>
+		<Nutrients Fats='10,2916246282547' Carbohydrates='10,2916246282547' Fibres='0,695195288765978' Proteins='2,78202540811269' Salt='0,890541291645716' Sugars='8,983595467763' />
+	</Product>
+	<Product Id='691' Name='Suzi wan Ready to eat White Rice' Calories='67,818973157559' Barcode='25804405'>
+		<Nutrients Fats='23,6425666701163' Carbohydrates='23,6425666701163' Fibres='4,65593324674636' Proteins='0,563075490848077' Salt='0,198351714968671' Sugars='13,3362626598008' />
+	</Product>
+	<Product Id='692' Name='Miracloli Quick Jasmine Rice' Calories='0,684828799128253' Barcode='39615414'>
+		<Nutrients Fats='22,9996417206134' Carbohydrates='22,9996417206134' Fibres='9,24975908509516' Proteins='1,9585328639679' Salt='0,713854475739242' Sugars='4,7671001179496' />
+	</Product>
+	<Product Id='693' Name='Miracloli Family pack mi fen' Calories='37,5977239501019' Barcode='59225866'>
+		<Nutrients Fats='28,7446527125931' Carbohydrates='28,7446527125931' Fibres='1,92900058836276' Proteins='4,60425872794248' Salt='0,597120137399524' Sugars='6,50452893142762' />
+	</Product>
+	<Product Id='694' Name='Miracloli 250gr Tan mien ' Calories='97,0293801782368' Barcode='57782342'>
+		<Nutrients Fats='36,8542209080236' Carbohydrates='36,8542209080236' Fibres='9,28086904655459' Proteins='5,67568329737339' Salt='0,559803761937311' Sugars='2,87624913173227' />
+	</Product>
+	<Product Id='695' Name='Uncle Bens Portioned Macaroni' Calories='52,5340634799032' Barcode='46123417'>
+		<Nutrients Fats='28,0877122160684' Carbohydrates='28,0877122160684' Fibres='6,13555610430225' Proteins='7,13939489565967' Salt='0,776600131278388' Sugars='4,57577785670463' />
+	</Product>
+	<Product Id='696' Name='Miracloli 250gr Gnocci' Calories='10,9616047458608' Barcode='25409236'>
+		<Nutrients Fats='28,0786889420424' Carbohydrates='28,0786889420424' Fibres='9,87305406483165' Proteins='6,49680531110568' Salt='0,688338942844398' Sugars='12,0335305878173' />
+	</Product>
+	<Product Id='697' Name='Miracloli Microwave Noodles' Calories='9,30110828211073' Barcode='60768481'>
+		<Nutrients Fats='17,5405690977732' Carbohydrates='17,5405690977732' Fibres='1,87175437280375' Proteins='5,41546917298235' Salt='0,720672211428107' Sugars='0,274014769395903' />
+	</Product>
+	<Product Id='698' Name='Miracloli 1kg Penne' Calories='26,6622174961546' Barcode='22573545'>
+		<Nutrients Fats='15,1886057490833' Carbohydrates='15,1886057490833' Fibres='11,2582530979101' Proteins='6,69416237659978' Salt='0,600617505020717' Sugars='5,79956794495063' />
+	</Product>
+
+</ProductList>

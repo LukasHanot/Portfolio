@@ -1,0 +1,14 @@
+
+setlocal enabledelayedexpansion
+
+set SOURCE_DIR=C:\Users\ricky\Documents\logopedie
+set DEST_DIR=C:\Users\ricky\Dropbox
+set FILENAMES_TO_COPY=*.odt *.doc *.docx
+
+for /R "%SOURCE_DIR%" %%F IN (%FILENAMES_TO_COPY%) do (
+    if exist "%%F" (
+    	set FILE_DIR=%%~dpF
+    	set FILE_INTERMEDIATE_DIR=!FILE_DIR:%SOURCE_DIR%=!
+    	xcopy /E /I /Y "%%F" "%DEST_DIR%!FILE_INTERMEDIATE_DIR!"
+    )
+)

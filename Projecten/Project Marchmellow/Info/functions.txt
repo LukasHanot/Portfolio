@@ -1,0 +1,13 @@
+Android
+========
+- Raadplegen begroting
+- vergelijken gemeenten (zonder cluster)
+- Bruto loon ingeven en bekijken hoeveel er naar elke categorie gaat
+- Projecten van een gemeente zien
+- Details van een project bekijken
+- Details van een voorstel bekijken(zonder foto)
+- Setmmen op een voorstel
+- Aanmelden
+- profiel bekijken
+- voorstellen van de ingelogde begroting bekijken
+- veranderen van gemeente

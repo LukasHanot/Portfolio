@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)http://meandmyubuntulinux.blogspot.be/2012/05/installing-oracle-11g-r2-express.html -->
+<html class="v2" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible">
+<meta content="width=1100" name="viewport">
+
+<script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_5" async=""></script><script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_4" async=""></script><script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_3" async=""></script><script type="text/javascript" async="" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/ga.js"></script><script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_2" async=""></script><script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_1" async=""></script><script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript">(function() { var b=window,f="chrome",g="tick",k="jstiming";(function(){function d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void 0==c)try{b.console.timeStamp("CSI/"+a)}catch(h){}};this[g]("start",null,a)}var a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[k].srt=h-c)}if(a){var e=b[k].load;0<c&&h>=c&&(e[g]("_wtsrt",void 0,c),e[g]("wtsrt_","_wtsrt",h),e[g]("tbsd_","wtsrt_"))}try{a=null,
+b[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[g]("_tbnd",void 0,b[f].csi().startE),e[g]("tbnd_","_tbnd",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[g]("_tbnd",void 0,b.external.startE),e[g]("tbnd_","_tbnd",c))),a&&(b[k].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[k].load[g]("aft")};var l=!1;function m(){l||(l=!0,b[k].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",m,!1):b.attachEvent("onscroll",m);
+ })();</script>
+<meta content="blogger" name="generator">
+<link href="http://meandmyubuntulinux.blogspot.be/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://meandmyubuntulinux.blogspot.com/2012/05/installing-oracle-11g-r2-express.html" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="Me and My Ubuntu - Atom" href="http://meandmyubuntulinux.blogspot.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="Me and My Ubuntu - RSS" href="http://meandmyubuntulinux.blogspot.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="Me and My Ubuntu - Atom" href="http://www.blogger.com/feeds/1616362845204924785/posts/default">
+
+<link rel="alternate" type="application/atom+xml" title="Me and My Ubuntu - Atom" href="http://meandmyubuntulinux.blogspot.com/feeds/1562468747269336766/comments/default">
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js"></script>
+<![endif]-->
+<link href="https://plus.google.com/112109601052706871396" rel="publisher">
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Me and My Ubuntu: Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit</title>
+<link type="text/css" rel="stylesheet" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/1535467126-widget_css_2_bundle.css">
+<link type="text/css" rel="stylesheet" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/gsnewsbar.css">
+<link type="text/css" rel="stylesheet" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/gsvideobar.css">
+<link type="text/css" rel="stylesheet" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/authorization.css">
+<style id="page-skin-1" type="text/css"><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Travel
+Designer: Sookhee Lee
+URL:      www.plyfly.net
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#539bcd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#539bcd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#ff9900"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#ff9900"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#ffffff" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+</Group>
+<Group description="Date Header" selector=".main-inner h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title a">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Post Background" selector=".column-center-inner">
+<Variable name="post.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="post.background.url" description="Post Background URL" type="url" default="none"/>
+</Group>
+<Group description="Gadget Title Color" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Text" selector=".footer-inner .widget, .sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Links" selector=".sidebar .widget">
+<Variable name="widget.link.color" description="Link Color" type="color" default="#ffffff"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#ff0000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="transparent" />
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#3e4cc7" default="$(color) none repeat-x scroll top center"/>
+<Variable name="content.background" description="Content Background" type="background"
+color="transparent" default="$(color) none repeat scroll top center"/>
+<Variable name="comments.background" description="Comments Background" type="background"
+default="#cccccc none repeat scroll top center"/>
+<Variable name="content.imageBorder.top.space" description="Content Image Border Top Space" type="length" default="0"/>
+<Variable name="content.imageBorder.top" description="Content Image Border Top" type="url" default="none"/>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="20px"/>
+<Variable name="content.posts.padding" description="Posts Content Padding" type="length" default="10px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="tabs.selected.background.gradient" description="Tabs Selected Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="widget.outer.background.gradient" description="Sidebar Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="footer.background.gradient" description="Footer Background Gradient" type="url" default="none"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+background: #181e52 url(http://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMNzZiYWYyZDMtNTI3MC00ZWI1LThmMzAtMWM3MTVkN2E2ZTdh) repeat fixed top center /* Credit: centauria (http://www.istockphoto.com/googleimages.php?id=1528595&platform=blogger) */;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #3e4cc7;
+}
+a:visited {
+text-decoration:none;
+color: #ff0000;
+}
+a:hover {
+text-decoration:underline;
+color: #4cc73e;
+}
+.content-outer .content-cap-top {
+height: 0;
+background: transparent none repeat-x scroll top center;
+}
+.content-outer {
+margin: 0 auto;
+padding-top: 20px;
+}
+.content-inner {
+background: transparent url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left;
+background-position: left -0;
+background-color: transparent;
+padding: 20px;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 10px;
+padding-right: 10px;
+}
+.Header h1 {
+font: normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: 1em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: 1em 1.5em;
+color: #ffffff;
+font: normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.main-inner h2.date-header {
+font: normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Main
+----------------------------------------------- */
+.main-inner {
+padding: 20px 0;
+}
+.main-inner .column-center-inner {
+padding: 10px 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 10px;
+}
+.main-inner .column-right-inner {
+margin-left: 20px;
+}
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner {
+margin-left: 20px;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner {
+margin-right: 20px;
+}
+.main-inner .fauxcolumn-left-outer .fauxcolumn-inner {
+margin-right: 20px;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 15px 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin-top: 20px;
+}
+h3.post-title a {
+font: normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+h3.post-title a:hover {
+text-decoration: underline;
+}
+.main-inner .column-center-outer {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.post-body {
+line-height: 1.4;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%;
+}
+#comments {
+background: transparent url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+}
+#comments h4,
+#comments .comment-author a,
+#comments .comment-timestamp a {
+color: #ffffff;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments a {
+color: #ffffff;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+.comments .comment-thread.inline-thread {
+background: transparent;
+}
+.comments .continue {
+border-top: 2px solid #ffffff;
+}
+/* Widgets
+----------------------------------------------- */
+.sidebar .widget {
+border-bottom: 2px solid transparent;
+padding-bottom: 10px;
+margin: 10px 0;
+}
+.sidebar .widget:first-child {
+margin-top: 0;
+}
+.sidebar .widget:last-child {
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.footer-inner .widget,
+.sidebar .widget {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.sidebar .widget a:link {
+color: #ffffff;
+text-decoration: none;
+}
+.sidebar .widget a:visited {
+color: #ff0000;
+}
+.sidebar .widget a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+.footer-inner .widget a:link {
+color: #3e4cc7;
+text-decoration: none;
+}
+.footer-inner .widget a:visited {
+color: #ff0000;
+}
+.footer-inner .widget a:hover {
+color: #3e4cc7;
+text-decoration: underline;
+}
+.widget .zippy {
+color: #ffffff;
+}
+.footer-inner {
+background: transparent none repeat scroll top center;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+body.mobile .AdSense {
+margin: 0 -10px;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .footer-inner .widget a:link {
+color: #ffffff;
+text-decoration: none;
+}
+.mobile .footer-inner .widget a:visited {
+color: #ff0000;
+}
+.mobile-post-outer a {
+color: #ffffff;
+}
+.mobile-link-button {
+background-color: #3e4cc7;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #ffffff;
+}
+
+--></style>
+<style id="template-skin-1" type="text/css"><!--
+body {
+min-width: 960px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px;
+max-width: 960px;
+_width: 960px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 350px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 350px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("350px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 350px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 350px;
+margin-right: -350px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/google_top_exp.js"></script><style>.gc-bubbleDefault{background-color:transparent !important;text-align:left;padding:0 !important;margin:0 !important;border:0 !important;table-layout:auto !important}.gc-reset{background-color:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;text-align:left}.pls-bubbleTop{border-bottom:1px solid #ccc !important}.pls-topTail,.pls-vertShimLeft,.pls-contentLeft{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/border_3.gif) !important}.pls-topTail{background-repeat:repeat-x !important;background-position:bottom !important}.pls-vertShim{background-color:#fff !important;text-align:right}.tbl-grey .pls-vertShim{background-color:#f5f5f5 !important}.pls-vertShimLeft{background-repeat:repeat-y !important;background-position:right !important;height:4px}.pls-vertShimRight{height:4px}.pls-confirm-container .pls-vertShim{background-color:#fff3c2 !important}.pls-contentWrap{background-color:#fff !important;position:relative !important;vertical-align:top}.pls-contentLeft{background-repeat:repeat-y;background-position:right;vertical-align:top}.pls-dropRight{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png) !important;background-repeat:repeat-y !important;vertical-align:top}.pls-vert,.pls-tailleft,.pls-dropTR .pls-dropBR,.pls-dropBL,.pls-vert img{vertical-align:top}.pls-dropBottom{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropB_3.png) !important;background-repeat:repeat-x !important;width:100%;vertical-align:top}.pls-topLeft{background:inherit !important;text-align:right;vertical-align:bottom}.pls-topRight{background:inherit !important;text-align:left;vertical-align:bottom}.pls-bottomLeft{background:inherit !important;text-align:right}.pls-bottomRight{background:inherit !important;text-align:left;vertical-align:top}.pls-tailtop,.pls-tailright,.pls-tailbottom,.pls-tailleft{display:none;position:relative}.pls-tailbottom,.pls-tailtop,.pls-tailright,.pls-tailleft,.pls-dropTR,.pls-dropBR,.pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite_3.png) !important;background-repeat:no-repeat}.tbl-grey .pls-tailbottom,.tbl-grey .pls-tailtop,.tbl-grey .pls-tailright,.tbl-grey .pls-tailleft,.tbl-grey .pls-dropTR,.tbl-grey .pls-dropBR,.tbl-grey .pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite-grey.png) !important}.pls-tailbottom{background-position:-23px 0}.pls-confirm-container .pls-tailbottom{background-position:-23px -10px}.pls-tailtop{background-position:-19px -20px}.pls-tailright{background-position:0 0}.pls-tailleft{background-position:-10px 0}.pls-tailtop{vertical-align:top}.gc-bubbleDefault td{line-height:0;font-size:0}.pls-topLeft img,.pls-topRight img,.pls-tailbottom{vertical-align:bottom}.pls-bottomLeft img,.bubbleDropTR,.pls-dropBottomL img,.pls-dropBottom img,.pls-dropBottomR img,.pls-bottomLeft{vertical-align:top}.pls-dropTR{background-position:0 -22px}.pls-dropBR{background-position:0 -27px}.pls-dropBL{background-position:0 -16px}.pls-spacertop,.pls-spacerright,.pls-spacerbottom,.pls-spacerleft{position:static !important}.pls-spinner{bottom:0;position:absolute;left:0;margin:auto;right:0;top:0}</style><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/saved_resource"></script><script type="text/javascript" async="" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/saved_resource(1)"></script><script type="text/javascript" async="" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/jquery.min.js"></script><link type="text/css" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default+en.css" rel="stylesheet"><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default+en.I.js"></script><script type="text/javascript" async="" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/saved_resource(2)"></script><link rel="stylesheet" href="http://s.skimresources.com/css/flyover-dark.css"></head>
+<body class=" variant-studio">
+<div class="navbar section" id="navbar"><div class="widget Navbar" id="Navbar1"><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="" tabindex="0" vspace="0" width="100%" id="navbar-iframe" name="navbar-iframe" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/navbar.htm"></iframe></div>
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0751616362845204924785\46blogName\75Me+and+My+Ubuntu\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://meandmyubuntulinux.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://meandmyubuntulinux.blogspot.com/\46targetPostID\0751562468747269336766\46blogPostOrPageUrl\75http://meandmyubuntulinux.blogspot.com/2012/05/installing-oracle-11g-r2-express.html\46blogFollowUrl\75https://plus.google.com/102511781228217820772\46vt\0757537268793084571323',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class="body-fauxcolumns">
+<div class="fauxcolumn-outer body-fauxcolumn-outer">
+<div class="cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left">
+<div class="fauxborder-right"></div>
+<div class="fauxcolumn-inner">
+</div>
+</div>
+<div class="cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="content-fauxcolumns">
+<div class="fauxcolumn-outer content-fauxcolumn-outer">
+<div class="cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left">
+<div class="fauxborder-right"></div>
+<div class="fauxcolumn-inner">
+</div>
+</div>
+<div class="cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+</div>
+<div class="content-outer">
+<div class="content-cap-top cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left content-fauxborder-left">
+<div class="fauxborder-right content-fauxborder-right"></div>
+<div class="content-inner">
+<header>
+<div class="header-outer">
+<div class="header-cap-top cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left header-fauxborder-left">
+<div class="fauxborder-right header-fauxborder-right"></div>
+<div class="region-inner header-inner">
+<div class="header section" id="header"><div class="widget Header" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+<a href="http://meandmyubuntulinux.blogspot.be/" sl-processed="1">Me and My Ubuntu</a>
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>A blog about my experience with Ubuntu Linux and various tips about using Ubuntu.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="header-cap-bottom cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+</header>
+<div class="tabs-outer">
+<div class="tabs-cap-top cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left tabs-fauxborder-left">
+<div class="fauxborder-right tabs-fauxborder-right"></div>
+<div class="region-inner tabs-inner">
+<div class="tabs section" id="crosscol"><div class="widget PageList" id="PageList1">
+<h2>Pages</h2>
+<div class="widget-content">
+<ul>
+<li><a href="http://meandmyubuntulinux.blogspot.be/" sl-processed="1">Home</a></li>
+<li><a href="http://tipsandinfoit.blogspot.com/" sl-processed="1">Tips and Info</a></li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PageList1&quot;));" target="configPageList1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Gadget" id="Gadget4">
+<h2 class="title">Fish</h2>
+<div class="widget-content">
+<script type="text/javascript">
+        if (!window.gadgets || !gadgets.rpc) {
+          document.write('<script type="text/javascript"' +
+                  'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d4a3f6ab85749752a9689f96489ce82b3\x26sv\x3d10">' +
+                  '</scr' + 'ipt>');
+        }
+      </script><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/rpc.js"></script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/1616362845204924785/posts/default/1562468747269336766";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/1616362845204924785/1562468747269336766/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 1562468747269336766
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/1616362845204924785/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/1616362845204924785/comments/default";
+          
+          holder.currentBlogUrl = "http://meandmyubuntulinux.blogspot.com/";
+          holder.currentBlogId = "1616362845204924785";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<iframe src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/ifr(1).htm" frameborder="0" style="width: 100%; display: block" height="100" id="sidebar-gadget4" name="sidebar-gadget4"></iframe>
+<script type="text/javascript">
+        gadgets.rpc.setRelayUrl("sidebar-gadget4", '//www-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+        gadgets.rpc.setAuthToken("sidebar-gadget4", "-41226930748882778");
+      </script>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Gadget&widgetId=Gadget4&action=editWidget&sectionId=crosscol" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Gadget4&quot;));" target="configGadget4" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+<div class="tabs section" id="crosscol-overflow"></div>
+</div>
+</div>
+<div class="tabs-cap-bottom cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+<div class="main-outer">
+<div class="main-cap-top cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left main-fauxborder-left">
+<div class="fauxborder-right main-fauxborder-right"></div>
+<div class="region-inner main-inner">
+<div class="columns fauxcolumns">
+<div class="fauxcolumn-outer fauxcolumn-center-outer">
+<div class="cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left">
+<div class="fauxborder-right"></div>
+<div class="fauxcolumn-inner">
+</div>
+</div>
+<div class="cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+<div class="fauxcolumn-outer fauxcolumn-left-outer">
+<div class="cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left">
+<div class="fauxborder-right"></div>
+<div class="fauxcolumn-inner">
+</div>
+</div>
+<div class="cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+<div class="fauxcolumn-outer fauxcolumn-right-outer">
+<div class="cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left">
+<div class="fauxborder-right"></div>
+<div class="fauxcolumn-inner">
+</div>
+</div>
+<div class="cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class="columns-inner">
+<div class="column-center-outer">
+<div class="column-center-inner">
+<div class="main section" id="main"><div class="widget Blog" id="Blog1">
+<div class="blog-posts hfeed">
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class="date-header"><span>Thursday, May 10, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class="post-outer">
+<div class="post hentry" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<a name="1562468747269336766"></a>
+<h3 class="post-title entry-title" itemprop="name">
+Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+</div>
+<div class="post-body entry-content" id="post-body-1562468747269336766" itemprop="articleBody">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recently I installed Oracle 11g R2 Express Edition on my ubuntu 12.04 ( Precise Pangolin). But for this, I have to google a lot and had to install two times to get a fully working environment. So, I thought it would be better if I share my experience with my fellow ubuntu'ers so that they don't have to face the troubles that I encountered. I have came up with following series of steps ( mostly derived from the link source I given at the end of this post ) for easy and hassle-free installation.</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; But at first, I must inform you about the limitations of Oracle 11g R2 Express Edition (XE) which are as follows :</span></div>
+<ul style="text-align: left;"></ul>
+<br>
+<ul>
+<li><span style="font-family: Liberation Serif,serif;">The Installer released by Oracle is only meant for 64-bit (x86_64) systems. If you wish to install the 32-bit version , see <a href="http://meandmyubuntulinux.blogspot.com/2013/03/installing-oracle-xe-on-ubuntu-32-bit.html" target="_blank" sl-processed="1">installing oracle xe on ubuntu 32-bit</a> </span></li>
+<li><span style="font-family: Liberation Serif,serif;">It will consume, at most, processing resources equivalent to one CPU. </span></li>
+<li><span style="font-family: Liberation Serif,serif;"> Only one installation of Oracle Database XE can be performed on a single computer. </span></li>
+<li><span style="font-family: Liberation Serif,serif;"> The maximum amount of user data in an Oracle Database XE database cannot exceed 11 GB. </span></li>
+<li><span style="font-family: Liberation Serif,serif;">The maximum amount of RAM that Oracle XE uses cannot exceed 1 GB, even if more is available. </span></li>
+</ul>
+<ul style="text-align: left;"></ul>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Now the steps for Installation : </span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">1)
+Download the Oracle 11gR2 express edition installer from the link given below:</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<a href="http://www.oracle.com/technetwork/products/express-edition/downloads/index.html" sl-processed="1"><span style="font-family: Liberation Serif,serif;">http://www.oracle.com/technetwork/products/express-edition/downloads/index.html</span></a></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">(
+You will need to create a free oracle web account if you don't
+already have it )</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">2)
+Unzip it :</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>unzip
+oracle-xe-11.2.0-1.0.x86_64.<span class="skimlinks-unlinked">rpm.zip</span></i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">3)
+Install the following packages : </span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+apt-get install alien libaio1 unixodbc vim</i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">4)
+Convert the red-hat ( rpm ) package to Ubuntu-package : </span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+alien --scripts -d oracle-xe-11.2.0-1.0.x86_64.rpm</i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">(Note:
+this may take a while , till that time you can go for step 5 )</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">5)
+Do the following pre-requisite things:</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;"><span style="font-family: Liberation Serif,serif;">a)
+Create a special</span><i><span style="font-family: Liberation Serif,serif;"><span style="color: lime;"> </span></span>chkconfig</i></span>
+<span style="font-family: Liberation Serif,serif;">script
+:</span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">The
+Red Hat based installer of Oracle XE 11gR2 relies on </span><span style="font-family: Liberation Serif,serif;"><i>/sbin/chkconfig</i></span><span style="font-family: Liberation Serif,serif;">,
+which is not used in Ubuntu. The </span><span style="font-family: Liberation Serif,serif;"><i>chkconfig</i></span><span style="font-family: Liberation Serif,serif;">
+package available for the current version of Ubuntu produces errors
+and my not be safe to use. Below is a simple trick to get around the
+problem and install Oracle XE successfully:</span><span style="color: lime;">&nbsp;<span style="font-family: Courier New,Courier,monospace;"> </span></span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">sudo
+vim /sbin/chkconfig</span></span><br>
+<br>
+<span style="font-family: inherit;">(copy
+and paste the following into the file )</span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">#!/bin/bash</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">#
+Oracle 11gR2 XE installer chkconfig hack for Ubuntu</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">file=/etc/init.d/oracle-xe</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">if
+[[ ! `tail -n1 $file | grep INIT` ]]; then</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+&gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'### BEGIN INIT INFO' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Provides: OracleXE' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Required-Start: $remote_fs $syslog' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Required-Stop: $remote_fs $syslog' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Default-Start: 2 3 4 5' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Default-Stop: 0 1 6' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'# Short-Description: Oracle 11g Express Edition' &gt;&gt;
+$file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">echo
+'### END INIT INFO' &gt;&gt; $file</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">fi</span></span><br>
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">update-rc.d
+oracle-xe defaults 80 01</span></span></div>
+<div style="text-align: justify;">
+Save the above file and provide
+appropriate execute privilege :</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>chmod
+755 /sbin/chkconfig</i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">b)
+Set the Kernel parameters :</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Oracle
+11gR2 XE requires to set the following additional kernel parameters:</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+vim /etc/sysctl.d/60<span class="skimlinks-unlinked">-oracle.conf</span></i></span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">(Enter
+the following)</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">#
+Oracle 11g XE kernel parameters</span></span><span style="color: lime;">
+</span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span class="skimlinks-unlinked">fs.file-max=6815744</span></span></span><span style="color: lime;">
+</span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span class="skimlinks-unlinked">net.ipv4.ip_local_port_range=9000</span>
+65000</span></span><span style="color: lime;">
+</span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span class="skimlinks-unlinked">kernel.sem=250</span>
+32000 100 128</span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;">kernel.shmmax=536870912</span></span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">(Save
+the file)</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;"><b>Note:</b></span>
+<span style="font-family: Liberation Serif,serif;">kernel.shmmax
+= max possible value , e.g. size of physical RAM ( in bytes e.g.
+512MB RAM == 512*1024*1024 == 536870912 bytes )</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Verify
+the change :</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+cat /etc/sysctl.d/60<span class="skimlinks-unlinked">-oracle.conf</span></i></span></span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Load
+</span><span style="color: black;"><span style="font-family: Liberation Serif,serif;">new</span></span>
+<span style="font-family: Liberation Serif,serif;">kernel
+parameters:&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+service procps start</i></span></span><span style="color: lime;">
+</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Verify:
+</span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>sudo
+sysctl -q <span class="skimlinks-unlinked">fs.file-max</span></i></span></span>&nbsp;</div>
+<div style="text-align: justify;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-family: Liberation Serif,serif;">-&gt;
+<span class="skimlinks-unlinked">fs.file-max</span> = 6815744</span>&nbsp;</div>
+<div style="text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">c)
+Increase the system swap space :</span>
+<span style="font-family: Liberation Serif,serif;">Analyze
+your current swap space by following command :</span></div>
+<div style="text-align: justify;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>free
+-m</i></span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">Minimum
+swap space requirement of Oracle 11gR2 XE is 2 GB . In case, your is
+lesser , you can increase it by following steps in my one of <a href="http://meandmyubuntulinux.blogspot.com/2011/09/installing-1-gb-swap-without.html" target="_blank" sl-processed="1">previous post</a> .</span></span></span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">d)
+make some more required changes :</span></span></span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">i)
+</span></span></span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>ln
+-s /usr/bin/awk /bin/awk</i></span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">ii)
+</span></span></span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>mkdir
+/var/lock/subsys</i></span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">iii)
+</span></span></span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>touch
+/var/lock/subsys/listener</i></span></span>&nbsp;</div>
+<div style="text-align: justify;">
+<br>
+<br></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;">6)
+N</span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">ow
+you are ready to install Oracle 11gR2 XE. Go to the directory where
+you created the ubuntu package file in Step 4 and enter following
+commands in terminal :</span></span></span></span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">i)
+</span></span></span></span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i><span style="font-weight: normal;">sudo
+dpkg --install oracle-xe_11.2.0-2_amd64.deb</span></i></span></span><span style="color: lime;">
+</span><span style="font-variant: normal;"><span style="color: lime;">&nbsp;</span></span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><b>Update : </b>Before you proceed to next step , do have a look at this <a href="http://meandmyubuntulinux.blogspot.com/2012/06/trouble-shooting-oracle-11g.html" target="_blank" sl-processed="1">trouble-shooting post</a> in order to avoid MEMORY TARGET or any other "</span></span></span></span>shared memory" <span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">error. </span></span></span></span><br>
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">ii)
+</span></span></span></span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i><span style="font-weight: normal;">sudo
+/etc/init.d/oracle-xe configure</span></i></span></span><span style="color: lime;">&nbsp;</span></div>
+<div style="text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">Enter
+the following configuration information:</span></span></span></span></div>
+<ul>
+<li><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">A
+valid HTTP port for the Oracle Application Express (the default is
+8080) </span></span></span></span>&nbsp;</li>
+<li><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">A
+valid port for the Oracle database listener (the default is 1521)&nbsp;</span></span></span></span></li>
+<li><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">A
+password for the SYS and SYSTEM administrative user accounts</span></span></span></span></li>
+<li><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">Confirm
+password for SYS and SYSTEM administrative user accounts</span></span></span></span></li>
+<li><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">Whether
+you want the database to start automatically when the computer starts
+(next reboot).</span></span></span></span></li>
+</ul>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">7)
+Before you start using Oracle 11gR2 XE you have to set-up more things
+:</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">a)
+Set-up the environmental variables :</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">Add
+following lines to your </span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><b>.bashrc</b></span></span></span><span style="font-variant: normal;">
+</span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">:</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+ORACLE_SID=XE</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+NLS_LANG=`$ORACLE_HOME/bin/<span class="skimlinks-unlinked">nls_lang.sh</span>`</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+ORACLE_BASE=/u01/app/oracle</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">export
+PATH=$ORACLE_HOME/bin:$PATH</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br>&nbsp;</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">b)
+execute your .profile to load the changes:</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;">&nbsp;&nbsp;&nbsp;
+&nbsp;</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i><span style="font-weight: normal;">.
+./.profile</span></i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">8)
+Start the Oracle 11gR2 XE :</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i><span style="font-weight: normal;">sudo
+service oracle-xe start</span></i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">The
+output should be similar to following :</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">user@machine:~$
+sudo service oracle-xe start</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">Starting
+Oracle Net Listener.</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">Starting
+Oracle Database 11g Express Edition instance.</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br></span></span></span></span><span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">user@machine:~$</span></span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;"><br>&nbsp;</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">8)
+</span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><b>Create
+your user</b></span></span></span><span style="font-variant: normal;">
+</span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">:</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">a)
+start sqlplus and login as sys </span></span></span></span><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">:</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><span style="font-style: normal;"><span style="font-weight: normal;">sqlplus
+sys as sysdba </span></span></span></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">(
+provide the password you gave while configuring the oracle in Step 6
+(ii) ).</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif;"><span style="font-style: normal;"><span style="font-weight: normal;">This
+should come to following :</span></span></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL*Plus:
+Release 11.2.0.2.0 Production on Wed May 9 12:12:16 2012 </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Copyright
+(c) 1982, 2011, Oracle. All rights reserved. </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Enter
+password: </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Connected
+to: </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Oracle
+Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL&gt;
+</i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">b)
+Enter following on the sql prompt : Replace <i>username</i> and
+<i>password</i> by your desired ones.</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL&gt;
+create user username identified by password; </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>User
+created. </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL&gt;
+grant connect,resource to username; </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Grant
+succeeded.&nbsp;</i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+&nbsp; 
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="font-style: small; margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">9) Now as you have created the user , you can login to it :</span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>user@machine:~$
+sqlplus </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL*Plus:
+Release 11.2.0.2.0 Production on Wed May 9 12:28:48 2012 </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Copyright
+(c) 1982, 2011, Oracle. All rights reserved. </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Enter
+user-name: temp </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Enter
+password: </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Connected
+to: </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>Oracle
+Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL&gt;
+select 2+2 from dual; </i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>2+2
+</i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>----------
+</i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>4
+</i></span></span>
+</div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<span style="color: lime;"><span style="font-family: Courier New,Courier,monospace;"><i>SQL&gt;</i></span></span></div>
+<div style="margin-bottom: 0cm; text-align: justify;">
+<br></div>
+<div style="font-style: normal; margin-bottom: 0cm; text-align: justify;">
+<span style="font-family: Liberation Serif,serif;">Reference Links :-</span></div>
+<ol style="text-align: justify;">
+<li><div style="margin-bottom: 0cm;">
+<span style="font-family: Liberation Serif,serif;"><a href="https://forums.oracle.com/forums/thread.jspa?threadID=2227554" target="_blank" sl-processed="1"><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif; font-style: normal;">Oracle Forum</span></span></a></span></div>
+</li>
+<li><div style="margin-bottom: 0cm;">
+<span style="font-family: Liberation Serif,serif;"><a href="http://docs.oracle.com/cd/E17781_01/index.htm" target="_blank" sl-processed="1"><span style="font-variant: normal;"><span style="font-family: Liberation Serif,serif; font-style: normal;">Oracle 11g reference Documents</span></span></a></span></div>
+</li>
+</ol>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"><span class="post-author vcard">
+Posted by
+<span class="fn">
+<a href="https://plus.google.com/112109601052706871396" itemprop="author" rel="author" title="author profile" sl-processed="1">
+Manish Raj
+</a>
+</span>
+</span>
+<span class="post-timestamp">
+at
+<a class="timestamp-link" href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit.htm" itemprop="url" rel="bookmark" title="permanent link" sl-processed="1"><abbr class="published" itemprop="datePublished" title="2012-05-10T09:00:00+05:30">9:00:00 AM</abbr></a>
+</span>
+<span class="post-comment-link">
+</span>
+<span class="post-icons">
+<span class="item-action">
+<a href="http://www.blogger.com/email-post.g?blogID=1616362845204924785&postID=1562468747269336766" title="Email Post" sl-processed="1">
+<img alt="" class="icon-action" height="13" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_email.gif" width="18">
+</a>
+</span>
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="http://www.blogger.com/share-post.g?blogID=1616362845204924785&postID=1562468747269336766&target=email" target="_blank" title="Email This" sl-processed="1"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="http://www.blogger.com/share-post.g?blogID=1616362845204924785&postID=1562468747269336766&target=blog" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=270,width=475&quot;); return false;" target="_blank" title="BlogThis!" sl-processed="1"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="http://www.blogger.com/share-post.g?blogID=1616362845204924785&postID=1562468747269336766&target=twitter" target="_blank" title="Share to Twitter" sl-processed="1"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="http://www.blogger.com/share-post.g?blogID=1616362845204924785&postID=1562468747269336766&target=facebook" onclick="window.open(this.href, &quot;_blank&quot;, &quot;height=430,width=640&quot;); return false;" target="_blank" title="Share to Facebook" sl-processed="1"><span class="share-button-link-text">Share to Facebook</span></a><a class="goog-inline-block share-button sb-pinterest" href="http://www.blogger.com/share-post.g?blogID=1616362845204924785&postID=1562468747269336766&target=pinterest" target="_blank" title="Share to Pinterest" sl-processed="1"><span class="share-button-link-text">Share to Pinterest</span></a><div class="goog-inline-block dummy-container"><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1412253305270" name="I0_1412253305270" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/fastbutton(2).htm" data-gapiattached="true" title="+1"></iframe></div></div>
+</div>
+<span class="post-backlinks post-comment-link">
+</span>
+</div>
+<div class="post-footer-line post-footer-line-2"><span class="post-labels">
+Labels:
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/11g" rel="tag" sl-processed="1">11g</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/64%20bit" rel="tag" sl-processed="1">64 bit</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/express%20edition" rel="tag" sl-processed="1">express edition</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/oracle" rel="tag" sl-processed="1">oracle</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/sql" rel="tag" sl-processed="1">sql</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/sqlplus" rel="tag" sl-processed="1">sqlplus</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/ubuntu" rel="tag" sl-processed="1">ubuntu</a>,
+<a href="http://meandmyubuntulinux.blogspot.be/search/label/XE" rel="tag" sl-processed="1">XE</a>
+</span>
+</div>
+<div class="post-footer-line post-footer-line-3"><span class="reaction-buttons">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td class="reactions-label-cell" nowrap="nowrap" valign="top" width="1%">
+<span class="reactions-label">
+Reactions:</span>&nbsp;</td>
+<td><iframe allowtransparency="true" class="reactions-iframe" frameborder="0" name="reactions" scrolling="no" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/blog-post-reactions.htm"></iframe></td>
+</tr></tbody></table>
+</span>
+<span class="post-location">
+</span>
+</div>
+</div>
+</div>
+<script src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/plusone.js" type="text/javascript" gapi_processed="true"></script>
+<div class="cmt_iframe_holder" data-href="http://meandmyubuntulinux.blogspot.com/2012/05/installing-oracle-11g-r2-express.html" data-viewtype="FILTERED_POSTMOD" id="gpluscomments" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 551px; height: 4490px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 551px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 4490px;" tabindex="0" vspace="0" width="100%" id="I0_1412253306233" name="I0_1412253306233" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/comments.htm" data-gapiattached="true" title="Comment on this"></iframe></div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-newer-link">
+<a class="blog-pager-newer-link" href="http://meandmyubuntulinux.blogspot.be/2012/05/things-i-did-after-installing-my-ubuntu.html" id="Blog1_blog-pager-newer-link" title="Newer Post" sl-processed="1">Newer Post</a>
+</span>
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="http://meandmyubuntulinux.blogspot.be/2011/10/recovery-of-deleted-partition-part-3.html" id="Blog1_blog-pager-older-link" title="Older Post" sl-processed="1">Older Post</a>
+</span>
+<a class="home-link" href="http://meandmyubuntulinux.blogspot.be/" sl-processed="1">Home</a>
+</div>
+<div class="clear"></div>
+<div class="post-feeds">
+<div class="feed-links">
+Subscribe to:
+<a class="feed-link" href="http://meandmyubuntulinux.blogspot.com/feeds/1562468747269336766/comments/default" target="_blank" type="application/atom+xml" sl-processed="1">Post Comments (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+</div>
+<div class="column-left-outer">
+<div class="column-left-inner">
+<aside>
+</aside>
+</div>
+</div>
+<div class="column-right-outer">
+<div class="column-right-inner">
+<aside>
+<div class="sidebar section" id="sidebar-right-1"><div class="widget VideoBar" id="VideoBar1">
+<h2 class="title">OMG Ubuntu Youtube Channel</h2>
+<div class="widget-content">
+<div id="VideoBar1_bar" class="videoBar-container" style="width: 232px;"><div class="videoBarBox_gsvb full_gsvb"><div class="resultsBox_gsvb"><table class="resultTable_gsvb horizontal_gsvb" align="center"><tbody><tr><td class="resultCell_gsvb" align="center"><div class="resultDiv_gsvb smallResultDiv_gsvb" title="Ubuntu for tablets - Full video - YouTube ( 6m )"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default.jpg" width="49" height="37" vspace="1"></div></td><td class="resultCell_gsvb" align="center"><div class="resultDiv_gsvb smallResultDiv_gsvb" title="Ubuntu for phones - Industry proposition - YouTube ( 21m 57s )"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default(1).jpg" width="49" height="37" vspace="1"></div></td><td class="resultCell_gsvb" align="center"><div class="resultDiv_gsvb smallResultDiv_gsvb" title="Dual-Boot Ubuntu 14.04 and Windows 8 [2014 ... ( 7m )"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default(2).jpg" width="49" height="37" vspace="1"></div></td><td class="resultCell_gsvb" align="center"><div class="resultDiv_gsvb smallResultDiv_gsvb" title="Ubuntu Touch 08/2014 - YouTube ( 5m 42s )"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/default(3).jpg" width="49" height="37" vspace="1"></div></td></tr><tr><td class="resultCell_gsvb" colspan="4"><div class="gsc-branding gsc-branding-youtube"><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img-noclear"><a href="http://www.youtube.com/" target="_BLANK" class="gsc-branding-clickable"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/youtube-logo-55x24.png" class="gsc-branding-img-noclear"></a></td></tr></tbody></table></div></td></tr></tbody></table></div></div></div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=VideoBar&widgetId=VideoBar1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;VideoBar1&quot;));" target="configVideoBar1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget Gadget" id="Gadget5">
+<h2 class="title">Digital clock</h2>
+<div class="widget-content">
+<script type="text/javascript">
+        if (!window.gadgets || !gadgets.rpc) {
+          document.write('<script type="text/javascript"' +
+                  'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d4a3f6ab85749752a9689f96489ce82b3\x26sv\x3d10">' +
+                  '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/1616362845204924785/posts/default/1562468747269336766";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/1616362845204924785/1562468747269336766/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 1562468747269336766
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/1616362845204924785/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/1616362845204924785/comments/default";
+          
+          holder.currentBlogUrl = "http://meandmyubuntulinux.blogspot.com/";
+          holder.currentBlogId = "1616362845204924785";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<iframe src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/ifr(2).htm" frameborder="0" style="width: 100%; display: block" height="50" id="sidebar-gadget5" name="sidebar-gadget5"></iframe>
+<script type="text/javascript">
+        gadgets.rpc.setRelayUrl("sidebar-gadget5", '//www-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+        gadgets.rpc.setAuthToken("sidebar-gadget5", "1866311899934039284");
+      </script>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Gadget&widgetId=Gadget5&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Gadget5&quot;));" target="configGadget5" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget Stats" id="Stats1">
+<h2>Total Pageviews</h2>
+<div class="widget-content">
+<div id="Stats1_content">
+<span class="counter-wrapper graph-counter-wrapper" id="Stats1_totalCount"><span class="digit stage-0"><strong>2</strong><span class="blind-plate"></span></span><span class="digit stage-0"><strong>4</strong><span class="blind-plate"></span></span><span class="digit stage-0"><strong>6</strong><span class="blind-plate"></span></span><span class="digit stage-0"><strong>2</strong><span class="blind-plate"></span></span><span class="digit stage-0"><strong>5</strong><span class="blind-plate"></span></span><span class="digit stage-0"><strong>8</strong><span class="blind-plate"></span></span></span>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Stats&widgetId=Stats1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Stats1&quot;));" target="configStats1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div>
+</div><div class="widget PopularPosts" id="PopularPosts1">
+<h2>Popular Posts</h2>
+<div class="widget-content popular-posts">
+<ul>
+<li>
+<div class="item-content">
+<div class="item-title"><a href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit.htm" sl-processed="1">Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit</a></div>
+<div class="item-snippet">    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recently I installed Oracle 11g R2 Express Edition on my ubuntu 12.04 ( Precise Pangolin). But for this, I have to google ...</div>
+</div>
+<div style="clear: both;"></div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-title"><a href="http://meandmyubuntulinux.blogspot.be/2012/06/trouble-shooting-oracle-11g.html" sl-processed="1">Trouble-shooting oracle 11g installation on Ubuntu</a></div>
+<div class="item-snippet">  In my one of the previous post ( http://meandmyubuntulinux.blogspot.com/2012/05/installing-oracle-11g-r2-express.html  ) , I told you abou...</div>
+</div>
+<div style="clear: both;"></div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-title"><a href="http://meandmyubuntulinux.blogspot.be/2013/03/installing-oracle-xe-on-ubuntu-32-bit.html" sl-processed="1">Installing Oracle XE on Ubuntu 32-bit</a></div>
+<div class="item-snippet">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the people who want to install Oracle XE on the 32-bit Ubuntu system but are not able to do the same due to unavai...</div>
+</div>
+<div style="clear: both;"></div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-title"><a href="http://meandmyubuntulinux.blogspot.be/2011/09/installing-1-gb-swap-without.html" sl-processed="1">Installing a 1 GB swap without partitioning</a></div>
+<div class="item-snippet">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Some software that you install e.g. oracle database XE requires you to have greater than one GB swap space. So, if you have ...</div>
+</div>
+<div style="clear: both;"></div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-thumbnail">
+<a href="http://meandmyubuntulinux.blogspot.be/2012/05/things-i-did-after-installing-my-ubuntu.html" target="_blank" sl-processed="1">
+<img alt="" border="0" height="72" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/Applications.png" width="72">
+</a>
+</div>
+<div class="item-title"><a href="http://meandmyubuntulinux.blogspot.be/2012/05/things-i-did-after-installing-my-ubuntu.html" sl-processed="1">Things I did after Installing my Ubuntu</a></div>
+<div class="item-snippet">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Although Ubuntu comes loaded with lots of applications but its default looks and applications may not suit everyone. Same wa...</div>
+</div>
+<div style="clear: both;"></div>
+</li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;PopularPosts1&quot;));" target="configPopularPosts1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Gadget" id="Gadget2">
+<h2 class="title">Amazon MP3 Clips</h2>
+<div class="widget-content">
+<script type="text/javascript">
+        if (!window.gadgets || !gadgets.rpc) {
+          document.write('<script type="text/javascript"' +
+                  'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3dd30b8b5668c233bafcf12346b6771e3e\x26sv\x3d10">' +
+                  '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/1616362845204924785/posts/default/1562468747269336766";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/1616362845204924785/1562468747269336766/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 1562468747269336766
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/1616362845204924785/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/1616362845204924785/comments/default";
+          
+          holder.currentBlogUrl = "http://meandmyubuntulinux.blogspot.com/";
+          holder.currentBlogId = "1616362845204924785";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<iframe src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/ifr.htm" frameborder="0" style="width: 100%; display: block" height="300" id="sidebar-gadget2" name="sidebar-gadget2"></iframe>
+<script type="text/javascript">
+        gadgets.rpc.setRelayUrl("sidebar-gadget2", '//dfgubl2g9ahmgfkabsjd7k921jq7ui6a-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+        gadgets.rpc.setAuthToken("sidebar-gadget2", "829060981240376603");
+      </script>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Gadget&widgetId=Gadget2&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Gadget2&quot;));" target="configGadget2" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget Followers" id="Followers1">
+<h2 class="title">Followers</h2>
+<div class="widget-content">
+<div id="Followers1-wrapper">
+<div style="margin-right:2px;">
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/friendconnect.js"></script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/1616362845204924785/posts/default/1562468747269336766";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/1616362845204924785/1562468747269336766/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 1562468747269336766
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/1616362845204924785/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/1616362845204924785/comments/default";
+          
+          holder.currentBlogUrl = "http://meandmyubuntulinux.blogspot.com/";
+          holder.currentBlogId = "1616362845204924785";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1i013qcjwuwvs" style="width: 100%; visibility: visible;" class="gadgets-gadget-container"><div id="gfc_iframe_523818216_0_body" style="height: 176px;"><iframe id="gfc_iframe_523818216_0" name="gfc_iframe_523818216_0" style="width: 100%; height: 176px;" frameborder="0" scrolling="no" allowtransparency="true" height="260"></iframe></div></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['TITLE'] = "Followers";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#ffffff";
+    skin['ENDCAP_LINK_COLOR'] = "#3e4cc7";
+    skin['ALTERNATE_BG_COLOR'] = "transparent";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#3e4cc7";
+    skin['CONTENT_TEXT_COLOR'] = "#ffffff";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#3e4cc7";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#ffffff";
+    skin['CONTENT_HEADLINE_COLOR'] = "#ffffff";
+    skin['FONT_FACE'] = "normal normal 13px \x27Trebuchet MS\x27,Trebuchet,sans-serif";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1i013qcjwuwvs",
+     height: 260,
+     
+     
+     
+     site: "17739299780277616453",
+     
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Followers1&quot;));" target="configFollowers1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget BlogArchive" id="BlogArchive1">
+<h2>Blog Archive</h2>
+<div class="widget-content">
+<div id="ArchiveList">
+<div id="BlogArchive1_ArchiveList">
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/search?updated-min=2014-01-01T00:00:00%2B05:30&updated-max=2015-01-01T00:00:00%2B05:30&max-results=1" sl-processed="1">2014</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2014_03_01_archive.html" sl-processed="1">March</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/search?updated-min=2013-01-01T00:00:00%2B05:30&updated-max=2014-01-01T00:00:00%2B05:30&max-results=1" sl-processed="1">2013</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2013_03_01_archive.html" sl-processed="1">March</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/search?updated-min=2012-01-01T00:00:00%2B05:30&updated-max=2013-01-01T00:00:00%2B05:30&max-results=5" sl-processed="1">2012</a>
+<span class="post-count" dir="ltr">(5)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2012_09_01_archive.html" sl-processed="1">September</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2012_06_01_archive.html" sl-processed="1">June</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2012_05_01_archive.html" sl-processed="1">May</a>
+<span class="post-count" dir="ltr">(2)</span>
+<ul class="posts">
+<li><a href="http://meandmyubuntulinux.blogspot.be/2012/05/things-i-did-after-installing-my-ubuntu.html" sl-processed="1">Things I did after Installing my Ubuntu</a></li>
+<li><a href="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit.htm" sl-processed="1">Installing Oracle 11g R2 Express Edition on Ubuntu...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/search?updated-min=2011-01-01T00:00:00%2B05:30&updated-max=2012-01-01T00:00:00%2B05:30&max-results=8" sl-processed="1">2011</a>
+<span class="post-count" dir="ltr">(8)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2011_10_01_archive.html" sl-processed="1">October</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)" sl-processed="1">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://meandmyubuntulinux.blogspot.be/2011_09_01_archive.html" sl-processed="1">September</a>
+<span class="post-count" dir="ltr">(5)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;BlogArchive1&quot;));" target="configBlogArchive1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget FollowByEmail" id="FollowByEmail1">
+<h2 class="title">Follow the blog by Email</h2>
+<div class="widget-content">
+<div class="follow-by-email-inner">
+<form action="http://feedburner.google.com/fb/a/mailverify" method="post" onsubmit="window.open(&quot;http://feedburner.google.com/fb/a/mailverify?uri=MeAndMyUbuntu&quot;, &quot;popupwindow&quot;, &quot;scrollbars=yes,width=550,height=520&quot;); return true" target="popupwindow">
+<table width="100%">
+<tbody><tr>
+<td>
+<input class="follow-by-email-address" name="email" placeholder="Email address..." type="text">
+</td>
+<td width="64px">
+<input class="follow-by-email-submit" type="submit" value="Submit">
+</td>
+</tr>
+</tbody></table>
+<input name="uri" type="hidden" value="MeAndMyUbuntu">
+<input name="loc" type="hidden" value="en_US">
+</form>
+</div>
+</div>
+<span class="item-control blog-admin">
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=FollowByEmail&widgetId=FollowByEmail1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;FollowByEmail1&quot;));" target="configFollowByEmail1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</span>
+</div><div class="widget Profile" id="Profile1">
+<h2>About Me</h2>
+<div class="widget-content">
+<a href="https://plus.google.com/112109601052706871396" sl-processed="1"><img alt="My Photo" class="profile-img" height="80" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/photo.jpg" width="80"></a>
+<dl class="profile-datablock">
+<dt class="profile-data">
+<a class="profile-name-link g-profile" href="https://plus.google.com/112109601052706871396" rel="author" style="background-image: url(//www.google.com/images/icons/ui/gprofile_button-16.png);" data-gapiscan="true" data-onload="true" data-gapiattached="true" sl-processed="1">
+Manish Raj
+</a>
+<br>
+<div id="___follow_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 116px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 116px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1412253305608" name="I0_1412253305608" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/follow.htm" data-gapiattached="true"></iframe></div>
+</dt>
+<dd class="profile-textblock">I have done my B.Tech. in Electronics and Communication Engineering from 
+Sikkim Manipal Institute of Technolgy,Sikkim ( <span><a href="http://smit.smu.edu.in/" sl-processed="1">SMIT</a>&nbsp;)&nbsp;</span>and Currently working as Systems Engineer at Tata Consultancy Services ( <a href="http://www.tcs.com/" sl-processed="1">TCS</a> ) Ltd., 
+Mumbai.</dd>
+</dl>
+<a class="profile-link" href="https://plus.google.com/112109601052706871396" rel="author" sl-processed="1">View my complete profile</a>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Profile1&quot;));" target="configProfile1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget NewsBar" id="NewsBar1">
+<h2 class="title">Latest Ubuntu News</h2>
+<div class="widget-content">
+<div id="NewsBar1_bar"><div class="newsBarBox_gsnb full_gsnb vertical_gsnb"><div class="newsBarInnerBox_gsnb"><div class="titleBox_gsnb"> </div><div class="statusBoxRoot_gsnb"><div class="statusBox_gsnb oneitem_gsnb"><a href="http://meandmyubuntulinux.blogspot.be/2012/05/_nolink_" class="statusItem_gsnb statusItemSelected_gsnb">ubuntu</a></div></div><div class="resultsBox_gsnb expanded_gsnb"><div class="resultDiv_gsnb"><div class="gs-newsResult gs-result"><div class="gs-title"><a href="http://www.pcworld.com/article/2687847/ubuntu-touch-finalized-first-phones-coming-this-year.html" class="gs-title" target="_blank"><b>Ubuntu</b> Touch finalized, first phones coming this year</a></div><div class="gs-publisher">PCWorld</div><div class="gs-publishedDate"> - Sep 26, 2014</div><div class="gs-relativePublishedDate"> - Sep 26, 2014</div><div class="gs-snippet">The <b>Ubuntu</b> Edge smartphone campaign never reached its lofty $32m goal , but the more than $12m in pledges it received was record-breaking—and Canonical hasn't given up. <b>Ubuntu</b> Touch for phones just hit “release to manufacturing” status. The first&nbsp;...</div><div class="gs-watermark"><a href="http://code.google.com/apis/ajaxsearch/faq.html" class="gs-watermark" target="_blank">clipped from Google - 10/2014</a></div></div></div><div class="resultDiv_gsnb"><div class="gs-newsResult gs-result"><div class="gs-title"><a href="http://www.zdnet.com/oracle-linux-is-coming-to-ubuntus-openstack-cloud-7000034106/" class="gs-title" target="_blank">Oracle Linux is coming to <b>Ubuntu's</b> OpenStack cloud</a></div><div class="gs-publisher">ZDNet</div><div class="gs-publishedDate"> - Sep 26, 2014</div><div class="gs-relativePublishedDate"> - Sep 26, 2014</div><div class="gs-snippet">After all, Canonical, despite being best known for desktop <b>Ubuntu</b>, has quietly become an OpenStack cloud power. For example, <b>Ubuntu</b> is the most popular Linux running on OpenStack. Canonical also recently helped Microsoft to bring Windows Server to&nbsp;...</div><div class="gs-clusterUrl"><a href="http://news.google.com/news/story?ncl=ddKNbLEqc-HCdYMO7mlTo0wHtkNHM&hl=en&ned=us" class="gs-clusterUrl" target="_blank">Related Articles&nbsp;»</a></div><div class="gs-watermark"><a href="http://code.google.com/apis/ajaxsearch/faq.html" class="gs-watermark" target="_blank">clipped from Google - 10/2014</a></div></div></div><div class="resultDiv_gsnb"><div class="gs-newsResult gs-result"><div class="gs-title"><a href="http://www.theregister.co.uk/2014/09/26/ubuntu_final_beta_review/" class="gs-title" target="_blank">Unchanging Unicorn: Don't be disappointed with <b>Ubuntu</b> 14.10, be happy</a></div><div class="gs-publisher">Register</div><div class="gs-publishedDate"> - Sep 26, 2014</div><div class="gs-relativePublishedDate"> - Sep 26, 2014</div><div class="gs-snippet">Review A number of <b>Ubuntu</b> flavours – Kubuntu, <b>Ubuntu</b> Gnome, Xubuntu and the brand new <b>Ubuntu</b> Mate (yes, it's official now) – this month participated in the first beta release of the next <b>Ubuntu</b> – 14.10, or Utopic Unicorn. The main Unity Desktop was&nbsp;...</div><div class="gs-watermark"><a href="http://code.google.com/apis/ajaxsearch/faq.html" class="gs-watermark" target="_blank">clipped from Google - 10/2014</a></div></div></div><div class="resultDiv_gsnb"><div class="gs-newsResult gs-result"><div class="gs-title"><a href="http://www.brooklynvegan.com/archives/2014/10/paul_simon_join.html" class="gs-title" target="_blank">Paul Simon joining Ladysmith Black Mambazo at Carnegie Hall during <b>UBUNTU</b> <b>...</b></a></div><div class="gs-publisher">Brooklyn Vegan (blog)</div><div class="gs-publishedDate"> - Oct 01, 2014</div><div class="gs-relativePublishedDate"> - 20 hours ago</div><div class="gs-snippet">With its <b>UBUNTU</b> festival, Carnegie Hall salutes South Africa, a country with its dizzying patchwork of cultures, eleven official languages, and a cultural life like none other. Roughly translated as "I am because you are," <b>Ubuntu</b> is a philosophy from <b>...</b></div><div class="gs-clusterUrl"><a href="http://news.google.com/news/story?ncl=dIG2D_Fbf-BINXMAdLWPGFSiA8-sM&hl=en&ned=us" class="gs-clusterUrl" target="_blank">Related Articles&nbsp;»</a></div><div class="gs-watermark"><a href="http://code.google.com/apis/ajaxsearch/faq.html" class="gs-watermark" target="_blank">clipped from Google - 10/2014</a></div></div></div></div></div><div class="brandingBox_gsnb"><div class="gsc-branding"><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img-noclear"><img src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/small-logo.png" class="gsc-branding-img-noclear"></td></tr></tbody></table></div></div></div></div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=NewsBar&widgetId=NewsBar1&action=editWidget&sectionId=sidebar-right-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;NewsBar1&quot;));" target="configNewsBar1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+<table border="0" cellpadding="0" cellspacing="0" class="section-columns columns-2">
+<tbody>
+<tr>
+<td class="first columns-cell">
+<div class="sidebar section" id="sidebar-right-2-1"><div class="widget PlusOne" id="PlusOne1">
+<div class="widget-content">
+<div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 250px; height: 24px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 250px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I1_1412253305613" name="I1_1412253305613" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/fastbutton.htm" data-gapiattached="true" title="+1"></iframe></div>
+<script type="text/javascript">
+      window.___gcfg = {"lang": "en"};
+    </script>
+</div>
+</div><div class="widget HTML" id="HTML2">
+<h2 class="title">Skimlinks</h2>
+<div class="widget-content">
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/38741X995990.skimlinks.js"></script>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-2-1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML2&quot;));" target="configHTML2" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</td>
+<td class="columns-cell">
+<div class="sidebar section" id="sidebar-right-2-2"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="sidebar section" id="sidebar-right-3"></div>
+</aside>
+</div>
+</div>
+</div>
+<div style="clear: both"></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class="main-cap-bottom cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+<footer>
+<div class="footer-outer">
+<div class="footer-cap-top cap-top">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+<div class="fauxborder-left footer-fauxborder-left">
+<div class="fauxborder-right footer-fauxborder-right"></div>
+<div class="region-inner footer-inner">
+<div class="foot section" id="footer-1"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="section-columns columns-2">
+<tbody>
+<tr>
+<td class="first columns-cell">
+<div class="foot section" id="footer-2-1"></div>
+</td>
+<td class="columns-cell">
+<div class="foot section" id="footer-2-2"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class="foot section" id="footer-3"><div class="widget HTML" id="HTML1">
+<div class="widget-content">
+<a align="center" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" sl-processed="1"><img alt="Creative Commons License" style="border-width:0" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" sl-processed="1">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer-3" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;HTML1&quot;));" target="configHTML1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget Attribution" id="Attribution1">
+<div class="widget-content" style="text-align: center;">
+Travel template. Template images by <a href="http://www.istockphoto.com/googleimages.php?id=1528595&platform=blogger&langregion=en" target="_blank" sl-processed="1">centauria</a>. Powered by <a href="http://www.blogger.com/" target="_blank" sl-processed="1">Blogger</a>.
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1616362845204924785&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Attribution1&quot;));" target="configAttribution1" title="Edit" sl-processed="1">
+<img alt="" height="18" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div>
+</div>
+<div class="footer-cap-bottom cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class="content-cap-bottom cap-bottom">
+<div class="cap-left"></div>
+<div class="cap-right"></div>
+</div>
+</div>
+</div><iframe frameborder="0" id="google_top_static_frame" name="google_top_static_frame" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/blank.htm" style="height: 0px; width: 0px; position: absolute;"></iframe>
+<script type="text/javascript">
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32661033-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = (document.location.protocol == 'https:' ?
+                  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/2271878333-widgets.js"></script>
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/jsapi"></script>
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/gsvideobar.js"></script>
+<script type="text/javascript" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/gsnewsbar.js"></script>
+<script type="text/javascript">
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '1616362845204924785';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1616362845204924785','//meandmyubuntulinux.blogspot.be/2012/05/installing-oracle-11g-r2-express.html','1616362845204924785');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '1616362845204924785', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Me and My Ubuntu', 'pageType': 'item', 'postId': '1562468747269336766', 'url': 'http://meandmyubuntulinux.blogspot.be/2012/05/installing-oracle-11g-r2-express.html', 'canonicalUrl': 'http://meandmyubuntulinux.blogspot.com/2012/05/installing-oracle-11g-r2-express.html', 'canonicalHomepageUrl': 'http://meandmyubuntulinux.blogspot.com/', 'homepageUrl': 'http://meandmyubuntulinux.blogspot.be/', 'blogspotFaviconUrl': 'http://meandmyubuntulinux.blogspot.be/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': 'UA-32661033-1', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit', 'pageTitle': 'Me and My Ubuntu: Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Me and My Ubuntu - Atom\42 href\75\42http://meandmyubuntulinux.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Me and My Ubuntu - RSS\42 href\75\42http://meandmyubuntulinux.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Me and My Ubuntu - Atom\42 href\75\42http://www.blogger.com/feeds/1616362845204924785/posts/default\42 /\76\n\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Me and My Ubuntu - Atom\42 href\75\42http://meandmyubuntulinux.blogspot.com/feeds/1562468747269336766/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl': 'https://plus.google.com/112109601052706871396', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,f\75\42chrome\42,g\75\42tick\42,k\75\42jstiming\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){var e\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[e,d];if(void 0\75\75c)try{b.console.timeStamp(\42CSI/\42+a)}catch(h){}};this[g](\42start\42,null,a)}var a;b.performance\46\46(a\75b.performance.timing);var n\75a?new d(a.responseStart):new d;b.jstiming\75{Timer:d,load:n};if(a){var c\75a.navigationStart,h\75a.responseStart;0\74c\46\46h\76\75c\46\46(b[k].srt\75h-c)}if(a){var e\75b[k].load;0\74c\46\46h\76\75c\46\46(e[g](\42_wtsrt\42,void 0,c),e[g](\42wtsrt_\42,\42_wtsrt\42,h),e[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,\nb[f]\46\46b[f].csi\46\46(a\75Math.floor(b[f].csi().pageT),e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b[f].csi().startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b.external.startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),a\46\46(b[k].pt\75a)}catch(p){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[k].load[g](\42aft\42)};var l\75!1;function m(){l||(l\75!0,b[k].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,m,!1):b.attachEvent(\42onscroll\42,m);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n', 'tf': ''}}, {'name': 'skin', 'data': {'vars': {'mobile_background_overlay': 'transparent none repeat scroll top left', 'tabs_selected_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'tabs_background_color': 'transparent', 'content_padding': '20px', 'widget_link_visited_color': '#ff0000', 'tabs_selected_background_color': 'transparent', 'footer_background_gradient': 'none', 'link_hover_color': '#4cc73e', 'post_title_text_color': '#ffffff', 'content_background': 'transparent url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left', 'description_text_color': '#ffffff', 'widget_font': 'normal normal 13px \47Trebuchet MS\47,Trebuchet,sans-serif', 'body_text_color': '#ffffff', 'link_visited_color': '#ff0000', 'post_background_color': 'transparent', 'post_title_font': 'normal bold 20px \47Trebuchet MS\47,Trebuchet,sans-serif', 'tabs_text_color': '#ffffff', 'endSide': 'right', 'startSide': 'left', 'tabs_font': 'normal bold 16px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_outer_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'content_posts_padding': '10px', 'widget_link_color': '#ffffff', 'body_font': 'normal normal 13px \47Trebuchet MS\47,Trebuchet,sans-serif', 'content_imageBorder_top': 'none', 'comments_background': 'transparent url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center', 'date_text_color': '#ffffff', 'mobile_button_color': '#ffffff', 'widget_outer_background_color': 'transparent', 'widget_title_font': 'normal bold 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_title_text_color': '#ffffff', 'widget_text_color': '#ffffff', 'content_margin': '20px', 'body_background': '#181e52 url(http://themes.googleusercontent.com/image?id\0750BwVBOzw_-hbMNzZiYWYyZDMtNTI3MC00ZWI1LThmMzAtMWM3MTVkN2E2ZTdh) repeat fixed top center /* Credit: centauria (http://www.istockphoto.com/googleimages.php?id\0751528595\46platform\75blogger) */', 'keycolor': '#181e52', 'link_color': '#3e4cc7', 'content_background_color': 'transparent', 'header_font': 'normal normal 60px \47Trebuchet MS\47,Trebuchet,sans-serif', 'header_text_color': '#ffffff', 'widget_border_bevel_color': 'transparent', 'content_imageBorder_top_space': '0', 'date_font': 'normal normal 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'tabs_selected_text_color': '#ffffff', 'body_background_color': '#3e4cc7', 'post_background_url': 'none', 'tabs_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'widget_alternate_text_color': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://meandmyubuntulinux.blogspot.be/', 'title': 'Home', 'isCurrentPage': false}, {'href': 'http://tipsandinfoit.blogspot.com/', 'title': 'Tips and Info', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget4', 'crosscol', null, document.getElementById('Gadget4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-3', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Travel template. Template images by \74a href\75\47http://www.istockphoto.com/googleimages.php?id\0751528595\46platform\75blogger\46langregion\75en\47 target\75\47_blank\47\76centauria\74/a\76. Powered by \74a href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId': '1562468747269336766', 'legacyCommentModerationUrl': 'https://www.blogger.com/moderate-legacy-comment.g?blogID\0751616362845204924785', 'iframeCommentsId': 'gpluscomments', 'viewType': 'FILTERED_POSTMOD', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2838879091-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_VideoBarView', new _WidgetInfo('VideoBar1', 'sidebar-right-1', null, document.getElementById('VideoBar1'), {'title': 'OMG Ubuntu Youtube Channel', 'format': 'HORIZONTAL-SMALL', 'expression': 'ytfeed:recently_featured.this_week,ytchannel:omgubuntu,ubuntu'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget5', 'sidebar-right-1', null, document.getElementById('Gadget5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'sidebar-right-1', null, document.getElementById('Stats1'), {'title': 'Total Pageviews', 'showGraphicalCounter': true, 'showAnimatedCounter': true, 'showSparkline': false, 'statsUrl': '//meandmyubuntulinux.blogspot.be/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75ALL_TIME\46token\75amD_0kgBAAA.p_D2p92sQ4-fT2gMQLVs2p3FVnxtX_xbC62XForb2Kw.oUd5wMzgBlZCv4gnMvJiLQ'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget2', 'sidebar-right-1', null, document.getElementById('Gadget2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'sidebar-right-1', null, document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NewsBarView', new _WidgetInfo('NewsBar1', 'sidebar-right-1', null, document.getElementById('NewsBar1'), {'title': 'Latest Ubuntu News', 'format': 'VERTICAL', 'expression': 'ubuntu', 'linkNewWindow': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PlusOneView', new _WidgetInfo('PlusOne1', 'sidebar-right-2-1', null, document.getElementById('PlusOne1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-2-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+</script>
+
+<iframe name="oauth2relay353426303" id="oauth2relay353426303" src="./Me and My Ubuntu  Installing Oracle 11g R2 Express Edition on Ubuntu 64-bit_files/postmessageRelay.htm" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script><div class="floatingPlayerBox_gsvb idle_gsvb"></div><div class="floatingPlayer_gsvb idle_gsvb"><div class="playerBox_gsvb idle_gsvb"><div class="alldone_gsvb">i'm done watching this</div><div class="playerInnerBox_gsvb"></div></div></div></body></html>

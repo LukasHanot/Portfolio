@@ -1,0 +1,7 @@
+#!/bin/bash
+if ! [ "`service apache2 status`" = " * apache2 is running" ]
+then
+sudo service apache2 start
+fi
+
+

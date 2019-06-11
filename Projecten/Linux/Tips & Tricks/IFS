@@ -1,0 +1,13 @@
+IFS of "Internal Field Separator"
+Is een variabele in bash die bijhoud waar velden gesplitst moeten worden.
+Handig om paths met spacies in scripts te kunnen gebruiken of spaties in lijnen tekst.
+
+Default: Whitespaces en new-lines
+
+# Verandert IFS naar enkel new-lines
+OLDIFS=$IFS
+IFS=$'\n'
+
+# Zet IFS terug naar standaard (best-practise terug zetten op einde
+# script)
+IFS=$OLDIFS

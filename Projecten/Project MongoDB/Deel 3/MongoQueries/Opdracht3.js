@@ -1,0 +1,1 @@
+db.getCollection('Activiteiten').find({}, {gebruikerid: 1,metingen:1}).sort({gebruikerid:1, activiteit:1}).limit(50)

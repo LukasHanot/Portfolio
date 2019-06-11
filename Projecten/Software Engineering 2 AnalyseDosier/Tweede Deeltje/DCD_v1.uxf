@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>64</x>
+      <y>120</y>
+      <w>232</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Gebruiker
+
+--
+
+
+--
+vraagReservatiesOp(status, Gebruiker)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>64</x>
+      <y>376</y>
+      <w>232</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>Reservatie
+
+--
+- gereserveerdeDatum: Date
+
+
+--
+vraagReservatiesOp(status, Gebruiker)
+
+getDate(): Date
+
+getAanbieder(): Gebruiker
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>256</y>
+      <w>24</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* 
+m2=1</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>464</x>
+      <y>376</y>
+      <w>232</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>Gereedschap
+
+--
+- aanbieder: Gebruiker
+
+--
+getAanbieder(): Gebruiker
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>448</y>
+      <w>192</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+r1= gereedschap
+m2=</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

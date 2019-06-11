@@ -1,0 +1,208 @@
+db.Activiteiten.find().forEach(function(el){
+    el.starttijd = new Date(el.starttijd);
+    db.Activiteiten.save(el)
+});
+
+db.Activiteiten.find().forEach(function(el){
+    el.eindtijd = new Date(el.eindtijd);
+    db.Activiteiten.save(el)
+});
+
+
+Vraag 1: Rangschik de activiteiten volgens verbruikte calorieën en toon daarbij hun duurtijd
+
+db.Activiteiten.aggregate([
+
+{
+        "$project": {
+            "activiteit": 1,
+            "activiteitNaam":1,
+            "calVerbrand":1,
+            "duurtijd": { "$subtract": [ "$eindtijd", "$starttijd" ] }
+        }
+    },
+	{
+        "$group": {
+            "_id": "$activiteitNaam",
+            "duurTijd":{"$sum": "$duurtijd"},
+            "totaalVerbrand":{"$sum": "$calVerbrand"}
+        }
+    },
+        { "$sort" : { "totaalVerbrand" : 1 } }
+])
+
+
+
+
+
+
+
+Vraag 2: Geef per type activiteit de gemiddelde duurtijd weer
+
+
+db.Activiteiten.aggregate([
+
+{
+        "$project": {
+            "activiteit": 1,
+            "duurtijd": { "$subtract":[ "$eindtijd", "$starttijd" ] }
+        }
+    },
+	{
+        "$group": {
+            "_id": "$activiteit",
+            "timeAverage": { "$avg": "$duurtijd" }
+        }
+    }
+
+])
+
+// vraag 2 Met de activiteitnamen
+db.Activiteiten.aggregate([
+
+{
+        "$project": {
+            "activiteit": 1,
+            "activiteitNaam":1,
+            "duurtijd": { "$subtract": [ "$eindtijd", "$starttijd" ] }
+        }
+    },
+	{
+        "$group": {
+            "_id": "$activiteitNaam",
+            "timeAverage": { "$avg": "$duurtijd" }
+        }
+    }
+
+])
+
+Vraag 3: Geef een overzicht van alle metingen gerangschikt per gebruiker en daarbinnen per
+activiteitstype
+
+db.getCollection('Activiteiten').find({}, {gebruikerid: 1,metingen:1}).sort({gebruikerid:1, activiteit:1}).limit(50)
+
+
+Vraag3 V2 opl mike: Needs work
+
+db.activities.aggregate([
+{ $group: { _id: "$user.userID",
+            waarden: {$push:  {user_id: "$user_id", activityType: "$activityType", measurements: "$measurements"}}
+    } }
+],
+{allowDiskUse:true
+}
+)
+
+
+
+Vraag 4: Bereken per activiteitstype de gemiddelde afstand tussen het start- en het eindpunt.
+
+db.Activiteiten.aggregate([
+{
+    $group: {
+        "_id": "$activiteitNaam",
+        avgStartLat: {$avg: "$startgps.latitude"},
+        avgStartLong: {$avg: "$startgps.longitude"},
+        avgStopLat: {$avg: "$eindgps.latitude"},
+        avgStopLong: {$avg: "$eindgps.longitude"}
+        }
+},{
+    $project: {
+        "_id": "$_id",
+        avgAfstand: { 
+                $sqrt: { 
+                    $add: [{ 
+                    $pow: [{ 
+                    $subtract: [ "$avgStartLat", "$avgStartLong" ]}
+                    ,2] 
+                    ,
+                    $pow:[{ 
+                    $subtract: [ "$avgStopLat", "$avgStopLong" ]}
+                    ,2]
+                }]
+            }
+        }
+     }
+   }
+])
+
+
+Vraag 5:
+
+db.Activiteiten.aggregate([
+{ $match : { "gebruikerid" : 25} },
+{
+    $group: {
+        "_id": "$activiteit",
+        avgStartLat: {$avg: "$startgps.latitude"},
+        avgStartLong: {$avg: "$startgps.longitude"},
+        avgStopLat: {$avg: "$eindgps.latitude"},
+        avgStopLong: {$avg: "$eindgps.longitude"}
+        }
+},{
+    $project: {
+        "_id": "$_id",
+        avgAfstand: { 
+                $sqrt: { 
+                    $add: [{ 
+                    $pow: [{ 
+                    $subtract: [ "$avgStartLat", "$avgStartLong" ]}
+                    ,2] 
+                    ,
+                    $pow:[{ 
+                    $subtract: [ "$avgStopLat", "$avgStopLong" ]}
+                    ,2]
+                }]
+            }
+        }
+	 
+     },
+	 
+   }
+])
+
+
+
+Vraag 6: 
+
+db.Activiteiten.aggregate(
+[
+
+{ $sort : { gebruikerid : -1, activiteit : -1} },
+{ $unwind : '$metingen' },
+{ $group: 
+    { 
+        _id: {user_id : '$gebruikerid', activity :'$activiteit'}, 
+        activityType: {$first : '$activiteitNaam'},
+        min_heart_rate: {$min : '$metingen.hartslag'},
+        max_heart_rate: {$max : '$metingen.hartslag'},
+        min_bloodpressure: {$min : '$metingen.bloeddruk.bovendruk'},
+        max_bloodpressure: {$max : '$metingen.bloeddruk.bovendruk'}
+    } 
+},
+{ $out : 'min_max_values' }
+],
+
+{allowDiskUse:true
+
+}
+)
+
+
+Vraag 7: 
+db.min_max_values.aggregate(
+[
+{ $group: 
+    { 
+        _id: '$activityType', 
+        highest_heart_rate : { $max: '$max_heart_rate'},
+        highest_bloodpressure : { $max : '$max_bloodpressure'}
+     } 
+},
+{ $sort : { max_heart_rate : -1, highest_bloodpressure : -1,}}
+]
+)
+
+
+
+

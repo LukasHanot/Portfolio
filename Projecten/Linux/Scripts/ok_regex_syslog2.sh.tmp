@@ -1,0 +1,54 @@
+anacron Job `cron.daily' terminated (mailing output)
+anacron Can't find sendmail at /usr/sbin/sendmail, not mailing output
+anacron Normal exit (1 job run)
+ 
+ 
+ 
+ntfs-3g Version 2013.1.13AR.1 external FUSE 29
+ntfs-3g Mounted /dev/sda2 (Read-Write, label "", NTFS 3.1)
+ntfs-3g Cmdline options: rw,nosuid,nodev,uhelper=udisks2,uid=1000,gid=1000,dmask=0077,fmask=0177
+ntfs-3g Mount options: rw,nosuid,nodev,uhelper=udisks2,allow_other,nonempty,relatime,default_permissions,fsname=/dev/sda2,blkdev,blksize=4096
+ntfs-3g Global ownership and permissions enforced, configuration type 7
+udisksd Mounted /dev/sda2 at /media/lukas/6A1A3DDB1A3DA4CB on behalf of uid 1000
+ 
+ 
+ 
+CRON (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ 
+ 
+ 
+ 
+ 
+ 
+wpa_supplicant message repeated 14 times: [ wlan0: CTRL-EVENT-SCAN-STARTED ]
+wpa_supplicant wlan0: WPA: Group rekeying completed with 64:d1:a3:1d:d8:c5 [GTK=CCMP]
+wpa_supplicant wlan0: CTRL-EVENT-SCAN-STARTED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+signond ../../../../src/signond/signondaemon.cpp 388 init Failed to SUID root. Secure storage will not be available. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+signond ../../../../src/signond/signondaemon.cpp 388 init Failed to SUID root. Secure storage will not be available. 
+dbus [system] Activating service name='org.freedesktop.hostname1' (using servicehelper)
+dbus [system] Successfully activated service 'org.freedesktop.hostname1'
+kernel: [ 4458.160080] systemd-hostnamed Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+ 
+ 
+ 
+wpa_supplicant message repeated 14 times: [ wlan0: CTRL-EVENT-SCAN-STARTED ]
+wpa_supplicant wlan0: WPA: Group rekeying completed with 64:d1:a3:1d:d8:c5 [GTK=CCMP]
+wpa_supplicant wlan0: CTRL-EVENT-SCAN-STARTED 

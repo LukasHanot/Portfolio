@@ -1,0 +1,8 @@
+stappen:
+
+cd naar folder
+./configure (als er nog dependencies missen verschijnen in de vorm van 		foutmeldingen)
+make (Mogelijk nog foutmeldingen maar meestal niet)
+sudo make install (compileert het programma)
+en testen door de programma naam in te geven
+

@@ -1,0 +1,14 @@
+In terminal: sudo nano /usr/share/applications/xxx.desktop
+
+In text file:
+[Desktop Entry]
+Name=xxx
+Type=Application
+Exec=xxx (path to executable)
+Terminal=false
+Icon=xxx (path to icon (probably in the same map))
+Comment=Any comment (yeah just add a comment)
+NoDisplay=false
+Categories=Development;IDE (Any category you want)
+Name[en]=xxx (name shown in launcher)
+
