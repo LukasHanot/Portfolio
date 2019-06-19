@@ -29,9 +29,9 @@ Note:
 +++
 
 ## Free Open Source Software
-* Linux sinds 2011
-* Conferenties
-*  
+* Linux sinds 20122
+* Stage Satmarin
+* Fosdem, Confmgmtcamp en Loadays
 
 ---
 
@@ -43,13 +43,25 @@ Note:
 ---
 
 ### Inuits
+![Inuits Logo](Resources/Screenshots/InuitsLogo.jpg)
+Note: 
+- Opgericht 2007 
+- België, Nederland, Tsjechië en Oekranië
+
 
 +++
 
 ### POC Logisland
-- Doel: bruikbaarheid van Logisland bepalen
-- Hoe: Logisland deployen en testen
+Doel: bruikbaarheid van Logisland bepalen
 
+Hoe: Logisland deployen en testen
+
+Note:
+Sequentiële patronen 
+Events burst
+Veel voorkomende patronen
+Uitzonderlijke gevallen
+Correlatie tussen gebeurtenissen, series & events
 +++
 
 ### Logisland schema
