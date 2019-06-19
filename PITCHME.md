@@ -1,3 +1,14 @@
+theme            : template
+
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Raleway", "#222", "none" ]
+theme-byline     : [ "Raleway", "#111111", "none" ]
+theme-text       : [ "Ubuntu", "#222", "none" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Source Code Pro" ]
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "0", "15px" ]
+
 ---
 
 # Waarom je niet op vakantie wil naar Logisland.
@@ -10,22 +21,28 @@ Lukas Hanot
 +++
 
 ## In development
-* Karel de Grote Antwerpen
-* Thomas More Geel
+* KdG Antwerpen
+* TM Geel
 * Hackerspace Voidwarranties
 
 +++
 ## Interesses
 * Linux
-* Networken
+* Netwerken
+* Virtualisatie en containers
 * Command Line Interfaces
+
+Note:
+- IBM z/OS
+- Linux Bash
+- Cisco IOS
 
 +++
 
-## Is this FOSS
+## Free Open Source Software
 * Linux sinds 2011
-* Fosdem & anderen
-* btw i use arch 
+* Conferenties
+* 
 
 ---
 
@@ -43,7 +60,10 @@ Lukas Hanot
 ### POC Logisland
 - Doel: bruikbaarheid van Logisland bepalen
 - Hoe: Logisland deployen en testen
-- Problemen?
+
++++
+
+### Logisland schema
 
 +++
 
@@ -60,10 +80,14 @@ Lukas Hanot
 +++
 
 ### Powershell Deployment
+Webproject deployment m.b.v. Powershell
 
 +++
 
 ### Project 4.0: FujinIT
+- VanRoey
+- Locatiebepaling indoors
+- Virtualisatie en netwerken
 
 +++
 
@@ -74,11 +98,11 @@ Lukas Hanot
 ---
 
 ## Dankwoord
-- Inuits & Kris Buytaert
+- Inuits & stagementor Kris Buytaert
 - Thomas More Hogeschool
 - FOSS 
-- Mijn stage begeleider Bart Portier
-- Ward Kerkhofs
+- Stage begeleider Bart Portier
+- Opleidingshoofd Ward Kerkhofs
 
 ---
 
@@ -89,6 +113,6 @@ Lukas Hanot
 ## Contact?
 * Mail: Lukas.Hanot@hotmail.com
 * Github: https://github.com/LukasHanot/Portfolio
-* Presentatie: https://bit.ly/2I8qZqt
+* Portfolio: https://bit.ly/2XZaqCX
 
 +++ 
