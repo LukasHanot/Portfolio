@@ -1,4 +1,4 @@
-theme            : template
+theme            : white
 
 theme-background : [ "#FFF" ]
 theme-headline   : [ "Raleway", "#5289F7", "none" ]
