@@ -1,14 +1,3 @@
-theme            : template
-
-theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#222", "none" ]
-theme-byline     : [ "Raleway", "#111111", "none" ]
-theme-text       : [ "Ubuntu", "#222", "none" ]
-theme-links      : [ "#5289F7", "#5254F7" ]
-theme-code       : [ "Source Code Pro" ]
-theme-controls   : [ "#484848" ]
-theme-margins    : [ "0", "15px" ]
-
 ---
 
 # Waarom je niet op vakantie wil naar Logisland.
