@@ -1,0 +1,365 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1699" measuredH="1279" mockupW="1548" mockupH="1279">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="151" y="0" w="1305" h="1279" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.Agendsteting.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="151" y="76" w="1305" h="137" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>header</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Calendar" x="577" y="269" w="114" h="130" measuredW="96" measuredH="96" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="168" y="234" w="-1" h="-1" measuredW="193" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Agenda%20Instelling</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::FieldSet" x="159" y="863" w="716" h="304" measuredW="200" measuredH="170" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Active%20Model</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::FieldSet" x="159" y="773" w="716" h="87" measuredW="200" measuredH="170" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dringed%20Oplossen</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="174" y="803" w="-1" h="-1" measuredW="301" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hier%20is%20bepaalde%20dingen%20die%20moet%20dringd%20gebeuren%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="1665" y="712" w="-1" h="-1" measuredW="34" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>.............</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Canvas" x="954" y="544" w="427" h="134" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="990" y="553" w="-1" h="-1" measuredW="157" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Post%20door%20jongeren%20gepost</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Canvas" x="866" y="274" w="281" h="134" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="880" y="277" w="-1" h="-1" measuredW="57" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Stemmen</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::CheckBox" x="875" y="298" w="-1" h="-1" measuredW="70" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::CheckBox" x="875" y="322" w="72" h="24" measuredW="73" measuredH="22" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::CheckBox" x="875" y="349" w="79" h="24" measuredW="73" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::CheckBox" x="875" y="371" w="70" h="24" measuredW="73" measuredH="22" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema%204</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="1093" y="361" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Stem</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Icon" x="1074" y="408" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FacebookIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Icon" x="1106" y="408" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Icon" x="1138" y="408" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GoogleIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="875" y="246" w="-1" h="-1" measuredW="285" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Je%20kunt%20ook%20stemmen%20krijgen%20door%20sociaal%20linken</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::LineChart" x="1231" y="254" w="195" h="175" measuredW="187" measuredH="175" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Icon" x="1261" y="434" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FacebookIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Icon" x="1308" y="434" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TwitterIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Icon" x="1349" y="438" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GoogleIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="1179" y="408" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema1</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="1179" y="373" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema2</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="1179" y="341" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema3</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="1179" y="312" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thema4</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="969" y="733" w="412" h="191" measuredW="300" measuredH="200" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="969" y="706" w="-1" h="-1" measuredW="255" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Vergaderingen%20van%20de%20afgelopen%20maanden%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::CallOut" x="168" y="267" w="-1" h="-1" measuredW="409" measuredH="40" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hier%20kan%20de%20jongeren%20op%20de%20agenda%20plaatsen%20wat%20zij%20graag%20willen%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::IconLabel" x="168" y="118" w="-1" h="-1" measuredW="48" measuredH="63" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Label" x="174" y="833" w="-1" h="-1" measuredW="34" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>.............</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::FieldSet" x="159" y="406" w="721" h="178" measuredW="200" measuredH="170" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Afgesloten%20Module</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::FieldSet" x="159" y="596" w="724" h="170" measuredW="200" measuredH="170" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Toekosmtige%20Module</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="168" y="630" w="486" h="-1" measuredW="405" measuredH="21" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beteke%20zever%20Beteke%20zever%20Beteke%20zever%20Beteke%20zever%20Beteke%20zever</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="168" y="610" w="-1" h="-1" measuredW="169" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>De%20vraag%20die%20centraal%20staat%20%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::StickyNote" x="669" y="604" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informatie%20over%20de%20vraag</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::MultilineButton" x="791" y="607" w="-1" h="-1" measuredW="78" measuredH="66" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>TIMER</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::DateChooser" x="732" y="744" w="-1" h="-1" measuredW="142" measuredH="25" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%2027%20/2%20%20/%202015%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="739" y="723" w="-1" h="-1" measuredW="128" measuredH="21" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EindDatum%20Lancering</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="159" y="671" w="72" h="-1" measuredW="51" measuredH="21" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beloning</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Image" x="352" y="670" w="114" h="92" measuredW="566" measuredH="367" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <italic>true</italic>
+        <size>10</size>
+        <src>../../../Pictures/Munt/Mercedes-C-Class-Coupe-White-Front-MAIN.jpg</src>
+        <text>Belong1</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Image" x="238" y="673" w="83" h="86" measuredW="720" measuredH="960" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <src>../../../Pictures/Aviary%2520Photos/Aviary%2520Stock%2520Photo%25201.png</src>
+        <text>Belong1</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="159" y="461" w="-1" h="-1" measuredW="191" measuredH="22" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>De%20vraag%20die%20centraal%20staat%20%3A</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="159" y="487" w="486" h="-1" measuredW="405" measuredH="21" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beteke%20zever%20Beteke%20zever%20Beteke%20zever%20Beteke%20zever%20Beteke%20zever</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::StickyNote" x="764" y="411" w="109" h="76" measuredW="109" measuredH="123" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informatie%20over%20de%20vraag</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::DateChooser" x="159" y="419" w="-1" h="-1" measuredW="137" measuredH="25" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%2001%20/1%20%20/%202015%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::DateChooser" x="437" y="415" w="-1" h="-1" measuredW="136" measuredH="25" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>30%20/1%20%20/%202015%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="296" y="417" w="-1" h="-1" measuredW="133" measuredH="21" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BegnDatum%20Lancering</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="577" y="417" w="-1" h="-1" measuredW="128" measuredH="21" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EindDatum%20Lancering</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::FieldSet" x="669" y="498" w="200" h="88" measuredW="200" measuredH="170" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Extra%20Ruimte</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="159" y="516" w="-1" h="-1" measuredW="175" measuredH="22" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Geslecteerde%20Antwoorden</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="159" y="544" w="162" h="-1" measuredW="158" measuredH="21" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beteke%20zever%20Beteke%20zeve%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::MultilineButton" x="337" y="541" w="163" h="27" measuredW="149" measuredH="66" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Aantal%20Stemmen</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="174" y="939" w="-1" h="-1" measuredW="191" measuredH="22" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>De%20vraag%20die%20centraal%20staat%20%3A</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="174" y="969" w="169" h="-1" measuredW="160" measuredH="21" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beteke%20zever%20Beteke%20zever</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::StickyNote" x="732" y="882" w="126" h="151" measuredW="109" measuredH="123" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informatie%20over%20de%20vraag</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::MultilineButton" x="429" y="882" w="166" h="42" measuredW="162" measuredH="66" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>TIMER%20EindDatum</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::DateChooser" x="168" y="884" w="-1" h="-1" measuredW="143" measuredH="25" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>22/02%20%20/%202015%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="321" y="886" w="82" h="-1" measuredW="69" measuredH="21" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>StartDatum</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="174" y="1100" w="72" h="-1" measuredW="51" measuredH="21" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beloning</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Image" x="255" y="1067" w="83" h="86" measuredW="720" measuredH="960" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <src>../../../Pictures/Aviary%2520Photos/Aviary%2520Stock%2520Photo%25201.png</src>
+        <text>Belong1</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Image" x="371" y="1064" w="114" h="92" measuredW="566" measuredH="367" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <italic>true</italic>
+        <size>10</size>
+        <src>../../../Pictures/Munt/Mercedes-C-Class-Coupe-White-Front-MAIN.jpg</src>
+        <text>Belong1</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="174" y="1005" w="244" h="-1" measuredW="244" measuredH="22" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>De%20Mogelijke%20Antworden%20Tot%20nu%20toe%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Link" x="428" y="1008" w="-1" h="-1" measuredW="57" measuredH="19" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Click%20Hier</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::LinkBar" x="1274" y="215" w="-1" h="-1" measuredW="182" measuredH="19" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Aanmaken%20account%2C%20Inloggen</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Image" x="1293" y="1179" w="77" h="62" measuredW="318" measuredH="159" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../Pictures/kdg/download.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Image" x="1370" y="1179" w="77" h="62" measuredW="1024" measuredH="623" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../Pictures/kdg/tree%2520removal%2520phoenix%2520company%2520logo_full.jpeg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Link" x="1196" y="1201" w="-1" h="-1" measuredW="88" measuredH="19" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Informatie%20FAQ</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::HelpButton" x="1426" y="238" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="71" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

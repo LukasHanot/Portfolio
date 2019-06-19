@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <help_text>// Uncomment the following line to change the fontsize:
+// fontsize=14
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on UML elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use ± or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>7</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1085</x>
+      <y>287</y>
+      <w>91</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Thema
+--
+themaid&lt;PK&gt;
+gebuikerid&lt;FK&gt;
+stemid&lt;FK&gt;
+themaDescriptie
+aantalStemmen
+score
+ideeOpgepikt
+activiteitenThema
+statusThema
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>588</y>
+      <w>126</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Gebruiker
+--
+gebruikerid &lt;PK&gt;
+rechtenid &lt;FK&gt;
+gebruikerType
+
+aantalStemmenPerThema
+accounts
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1246</x>
+      <y>336</y>
+      <w>70</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Stem
+--
+stemid&lt;PK&gt;
+gebuiker&lt;FK&gt;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>581</x>
+      <y>336</y>
+      <w>105</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>Dossier
+--
+dossierid&lt;PK&gt;
+stemid &lt;FK&gt;
+gebruikeriniid &lt;FK&gt;
+gebruikermedeid&lt;FK&gt;
+antwoord
+achtergrondInfo
+foto
+locatie
+aantalShares
+aantalStemmen
+kalender
+dossierStatus
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>756</x>
+      <y>56</y>
+      <w>77</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Ruimte
+--
+ruimteid &lt;PK&gt;
+soortRuimte
+descriptie</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>791</x>
+      <y>147</y>
+      <w>98</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Gemeente
+--
+gemeenteid &lt;PK&gt;
+plaats</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>364</x>
+      <y>679</y>
+      <w>126</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+GebruikerType
+--
+Superadministrator
+Administrator
+Moderator
+Initiatiefnemer
+Medebeheerder
+Gebruiker
+IngelogdeGebruiker
+Expert
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>217</x>
+      <y>301</y>
+      <w>133</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Platform
+--
+platformid&lt;PK&gt;
+gebruikerid&lt;FK&gt;
+homepageid&lt;FK&gt;
+layout
+logo
+mailsjabloon
+kleuren
+mailadres
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>231</x>
+      <y>441</y>
+      <w>105</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Homepage
+--
+homepageid&lt;PK&gt;
+moduleid&lt;FK&gt;
+gebruikerid&lt;FK&gt;
+actieveModules
+afgeslotenModules
+timer
+vragenMeerdereKeer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>252</x>
+      <y>392</y>
+      <w>62</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+bevat</panel_attributes>
+    <additional_attributes>35;49;35;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>406</x>
+      <y>588</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+Rechten
+--
+rechtenid &lt;PK&gt;
+Inputgeven
+Bekijkensite
+Beheerrechten
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1092</x>
+      <y>140</y>
+      <w>98</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>AgendaModule
+--
+agendamoduleid&lt;PK&gt;
+themaid&lt;FK&gt;
+moduleid&lt;FK&gt;
+domein
+tijdsperiode
+watNogDoen
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1092</x>
+      <y>210</y>
+      <w>62</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1
+bevat</panel_attributes>
+    <additional_attributes>35;77;35;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1155</x>
+      <y>308</y>
+      <w>104</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1
+heeft</panel_attributes>
+    <additional_attributes>91;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1036</x>
+      <y>56</y>
+      <w>91</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+Score
+--
+VerliezendeThema
+WinnendeThema</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>574</x>
+      <y>140</y>
+      <w>112</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>DossierModule
+--
+dossiermoduleid &lt;PK&gt;
+ruimteid &lt;FK&gt;
+dossierid&lt;FK&gt;
+gebruikerid&lt;FK&gt;
+moduleid&lt;FK&gt;
+gemeenteid&lt;FK&gt;
+weergave
+beginDatum
+eindDatum
+soortVraag
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>588</x>
+      <y>252</y>
+      <w>62</w>
+      <h>97</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1
+bevat</panel_attributes>
+    <additional_attributes>35;84;35;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>91</y>
+      <w>104</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+bevat</panel_attributes>
+    <additional_attributes>21;49;91;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>147</y>
+      <w>139</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+stelt in</panel_attributes>
+    <additional_attributes>21;35;126;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>210</x>
+      <y>0</y>
+      <w>343</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Systeem</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>434</x>
+      <y>175</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Persoon</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>231</x>
+      <y>28</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Core</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>322</x>
+      <y>77</y>
+      <w>125</w>
+      <h>111</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>21;21;112;98</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>203</x>
+      <y>273</y>
+      <w>350</w>
+      <h>287</h>
+    </coordinates>
+    <panel_attributes>Core</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1267</x>
+      <y>182</y>
+      <w>84</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Core :: Module
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>560</x>
+      <y>14</y>
+      <w>798</w>
+      <h>567</h>
+    </coordinates>
+    <panel_attributes>Module</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>406</x>
+      <y>308</y>
+      <w>140</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Persoon :: Gebruiker
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>329</x>
+      <y>280</y>
+      <w>90</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+beheert</panel_attributes>
+    <additional_attributes>21;35;77;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>406</x>
+      <y>371</y>
+      <w>140</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Persoon :: Gebruiker
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>315</x>
+      <y>378</y>
+      <w>104</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+beheert</panel_attributes>
+    <additional_attributes>21;63;91;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>791</x>
+      <y>420</y>
+      <w>91</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Stem
+--
+stemid &lt;PK&gt;
+gebruikerid &lt;FK&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>392</y>
+      <w>139</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1
+heeft</panel_attributes>
+    <additional_attributes>126;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>203</x>
+      <y>567</y>
+      <w>350</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes>Persoon</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>826</x>
+      <y>329</y>
+      <w>98</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Persoon :: Gebruiker
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>308</y>
+      <w>174</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=Initiatiefnemer 1
+beheert</panel_attributes>
+    <additional_attributes>21;35;161;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>868</x>
+      <y>364</y>
+      <w>419</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+geeft</panel_attributes>
+    <additional_attributes>406;21;406;63;21;63;21;28</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>784</x>
+      <y>511</y>
+      <w>98</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Persoon :: Gebruiker
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>798</x>
+      <y>448</y>
+      <w>60</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+geeft</panel_attributes>
+    <additional_attributes>35;63;35;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>343</y>
+      <w>174</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=Medebeheerder *
+beheert</panel_attributes>
+    <additional_attributes>21;35;161;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>665</x>
+      <y>175</y>
+      <w>199</w>
+      <h>167</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+
+stelt in</panel_attributes>
+    <additional_attributes>21;35;168;35;168;154</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>952</x>
+      <y>56</y>
+      <w>77</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+DossierStatus
+--
+Actief
+Gesloten
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>903</x>
+      <y>336</y>
+      <w>195</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+plaats</panel_attributes>
+    <additional_attributes>182;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>875</x>
+      <y>56</y>
+      <w>70</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+SoortRuimte
+--
+verplicht
+optioneel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>966</x>
+      <y>259</y>
+      <w>91</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Antwoord
+--
+antwoordid &lt;PK&gt;
+gebruikerid&lt;FK&gt;
+
+formulering
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>819</x>
+      <y>259</y>
+      <w>160</w>
+      <h>83</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1 Expert
+plaatst</panel_attributes>
+    <additional_attributes>147;35;35;35;35;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>966</x>
+      <y>294</y>
+      <w>132</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+heeft</panel_attributes>
+    <additional_attributes>119;56;35;56;35;21</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>315</x>
+      <y>588</y>
+      <w>104</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1
+heeft</panel_attributes>
+    <additional_attributes>91;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1134</x>
+      <y>49</y>
+      <w>91</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+Score
+--
+Toekomstig
+Actief
+Gesloten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>581</x>
+      <y>63</y>
+      <w>68</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+bevat&gt;</panel_attributes>
+    <additional_attributes>35;21;35;77</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1169</x>
+      <y>154</y>
+      <w>111</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+bevat</panel_attributes>
+    <additional_attributes>98;35;21;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>581</x>
+      <y>42</y>
+      <w>91</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Module
+--
+moduleid&lt;PK&gt;
+formulering
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>651</x>
+      <y>28</y>
+      <w>454</w>
+      <h>167</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+bevat&gt;</panel_attributes>
+    <additional_attributes>21;21;203;21;203;98;441;154</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>434</x>
+      <y>21</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Module</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>483</x>
+      <y>70</y>
+      <w>34</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>21;21;21;119</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>322</x>
+      <y>42</y>
+      <w>125</w>
+      <h>34</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>21;21;112;21</additional_attributes>
+  </element>
+</diagram>

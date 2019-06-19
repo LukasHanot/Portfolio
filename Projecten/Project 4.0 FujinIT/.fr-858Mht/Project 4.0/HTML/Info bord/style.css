@@ -1,0 +1,22 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Fredoka One', cursive;
+}
+
+.container{
+    color: #31a6e0;
+    border-radius: 10px;
+    width: 1500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+h1{
+    font-size: 50px;
+    /*max-width: 700px;*/
+    text-align: center;
+}
