@@ -29,7 +29,7 @@ Note:
 +++
 
 ## Free Open Source Software
-* Linux sinds 20122
+* Linux sinds 2012
 * Stage Satmarin
 * Fosdem, Confmgmtcamp en Loadays
 
