@@ -31,7 +31,7 @@ Note:
 ## Free Open Source Software
 * Linux sinds 2011
 * Conferenties
-* 
+*  
 
 ---
 
@@ -53,7 +53,7 @@ Note:
 +++
 
 ### Logisland schema
-
+![Logisland Schema](Resources/Screenshots/StageInuits.jpg)
 +++
 
 ### Bevindingen
@@ -69,7 +69,7 @@ Note:
 +++
 
 ### Powershell Deployment
-Webproject deployment m.b.v. Powershell
+Webproject deployen m.b.v. Powershell
 
 +++
 
@@ -80,9 +80,9 @@ Webproject deployment m.b.v. Powershell
 
 +++
 
-### Git pitch?
+### Git pitch
 - Loadays
-- Bert Van Vreckem - Clean bash
+- Deze presentatie 
 
 ---
 
