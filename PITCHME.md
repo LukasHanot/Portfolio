@@ -64,10 +64,6 @@ Uitzonderlijke gevallen
 Correlatie tussen gebeurtenissen, series & events
 +++
 
-### Logisland schema
-![Logisland Schema](Resources/Screenshots/StageInuits.jpg)
-+++
-
 ### Bevindingen
 - Voorbij gestreefd
 - Complex  
@@ -81,7 +77,6 @@ Correlatie tussen gebeurtenissen, series & events
 +++
 
 ### Powershell Deployment
-Webproject deployen m.b.v. Powershell
 
 +++
 
