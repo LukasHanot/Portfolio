@@ -94,11 +94,10 @@ Correlatie tussen gebeurtenissen, series & events
 ---
 
 ## Dankwoord
-- Inuits & stagementor Kris Buytaert
+- Inuits & Kris Buytaert
 - Thomas More Hogeschool
-- FOSS 
-- Stage begeleider Bart Portier
-- Opleidingshoofd Ward Kerkhofs
+- Bart Portier
+- Ward Kerkhofs
 
 ---
 
