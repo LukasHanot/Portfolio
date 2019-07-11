@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <setParameter name="IIS Web Application Name" value="GemeenteParticipatiePlatform" />
-  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=.\SQLSERVER2012;Initial Catalog=dbGemeenteParticipatiePlatform;Persist Security Info=True;User ID=dbGemeenteParticipatiePlatform;Password=EenMoeilijkW8W00rd!" />
-</parameters>
