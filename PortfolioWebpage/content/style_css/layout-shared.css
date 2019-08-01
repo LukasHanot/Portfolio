@@ -1,0 +1,242 @@
+/* Artifact Attachment Folder View */
+.artifactAttachmentFolderBody {
+  padding-top: 45px;
+}
+
+.folderIndexEntryTraverseUp, .folderIndexEntryFolder, .attachmentEntryFolder {
+  font-weight: bold;
+}
+
+.folderIndexEntryTraverseUp, .folderIndexEntryFile, .attachmentEntryFile, .folderIndexEntryFolder, .attachmentEntryFolder {
+  text-decoration: none;
+  white-space:nowrap;
+}
+
+.folderIndexEntryTraverseUp {
+  padding:0 0 0 18px;
+}
+
+.folderIndexEntryFile, .attachmentEntryFile, .folderIndexEntryFolder, .attachmentEntryFolder {
+  padding:0 0 0 30px;
+}
+
+/* RTL */
+html[dir="rtl"] .folderIndexEntryTraverseUp {
+  padding:0 18px 0 0;
+}
+
+html[dir="rtl"] .folderIndexEntryFile, html[dir="rtl"] .attachmentEntryFile, html[dir="rtl"] .folderIndexEntryFolder, html[dir="rtl"] .attachmentEntryFolder {
+  padding:0 30px 0 0;
+}
+
+
+/* TOLEDO PATCH - #54373 (start) */
+body {
+	font-family: arial;
+	color: #222;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.artifactWrap {
+	max-width: 1000px;
+}
+.folder,
+.file .name,
+th.sortable,
+#tol_to_parent {
+	cursor: pointer;
+}
+.ppvPersonalArtifactAttachments {
+	border-collapse: collapse;
+	width: 100%;
+}
+#tol_folder_tree {
+	padding: 5px;
+	border-right: 1px solid #222;
+}
+#tol_folder_tree .folder {
+	padding: 0 10px 0 5px;
+}
+#tol_folder_content {
+	padding: 5px;
+	border-left: 1px solid #222;
+	margin-left: -1px;
+}
+#tol_folder_content_table {
+	line-height: 1.5em;
+}
+#tol_folder_content_table thead th {
+	border-bottom: 1px solid #222;
+	background-color: #EEE;
+}
+#tol_folder_content_table tbody td {
+	background-color: #FCFCFC;
+}
+#tol_folder_content_table th,
+#tol_folder_content_table td {
+	text-align: left;
+}
+.folder-active {
+	background-color: #DDD;
+}
+#tol_folder_tree .folder.empty,
+#tol_folder_content .folder.empty .name,
+#tol_to_parent.root {
+	opacity: 0.66;
+	cursor: default;
+}
+#tol_to_parent.root {
+	opacity: 0.5;
+}
+th.asc, th.desc {
+	font-weight: bold;
+}
+#tol_to_parent, th.asc {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgnIGhlaWdodD0nMzYnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgeG1sbnM6c3ZnPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBvbHlnb24gZmlsbD0nIzY2NjY2NicgcG9pbnRzPScwLDM2IDI0LDAgNDgsIDM2ICcgc3Ryb2tlPScjNjY2NjY2Jy8+PC9zdmc+");
+}
+th.desc {
+	background-image:  url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iMzYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cG9seWdvbiBmaWxsPSIjNjY2NjY2IiBwb2ludHM9IjAsMCAyNCwzNiA0OCwgMCAiIHN0cm9rZT0iIzY2NjY2NiIvPg0KPC9zdmc+");
+}
+#tol_folder_content_table thead th.desc,
+#tol_folder_content_table thead th.asc {
+	background-size: 10px auto;
+	background-position: 5px 50%;
+	background-repeat: no-repeat;
+	background-color: #DDD;
+	padding-left: 20px;
+}
+#tol_to_parent,
+#folder_name,
+#tol_folder_tree .folder,
+#tol_folder_tree .folder-open,
+#tol_folder_content_table .file td.name,
+#tol_folder_content_table .folder td.name {
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-size: auto 24px;
+}
+.file td.name {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyBoZWlnaHQ9JzQ4JyB3aWR0aD0nNDgnPjxwYXRoIGZpbGw9JyM2NjY2NjYnIGQ9J00xMy45OTgsMGMwLjQ0NSwwLDAuOTI0LDAuMTExLDEuNDM2LDAuMzM0YzAuNTE0LDAuMjIzLDAuOTE4LDAuNDgyLDEuMjE1LDAuNzhsNy4xLDcuMDk4IGMwLjMwOSwwLjMwOSwwLjU3MywwLjcxOCwwLjc4OCwxLjIyNmMwLjIxNCwwLjUwMywwLjMyMiwwLjk3OCwwLjMyMiwxLjQyM3YxOC42MzNjMCwwLjQ0NS0wLjE0OCwwLjgyLTAuNDU0LDEuMTIyIGMtMC4zMDEsMC4zMDYtMC42NiwwLjQ1OC0xLjA4MSwwLjQ1OEgxLjU3NmMtMC40NDMsMC0wLjgxOS0wLjE1Mi0xLjEyMi0wLjQ1OEMwLjE1LDMwLjMxNCwwLDI5LjkzOSwwLDI5LjQ5NFYxLjUzNSBjMC0wLjQxNywwLjE1LTAuNzc2LDAuNDU0LTEuMDgxQzAuNzU3LDAuMTUzLDEuMTMzLDAsMS41NzYsMEgxMy45OThMMTMuOTk4LDB6IE0yMS43NDgsMTMuOTU3SDEyLjQ2IGMtMC40MTgsMC0wLjc3Ni0wLjE0OC0xLjA3MS0wLjQ1NGMtMC4yOTctMC4zMDUtMC40NDYtMC42NzctMC40NDYtMS4xMjJWMy4xMTZIMy4xMTZ2MjQuODQzaDE4LjYzMlYxMy45NTd6IE01LjQyLDE2LjY4OGgxNC4wMjEgdjIuMzI4SDUuNDJWMTYuNjg4eiBNNS40MiwyMi4xMzJoMTQuMDIxdjIuMzQ4SDUuNDJWMjIuMTMyeiBNMjEuNzQ4LDEwLjg2MWMwLTAuMDUzLTAuMDI5LTAuMTQ0LTAuMDgzLTAuMjcyIGMtMC4wNTQtMC4xMjgtMC4wOTUtMC4yMDctMC4xMjQtMC4yMzFsLTcuMDc3LTcuMDRjLTAuMDI3LTAuMDU0LTAuMDkxLTAuMDk1LTAuMTkyLTAuMTI0Yy0wLjEwMS0wLjAyNC0wLjE4LTAuMDUzLTAuMjMzLTAuMDc4IHY3Ljc0NkgyMS43NDh6Jy8+PC9zdmc+")
+}
+#tol_folder_tree .folder,
+.folder td.name {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyBoZWlnaHQ9JzQ4JyB3aWR0aD0nNDgnPjxwYXRoIGZpbGw9JyNFQkI5NDgnIGQ9J00zNC42Niw0LjU4OGMwLjYyOSwwLDEuMTY0LDAuMjMzLDEuNjExLDAuNzA0YzAuNDQ5LDAuNDY2LDAuNjc0LDEuMDE0LDAuNjc0LDEuNjQ0VjI4LjQ4IGMwLDAuNjI5LTAuMjI1LDEuMTctMC42NzQsMS42MjdjLTAuNDQ3LDAuNDU5LTAuOTgyLDAuNjgtMS42MTEsMC42OEgyLjMwNGMtMC42MjcsMC0xLjE2OS0wLjIyMS0xLjYyMy0wLjY4IEMwLjIyNywyOS42NSwwLDI5LjEwOSwwLDI4LjQ4VjIuMzAzYzAtMC42MjYsMC4yMjctMS4xNywwLjY4MS0xLjYyNFMxLjY3NywwLDIuMzA0LDBoMTMuODczYzAuNjI4LDAsMS4xNjgsMC4yMjUsMS42MjQsMC42NzkgYzAuNDU0LDAuNDU0LDAuNjgxLDAuOTk4LDAuNjgxLDEuNjI0YzAsMC42MjksMC4yMjUsMS4xNjksMC42NzMsMS42MTVjMC40NDUsMC40NDUsMC45ODMsMC42NywxLjYxMywwLjY3SDM0LjY2eicvPjwvc3ZnPg==");
+}
+#folder_name,
+#tol_folder_tree .folder-open {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyBoZWlnaHQ9JzQ4JyB3aWR0aD0nNDgnPjxwYXRoIGZpbGw9JyNFQkI5NDgnIGQ9J003LjMxNCwxMS4zNjZjLTAuNDk1LDAtMC45NzUsMC4wODItMS40NDMsMC4yNXMtMC45MDYsMC4zOTYtMS4zMTMsMC42ODNzLTAuNzYzLDAuNjMtMS4wNjMsMS4wMjIgYy0wLjMsMC4zOTItMC41MzgsMC44MjYtMC43MTEsMS4yOTJMMCwyMy4xODlWMi4zMDZDMCwxLjY4LDAuMjI3LDEuMTM3LDAuNjgxLDAuNjgzQzEuMTM1LDAuMjI5LDEuNjc2LDAsMi4zMDQsMGgxMy44NyBjMC42MjcsMCwxLjE2NywwLjIyOSwxLjYyMywwLjY4M2MwLjQ1NCwwLjQ1NCwwLjY4MSwwLjk5OCwwLjY4MSwxLjYyM2MwLDAuNjMsMC4yMjUsMS4xNjksMC42NzMsMS42MTUgYzAuNDQ1LDAuNDQ1LDAuOTgzLDAuNjcsMS42MTMsMC42N2g4Ljg3NWMwLjYzLDAsMS4xNywwLjIzMywxLjYxNSwwLjcwM2MwLjQ0NiwwLjQ2NiwwLjY3NSwxLjAxNCwwLjY3NSwxLjY0NHY0LjQyOEg3LjMxNCBMNy4zMTQsMTEuMzY2eiBNMzYuOTM4LDE0LjQ1M2wtNS4yMTMsMTUuMTkzYy0wLjA3OCwwLjMwNy0wLjI4MiwwLjU3Mi0wLjYwOSwwLjgwMWMtMC4zMzEsMC4yMjYtMC42NDYsMC4zNC0wLjk1MywwLjM0SDAuODYxIGw0LjkzMS0xNS4yMzRjMC4wOC0wLjMwMiwwLjI4NC0wLjU2NCwwLjYxMS0wLjc4MWMwLjMyNy0wLjIxMiwwLjY0NC0wLjMxOSwwLjk1My0wLjMxOUgzNi45Mzh6Jy8+PC9zdmc+");
+}
+#tol_folder_content_table th.date,
+#tol_folder_content_table td.date {
+	width: 145px;
+}
+#tol_folder_content_table th.size,
+#tol_folder_content_table td.size {
+	width: 75px;
+}
+#tol_folder_tree .folder,
+#tol_current_folder,
+#tol_folder_content_table td.name {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#tol_folder_content_table td.name a {
+	text-decoration: none;
+	color: #222;
+}
+.subfolders {
+	margin-left: 10px;
+}
+#tol_to_parent,
+#tol_current_folder {
+	float: left;
+	padding: 0 0.5em 0 0;
+}
+#folder_name {
+	background-position: 6px 1px;
+	font-weight: bold;
+}
+
+#tol_to_parent {
+	width: 20px;
+	height: 20px;
+	background-size: 15px auto;
+	background-position: 5px 7px;
+	opacity: 0.75;
+}
+p {
+	margin: 10px 0;
+}
+.ppvPersonalArtifactTitle {
+	margin-bottom: 10px;
+}
+.ppvPersonalArtifactAttachmentsLabel {
+	margin: 10px 0;
+}
+.artifactWrap,
+.folderContentView {
+	font-size: 100%;
+}
+.ppvPersonalArtifactAttachments {
+  width: 100%;
+  *zoom: 1;
+}
+.ppvPersonalArtifactAttachments:before,
+.ppvPersonalArtifactAttachments:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.ppvPersonalArtifactAttachments:after {
+  clear: both;
+}
+#tol_folder_tree,
+#tol_folder_content {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#tol_folder_tree {
+  margin-left: 0;
+  width: 31.623931623931625%;
+  *width: 31.570740134569924%;
+}
+#tol_folder_content {
+  width: 65.81196581196582%;
+  *width: 65.75877432260411%;
+}
+@media (max-width: 767px) {
+	#tol_folder_tree,
+	#tol_folder_content {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border: none;
+	}
+	#tol_folder_content {
+		border-top: 1px solid #222;
+	}
+	#tol_folder_content_table th.date,
+	#tol_folder_content_table td.date {
+		display: none;
+	}
+}
+table {
+	width: 100%;
+	max-width: 100%;
+	table-layout: fixed;
+}
+.artifactWrap, .folderContentView {
+	width: auto;
+}
+/* TOLEDO PATCH - #54373 (end) */

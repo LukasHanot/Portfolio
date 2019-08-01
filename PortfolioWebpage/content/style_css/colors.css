@@ -1,0 +1,70 @@
+body {
+ background-color: #FFFFFF;
+ background-image: url(images/brushed.png);
+ color: #1c1e22;
+ font-size: 12px;
+}
+
+
+#portBody h2, #portBody h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th  {
+ color: #3f434c;
+}
+
+#portBody {
+ background-color: #fdfdfd;
+ border: 1px solid #c2cbd2;
+ border-top: none;
+ border-bottom:  none;
+}
+
+#portNav {
+ border: 1px solid #c2cbd2;
+}
+
+#portNav ul li a {
+ color: #384b76;
+ height: auto;
+}
+
+#portNav ul li a:hover {
+ background-color: #e4e8ea;
+}
+
+#portNav ul li.extras a {
+
+}
+
+#portContainer {
+
+}
+
+#portText {
+
+}
+
+#portHeader, #portFooter {
+  background-color: #3f434c;
+  color: #fff;
+  border: 1px solid #c2cbd2;
+}
+
+/* Artifact Styling */
+
+.artifactWrap, .folderContentView {
+ background-color: #fdfdfd;
+ border: 1px solid #c2cbd2;
+}
+
+.artifactWrap .portfolioArtifactTable .selectedCell {
+  background:#D1EAEF url(images/button_ok_ia.png) no-repeat 12px 12px;
+}
+
+.autoClickOnArtifactPreview {
+ background-color: #e4e8ea;
+ color: #3f434c;
+ border:  1px solid #c2cbd2;
+}
+
+.autoClickOnArtifactPreview:hover, .autoClickOnArtifactPreview:active {
+ background-color: #c2cbd2;
+}

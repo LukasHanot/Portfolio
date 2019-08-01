@@ -1,0 +1,156 @@
+.folderIndexEntryTraverseUp, .folderIndexEntryFile, .attachmentEntryFile, .folderIndexEntryFolder, .attachmentEntryFolder {
+  color: #000000;
+}
+
+.folderIndexEntryTraverseUp {
+  background:url(images/folder-level-up.png) center left no-repeat;
+}
+
+.folderIndexEntryFolder, .attachmentEntryFolder {
+  background:url(images/filetype_folder_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.applicationFileType, .attachmentEntryFile.applicationFileType {
+  background:url(images/filetype_application_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.artifactFileType, .attachmentEntryFile.artifactFileType {
+  background:url(images/filetype_artifact_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.audioFileType, .attachmentEntryFile.audioFileType {
+  background:url(images/filetype_audio_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.excelFileType, .attachmentEntryFile.excelFileType {
+  background:url(images/filetype_excel_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.htmlFileType, .attachmentEntryFile.htmlFileType {
+  background:url(images/filetype_html_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.imageFileType, .attachmentEntryFile.imageFileType {
+  background:url(images/filetype_image_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.javascriptFileType, .attachmentEntryFile.javascriptFileType {
+  background:url(images/filetype_javascript_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.javaFileType, .attachmentEntryFile.javaFileType {
+  background:url(images/filetype_java_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.mswordFileType, .attachmentEntryFile.mswordFileType {
+  background:url(images/filetype_msword_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.pdfFileType, .attachmentEntryFile.pdfFileType {
+  background:url(images/filetype_pdf_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.pptFileType, .attachmentEntryFile.pptFileType {
+  background:url(images/filetype_ppt_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.quicktimeFileType, .attachmentEntryFile.quicktimeFileType {
+  background:url(images/filetype_quicktime_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.textFileType, .attachmentEntryFile.textFileType {
+  background:url(images/filetype_text_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.videoFileType, .attachmentEntryFile.videoFileType {
+  background:url(images/filetype_video_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.xmlFileType, .attachmentEntryFile.xmlFileType {
+  background:url(images/filetype_xml_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.zipFileType, .attachmentEntryFile.zipFileType {
+  background:url(images/filetype_zip_ia.png) center left no-repeat;
+}
+
+.folderIndexEntryFile.documentFileType, .attachmentEntryFile.documentFileType {
+  background:url(images/filetype_document_ia.png) center left no-repeat;
+}
+
+/* RTL */
+html[dir="rtl"] .folderIndexEntryTraverseUp {
+  background:url(images/folder-level-up.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFolder, html[dir="rtl"] .attachmentEntryFolder {
+  background:url(images/filetype_folder_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.applicationFileType, html[dir="rtl"] .attachmentEntryFile.applicationFileType {
+  background:url(images/filetype_application_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.artifactFileType, html[dir="rtl"] .attachmentEntryFile.artifactFileType {
+  background:url(images/filetype_artifact_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.audioFileType, html[dir="rtl"] .attachmentEntryFile.audioFileType {
+  background:url(images/filetype_audio_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.excelFileType, html[dir="rtl"] .attachmentEntryFile.excelFileType {
+  background:url(images/filetype_excel_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.htmlFileType, html[dir="rtl"] .attachmentEntryFile.htmlFileType {
+  background:url(images/filetype_html_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.imageFileType, html[dir="rtl"] .attachmentEntryFile.imageFileType {
+  background:url(images/filetype_image_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.javascriptFileType, html[dir="rtl"] .attachmentEntryFile.javascriptFileType {
+  background:url(images/filetype_javascript_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.javaFileType, html[dir="rtl"] .attachmentEntryFile.javaFileType {
+  background:url(images/filetype_java_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.mswordFileType, html[dir="rtl"] .attachmentEntryFile.mswordFileType {
+  background:url(images/filetype_msword_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.pdfFileType, html[dir="rtl"] .attachmentEntryFile.pdfFileType {
+  background:url(images/filetype_pdf_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.pptFileType, html[dir="rtl"] .attachmentEntryFile.pptFileType {
+  background:url(images/filetype_ppt_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.quicktimeFileType, html[dir="rtl"] .attachmentEntryFile.quicktimeFileType {
+  background:url(images/filetype_quicktime_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.textFileType, html[dir="rtl"] .attachmentEntryFile.textFileType {
+  background:url(images/filetype_text_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.videoFileType, html[dir="rtl"] .attachmentEntryFile.videoFileType {
+  background:url(images/filetype_video_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.xmlFileType, html[dir="rtl"] .attachmentEntryFile.xmlFileType {
+  background:url(images/filetype_xml_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.zipFileType, html[dir="rtl"] .attachmentEntryFile.zipFileType {
+  background:url(images/filetype_zip_ia.png) center right no-repeat;
+}
+
+html[dir="rtl"] .folderIndexEntryFile.documentFileType, html[dir="rtl"] .attachmentEntryFile.documentFileType {
+  background:url(images/filetype_document_ia.png) center right no-repeat;
+}

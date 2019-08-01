@@ -1,0 +1,4 @@
+name=color.theme.shared
+color1=#3F434C
+color2=#e5e5e5
+color3=#C2CBD2

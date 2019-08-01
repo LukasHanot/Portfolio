@@ -1,0 +1,294 @@
+/*STATIC STYLES THAT ARE SPECIFIC TO THIS LAYOUT - LAYOUT 1*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+}
+
+/*set margin so it doesn't overlap the navigation*/
+#portContainer {
+  padding: 0;
+  margin: 10px auto;
+  min-height: 100%;
+  max-width: 940px;
+}
+
+#portBody {
+ position: relative;
+ border: 1px solid transparent;
+ min-height: 700px;
+ display: inline-block;
+ width: 100%;
+}
+
+#portBody h1 {
+  padding: 10px 0;
+}
+
+/*nav is set to sit always at top left*/
+#portNav {
+  width: 230px;
+  float:left;
+  border: 1px solid transparent!important;
+}
+
+/*get rid of all the default settings for a list*/
+#portNav ul {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+#portNav ul li {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* settings for the links centered in nav div. background repeat is turned off for users that use an image for the links */
+#portNav ul li a {
+  display: block;
+  padding: 10px 40px 10px 40px;
+  line-height: 1.5;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#portNav ul li.extras {
+  display: block;
+  width: 130px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#portNav ul li.extras a {
+  display: inline;
+  font-size: 80%;
+  padding: 3px;
+  margin: 3px;
+}
+
+#portNav ul li.extras a:hover {
+  color: #000;
+}
+
+/*this style won't be needed since the header will be populated with user data*/
+#portHeader {
+  padding: 10px 20px 10px 40px;
+  border: 1px solid transparent;
+  word-wrap: break-word;
+}
+
+#portHeader h1 {
+  font-size: 200%;
+}
+
+#portHeader h1, #portHeader p {
+    font-weight: normal;
+    margin: 0.8em 0;
+}
+
+#portText {
+  padding: 5px 40px 0 30px;
+  margin: 0 0 0 250px;
+}
+
+#portText h2,#portText h1, #previewPortText p {
+}
+
+#portText h1 {
+ margin: 0;
+}
+
+#portText h2 {
+  font-size: 200%;
+}
+
+#portText h3.section-title {
+  font-size: 140%;
+  font-weight: normal;
+  margin: 3px 0;
+  display: block;
+}
+
+#portText h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.portSection {
+  font-size: 120%;
+  line-height: 160%;
+  margin-bottom: 30px;
+}
+
+.autoClickOnArtifactPreview {
+ border-radius: 3px;
+ font-family: arial;
+ font-size: 80%;
+ padding: 0 8px;
+ text-decoration: none;
+ margin: 0 4px 0 0;
+ display: inline-block;
+ font-weight: normal;
+}
+
+.portSection .vtbegenerated {
+margin: -10px 0 10px;
+}
+
+#portFooter {
+  bottom: 0;
+  padding: 10px 40px 10px 40px;
+  word-wrap: break-word;
+}
+
+/*hides the navigation label for accessiblity*/
+#navLabel {
+ position: absolute;
+ overflow: hidden;
+ left: -10000px;
+ top: -1000px;
+ width: 1px;
+ height: 1px;
+}
+
+#addcomment {
+  padding: 0 10px 10px 0;
+  /*width: 680px;*/
+  margin: 0 0 20px 0;
+}
+
+#addcomment h2 {
+  margin: 0;
+  padding: 8px 0 20px 10px;
+}
+
+#addcomment p {
+  margin: 10px 0;
+}
+
+#addcomment textarea {
+  border: 1px solid #999;
+}
+
+#viewcomments {
+  margin-top: 5px;
+}
+
+#viewcomments li {
+  border-top: 1px solid #efefef;
+  padding: 12px 0;
+}
+
+/* applies a white background to the Add Comment form */
+div#dataCollectionContainer {
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  padding:6px;
+  background:white;
+}
+
+div#listContainer {margin-bottom:12px;}
+
+/* Artifact Styling */
+.artifactWrap, .folderContentView {
+  width: 860px;
+  padding: 20px 40px;
+  margin: 10px auto 20px;
+  font-size: 120%;
+  line-height: 160%;
+}
+.artifactWrap h2, .folderContentView h2 {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 140%
+}
+
+.artifactWrap h2:first-child, .folderContentView h2:first-child {
+  margin: 0;
+}
+
+.artifactViewBody, .artifactAttachmentFolderBody {
+  padding-top: 45px;
+}
+
+/* The artifactViewActionBar classes are used to style the button bar for Artifact view online/offline */
+.artifactViewActionBar {
+  position: absolute;
+  top: 0px;
+  height: 45px;
+  width: 100%;
+  background: #444;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), 1px 1px 15px rgba(0,0,0, 0.5) inset;
+}
+
+.artifactViewAction {
+  float: right;
+  padding: 15px;
+}
+
+.closeArtifactView {
+  padding: 6px 16px 7px;
+  text-decoration: none;
+  font-family: arial;
+  background: #0099B6;
+  background-image: -moz-linear-gradient(100% 100% 90deg, #076D88, #0099B6);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#0099B6), to(#076D88) );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0099B6, endColorstr=#076D88";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0099B6, endColorstr=#076D88 );
+  color: white;
+  font-size: 105%;
+  font-weight: bold;
+  border: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+  border: 1px solid #076D88;
+  border-radius: 2px;
+  color: #fff;
+  box-shadow: none;
+  vertical-align: baseline;
+  margin: 0 0 0 10px;
+}
+
+.closeArtifactView:hover {
+  background: #0188A3;
+  background-image: -moz-linear-gradient(100% 100% 90deg, #076D88, #076D88);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#076D88), to(#076D88) );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#076D88, endColorsr= #076D88";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#076D88, endColorstr=  #076D88 );
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  color: #fff;
+  border: 1px solid #076D88;
+  box-shadow: none;
+}
+
+/* RTL Styles - May put into own styles sheet in future version*/
+html[dir="rtl"] #portNav {
+  float:right;
+}
+
+html[dir="rtl"] #portNav ul li a {
+  padding: 10px 40px 10px 15px;
+}
+
+html[dir="rtl"] #portText {
+  padding: 5px 30px 0 40px;
+  margin: 0 250px 0 0;
+}
+
+html[dir="rtl"] .autoClickOnArtifactPreview {
+ margin: 0 0 0 4px;
+}
+
+/* This is a fix which solves floating issues. To be used when containing div allows children to hang outside */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
